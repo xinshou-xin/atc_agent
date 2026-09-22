@@ -1,0 +1,14 @@
+# Deep Agents 动态运行时 + 本地 RAG（药物 ATC 映射）
+beautifulsoup4==4.15.0
+python-dotenv==1.2.3
+Requests==2.34.2
+numpy==2.5.3
+pandas>=2.0
+
+deepagents>=0.7.0
+langchain-openai>=1.0.0
+
+# 本地 RAG：bge-m3 embedding + Chroma 分片向量库检索
+torch>=2.0
+sentence-transformers>=4
+chromadb==1.4.1

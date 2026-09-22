@@ -1,0 +1,1283 @@
+2026-09-20 09:53:18 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
+2026-09-20 09:53:22 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
+2026-09-20 09:54:01 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 11:12:05 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 11:12:07 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 11:12:07 [INFO] retriever.vector_db - NumPy 向量库为空，等待灌库
+2026-09-20 11:12:07 [INFO] tools.deep_tools - 本地向量库就绪，共 0 条知识
+2026-09-20 11:13:09 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
+2026-09-20 11:13:10 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
+2026-09-20 11:13:35 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 11:13:37 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 11:13:37 [INFO] retriever.vector_db - NumPy 向量库为空，等待灌库
+2026-09-20 11:13:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:13:45 [INFO] build_vector_db - 进度: 100/6807
+2026-09-20 11:13:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:13:51 [INFO] build_vector_db - 进度: 200/6807
+2026-09-20 11:13:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:13:57 [INFO] build_vector_db - 进度: 300/6807
+2026-09-20 11:14:04 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:14:04 [INFO] build_vector_db - 进度: 400/6807
+2026-09-20 11:14:09 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:14:09 [INFO] build_vector_db - 进度: 500/6807
+2026-09-20 11:14:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:14:15 [INFO] build_vector_db - 进度: 600/6807
+2026-09-20 11:14:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:14:21 [INFO] build_vector_db - 进度: 700/6807
+2026-09-20 11:14:27 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:14:27 [INFO] build_vector_db - 进度: 800/6807
+2026-09-20 11:14:32 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:14:32 [INFO] build_vector_db - 进度: 900/6807
+2026-09-20 11:14:37 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:14:37 [INFO] build_vector_db - 进度: 1000/6807
+2026-09-20 11:14:43 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:14:43 [INFO] build_vector_db - 进度: 1100/6807
+2026-09-20 11:14:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:14:49 [INFO] build_vector_db - 进度: 1200/6807
+2026-09-20 11:14:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:14:55 [INFO] build_vector_db - 进度: 1300/6807
+2026-09-20 11:15:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:15:00 [INFO] build_vector_db - 进度: 1400/6807
+2026-09-20 11:15:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:15:05 [INFO] build_vector_db - 进度: 1500/6807
+2026-09-20 11:15:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:15:10 [INFO] build_vector_db - 进度: 1600/6807
+2026-09-20 11:15:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:15:15 [INFO] build_vector_db - 进度: 1700/6807
+2026-09-20 11:15:20 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:15:20 [INFO] build_vector_db - 进度: 1800/6807
+2026-09-20 11:15:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:15:25 [INFO] build_vector_db - 进度: 1900/6807
+2026-09-20 11:15:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:15:30 [INFO] build_vector_db - 进度: 2000/6807
+2026-09-20 11:15:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:15:35 [INFO] build_vector_db - 进度: 2100/6807
+2026-09-20 11:15:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:15:40 [INFO] build_vector_db - 进度: 2200/6807
+2026-09-20 11:15:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:15:46 [INFO] build_vector_db - 进度: 2300/6807
+2026-09-20 11:15:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:15:51 [INFO] build_vector_db - 进度: 2400/6807
+2026-09-20 11:15:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:15:56 [INFO] build_vector_db - 进度: 2500/6807
+2026-09-20 11:16:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:16:01 [INFO] build_vector_db - 进度: 2600/6807
+2026-09-20 11:16:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:16:06 [INFO] build_vector_db - 进度: 2700/6807
+2026-09-20 11:16:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:16:11 [INFO] build_vector_db - 进度: 2800/6807
+2026-09-20 11:16:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:16:16 [INFO] build_vector_db - 进度: 2900/6807
+2026-09-20 11:16:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:16:21 [INFO] build_vector_db - 进度: 3000/6807
+2026-09-20 11:16:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:16:25 [INFO] build_vector_db - 进度: 3100/6807
+2026-09-20 11:16:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:16:30 [INFO] build_vector_db - 进度: 3200/6807
+2026-09-20 11:16:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:16:35 [INFO] build_vector_db - 进度: 3300/6807
+2026-09-20 11:16:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:16:40 [INFO] build_vector_db - 进度: 3400/6807
+2026-09-20 11:16:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:16:45 [INFO] build_vector_db - 进度: 3500/6807
+2026-09-20 11:16:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:16:49 [INFO] build_vector_db - 进度: 3600/6807
+2026-09-20 11:16:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:16:54 [INFO] build_vector_db - 进度: 3700/6807
+2026-09-20 11:16:58 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:16:58 [INFO] build_vector_db - 进度: 3800/6807
+2026-09-20 11:17:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:17:03 [INFO] build_vector_db - 进度: 3900/6807
+2026-09-20 11:17:08 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:17:08 [INFO] build_vector_db - 进度: 4000/6807
+2026-09-20 11:17:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:17:13 [INFO] build_vector_db - 进度: 4100/6807
+2026-09-20 11:17:20 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:17:20 [INFO] build_vector_db - 进度: 4200/6807
+2026-09-20 11:17:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:17:26 [INFO] build_vector_db - 进度: 4300/6807
+2026-09-20 11:17:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:17:30 [INFO] build_vector_db - 进度: 4400/6807
+2026-09-20 11:17:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:17:35 [INFO] build_vector_db - 进度: 4500/6807
+2026-09-20 11:17:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:17:40 [INFO] build_vector_db - 进度: 4600/6807
+2026-09-20 11:17:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:17:44 [INFO] build_vector_db - 进度: 4700/6807
+2026-09-20 11:17:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:17:49 [INFO] build_vector_db - 进度: 4800/6807
+2026-09-20 11:17:53 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:17:53 [INFO] build_vector_db - 进度: 4900/6807
+2026-09-20 11:17:58 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:17:58 [INFO] build_vector_db - 进度: 5000/6807
+2026-09-20 11:18:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:18:03 [INFO] build_vector_db - 进度: 5100/6807
+2026-09-20 11:18:08 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:18:08 [INFO] build_vector_db - 进度: 5200/6807
+2026-09-20 11:18:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:18:13 [INFO] build_vector_db - 进度: 5300/6807
+2026-09-20 11:18:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:18:17 [INFO] build_vector_db - 进度: 5400/6807
+2026-09-20 11:18:22 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:18:22 [INFO] build_vector_db - 进度: 5500/6807
+2026-09-20 11:18:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:18:26 [INFO] build_vector_db - 进度: 5600/6807
+2026-09-20 11:18:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:18:31 [INFO] build_vector_db - 进度: 5700/6807
+2026-09-20 11:18:36 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:18:36 [INFO] build_vector_db - 进度: 5800/6807
+2026-09-20 11:18:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:18:41 [INFO] build_vector_db - 进度: 5900/6807
+2026-09-20 11:18:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:18:46 [INFO] build_vector_db - 进度: 6000/6807
+2026-09-20 11:18:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:18:51 [INFO] build_vector_db - 进度: 6100/6807
+2026-09-20 11:18:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:18:56 [INFO] build_vector_db - 进度: 6200/6807
+2026-09-20 11:19:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:19:00 [INFO] build_vector_db - 进度: 6300/6807
+2026-09-20 11:19:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:19:05 [INFO] build_vector_db - 进度: 6400/6807
+2026-09-20 11:19:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:19:10 [INFO] build_vector_db - 进度: 6500/6807
+2026-09-20 11:19:14 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:19:14 [INFO] build_vector_db - 进度: 6600/6807
+2026-09-20 11:19:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:19:19 [INFO] build_vector_db - 进度: 6700/6807
+2026-09-20 11:19:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:19:25 [INFO] build_vector_db - 进度: 6800/6807
+2026-09-20 11:19:26 [INFO] retriever.vector_db - 添加 7 条文本到向量库
+2026-09-20 11:19:26 [INFO] build_vector_db - 进度: 6807/6807
+2026-09-20 11:19:26 [INFO] build_vector_db - 灌库完成，库内共 6807 条
+2026-09-20 11:20:08 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 11:20:10 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 11:20:10 [INFO] retriever.vector_db - NumPy 向量库加载成功，共 6807 条
+2026-09-20 11:20:10 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-20 11:25:04 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
+2026-09-20 11:25:06 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
+2026-09-20 11:25:34 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 11:25:36 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 11:25:38 [INFO] retriever.vector_db - ChromaDB 初始化成功
+2026-09-20 11:25:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:25:46 [INFO] build_vector_db - 进度: 100/6807
+2026-09-20 11:25:53 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:25:53 [INFO] build_vector_db - 进度: 200/6807
+2026-09-20 11:25:59 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:25:59 [INFO] build_vector_db - 进度: 300/6807
+2026-09-20 11:26:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:26:06 [INFO] build_vector_db - 进度: 400/6807
+2026-09-20 11:26:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:26:12 [INFO] build_vector_db - 进度: 500/6807
+2026-09-20 11:26:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:26:18 [INFO] build_vector_db - 进度: 600/6807
+2026-09-20 11:26:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:26:24 [INFO] build_vector_db - 进度: 700/6807
+2026-09-20 11:26:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:26:30 [INFO] build_vector_db - 进度: 800/6807
+2026-09-20 11:26:36 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:26:36 [INFO] build_vector_db - 进度: 900/6807
+2026-09-20 11:26:42 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:26:42 [INFO] build_vector_db - 进度: 1000/6807
+2026-09-20 11:26:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:26:49 [INFO] build_vector_db - 进度: 1100/6807
+2026-09-20 11:26:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:26:55 [INFO] build_vector_db - 进度: 1200/6807
+2026-09-20 11:27:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:27:02 [INFO] build_vector_db - 进度: 1300/6807
+2026-09-20 11:27:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:27:07 [INFO] build_vector_db - 进度: 1400/6807
+2026-09-20 11:27:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:27:13 [INFO] build_vector_db - 进度: 1500/6807
+2026-09-20 11:27:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:27:18 [INFO] build_vector_db - 进度: 1600/6807
+2026-09-20 11:27:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:27:23 [INFO] build_vector_db - 进度: 1700/6807
+2026-09-20 11:27:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:27:30 [INFO] build_vector_db - 进度: 1800/6807
+2026-09-20 11:27:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:27:35 [INFO] build_vector_db - 进度: 1900/6807
+2026-09-20 11:27:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:27:41 [INFO] build_vector_db - 进度: 2000/6807
+2026-09-20 11:27:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:27:46 [INFO] build_vector_db - 进度: 2100/6807
+2026-09-20 11:27:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:27:51 [INFO] build_vector_db - 进度: 2200/6807
+2026-09-20 11:27:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:27:57 [INFO] build_vector_db - 进度: 2300/6807
+2026-09-20 11:28:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:28:02 [INFO] build_vector_db - 进度: 2400/6807
+2026-09-20 11:28:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:28:07 [INFO] build_vector_db - 进度: 2500/6807
+2026-09-20 11:28:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:28:13 [INFO] build_vector_db - 进度: 2600/6807
+2026-09-20 11:28:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:28:18 [INFO] build_vector_db - 进度: 2700/6807
+2026-09-20 11:28:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:28:24 [INFO] build_vector_db - 进度: 2800/6807
+2026-09-20 11:28:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:28:31 [INFO] build_vector_db - 进度: 2900/6807
+2026-09-20 11:28:36 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:28:36 [INFO] build_vector_db - 进度: 3000/6807
+2026-09-20 11:28:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:28:41 [INFO] build_vector_db - 进度: 3100/6807
+2026-09-20 11:28:47 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:28:47 [INFO] build_vector_db - 进度: 3200/6807
+2026-09-20 11:28:52 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:28:52 [INFO] build_vector_db - 进度: 3300/6807
+2026-09-20 11:28:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:28:57 [INFO] build_vector_db - 进度: 3400/6807
+2026-09-20 11:29:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:29:02 [INFO] build_vector_db - 进度: 3500/6807
+2026-09-20 11:29:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:29:07 [INFO] build_vector_db - 进度: 3600/6807
+2026-09-20 11:29:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:29:13 [INFO] build_vector_db - 进度: 3700/6807
+2026-09-20 11:29:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:29:18 [INFO] build_vector_db - 进度: 3800/6807
+2026-09-20 11:29:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:29:23 [INFO] build_vector_db - 进度: 3900/6807
+2026-09-20 11:29:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:29:29 [INFO] build_vector_db - 进度: 4000/6807
+2026-09-20 11:29:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:29:34 [INFO] build_vector_db - 进度: 4100/6807
+2026-09-20 11:29:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:29:41 [INFO] build_vector_db - 进度: 4200/6807
+2026-09-20 11:29:48 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:29:48 [INFO] build_vector_db - 进度: 4300/6807
+2026-09-20 11:29:53 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:29:53 [INFO] build_vector_db - 进度: 4400/6807
+2026-09-20 11:29:58 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:29:58 [INFO] build_vector_db - 进度: 4500/6807
+2026-09-20 11:30:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:30:03 [INFO] build_vector_db - 进度: 4600/6807
+2026-09-20 11:30:08 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:30:08 [INFO] build_vector_db - 进度: 4700/6807
+2026-09-20 11:30:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:30:13 [INFO] build_vector_db - 进度: 4800/6807
+2026-09-20 11:30:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:30:18 [INFO] build_vector_db - 进度: 4900/6807
+2026-09-20 11:30:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:30:24 [INFO] build_vector_db - 进度: 5000/6807
+2026-09-20 11:30:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:30:29 [INFO] build_vector_db - 进度: 5100/6807
+2026-09-20 11:30:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:30:35 [INFO] build_vector_db - 进度: 5200/6807
+2026-09-20 11:30:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:30:40 [INFO] build_vector_db - 进度: 5300/6807
+2026-09-20 11:30:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:30:45 [INFO] build_vector_db - 进度: 5400/6807
+2026-09-20 11:30:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:30:51 [INFO] build_vector_db - 进度: 5500/6807
+2026-09-20 11:30:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:30:56 [INFO] build_vector_db - 进度: 5600/6807
+2026-09-20 11:31:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:31:01 [INFO] build_vector_db - 进度: 5700/6807
+2026-09-20 11:31:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:31:06 [INFO] build_vector_db - 进度: 5800/6807
+2026-09-20 11:31:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:31:12 [INFO] build_vector_db - 进度: 5900/6807
+2026-09-20 11:31:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:31:18 [INFO] build_vector_db - 进度: 6000/6807
+2026-09-20 11:31:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:31:24 [INFO] build_vector_db - 进度: 6100/6807
+2026-09-20 11:31:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:31:29 [INFO] build_vector_db - 进度: 6200/6807
+2026-09-20 11:31:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:31:34 [INFO] build_vector_db - 进度: 6300/6807
+2026-09-20 11:31:39 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:31:39 [INFO] build_vector_db - 进度: 6400/6807
+2026-09-20 11:31:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:31:44 [INFO] build_vector_db - 进度: 6500/6807
+2026-09-20 11:31:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:31:49 [INFO] build_vector_db - 进度: 6600/6807
+2026-09-20 11:31:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:31:55 [INFO] build_vector_db - 进度: 6700/6807
+2026-09-20 11:32:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:32:01 [INFO] build_vector_db - 进度: 6800/6807
+2026-09-20 11:32:02 [INFO] retriever.vector_db - 添加 7 条文本到向量库
+2026-09-20 11:32:02 [INFO] build_vector_db - 进度: 6807/6807
+2026-09-20 11:32:02 [INFO] build_vector_db - 灌库完成，库内共 6807 条
+2026-09-20 11:32:43 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 11:32:45 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 11:32:46 [INFO] retriever.vector_db - ChromaDB 初始化成功
+2026-09-20 11:32:46 [WARNING] tools.deep_tools - 本地向量库不可用: Error executing plan: Error sending backfill request to compactor: Error constructing hnsw segment reader: Error creating hnsw segment reader: Error loading hnsw index
+2026-09-20 11:34:58 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
+2026-09-20 11:35:00 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
+2026-09-20 11:35:25 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 11:35:27 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 11:35:29 [INFO] retriever.vector_db - ChromaDB 初始化成功
+2026-09-20 11:35:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:35:34 [INFO] build_vector_db - 进度: 100/6807
+2026-09-20 11:35:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:35:41 [INFO] build_vector_db - 进度: 200/6807
+2026-09-20 11:35:47 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:35:47 [INFO] build_vector_db - 进度: 300/6807
+2026-09-20 11:35:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:35:54 [INFO] build_vector_db - 进度: 400/6807
+2026-09-20 11:36:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:36:00 [INFO] build_vector_db - 进度: 500/6807
+2026-09-20 11:36:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:36:06 [INFO] build_vector_db - 进度: 600/6807
+2026-09-20 11:36:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:36:13 [INFO] build_vector_db - 进度: 700/6807
+2026-09-20 11:36:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:36:19 [INFO] build_vector_db - 进度: 800/6807
+2026-09-20 11:36:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:36:25 [INFO] build_vector_db - 进度: 900/6807
+2026-09-20 11:36:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:36:31 [INFO] build_vector_db - 进度: 1000/6807
+2026-09-20 11:36:37 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:36:37 [INFO] build_vector_db - 进度: 1100/6807
+2026-09-20 11:36:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:36:44 [INFO] build_vector_db - 进度: 1200/6807
+2026-09-20 11:36:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:36:51 [INFO] build_vector_db - 进度: 1300/6807
+2026-09-20 11:36:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:36:56 [INFO] build_vector_db - 进度: 1400/6807
+2026-09-20 11:37:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:37:02 [INFO] build_vector_db - 进度: 1500/6807
+2026-09-20 11:37:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:37:07 [INFO] build_vector_db - 进度: 1600/6807
+2026-09-20 11:37:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:37:12 [INFO] build_vector_db - 进度: 1700/6807
+2026-09-20 11:37:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:37:18 [INFO] build_vector_db - 进度: 1800/6807
+2026-09-20 11:37:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:37:23 [INFO] build_vector_db - 进度: 1900/6807
+2026-09-20 11:37:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:37:29 [INFO] build_vector_db - 进度: 2000/6807
+2026-09-20 11:37:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:37:34 [INFO] build_vector_db - 进度: 2100/6807
+2026-09-20 11:37:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:37:40 [INFO] build_vector_db - 进度: 2200/6807
+2026-09-20 11:37:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:37:46 [INFO] build_vector_db - 进度: 2300/6807
+2026-09-20 11:37:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:37:51 [INFO] build_vector_db - 进度: 2400/6807
+2026-09-20 11:37:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:37:56 [INFO] build_vector_db - 进度: 2500/6807
+2026-09-20 11:38:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:38:01 [INFO] build_vector_db - 进度: 2600/6807
+2026-09-20 11:38:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:38:07 [INFO] build_vector_db - 进度: 2700/6807
+2026-09-20 11:38:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:38:12 [INFO] build_vector_db - 进度: 2800/6807
+2026-09-20 11:38:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:38:18 [INFO] build_vector_db - 进度: 2900/6807
+2026-09-20 11:38:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:38:24 [INFO] build_vector_db - 进度: 3000/6807
+2026-09-20 11:38:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:38:29 [INFO] build_vector_db - 进度: 3100/6807
+2026-09-20 11:38:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:38:34 [INFO] build_vector_db - 进度: 3200/6807
+2026-09-20 11:38:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:38:40 [INFO] build_vector_db - 进度: 3300/6807
+2026-09-20 11:38:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:38:45 [INFO] build_vector_db - 进度: 3400/6807
+2026-09-20 11:38:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:38:50 [INFO] build_vector_db - 进度: 3500/6807
+2026-09-20 11:38:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:38:55 [INFO] build_vector_db - 进度: 3600/6807
+2026-09-20 11:39:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:39:00 [INFO] build_vector_db - 进度: 3700/6807
+2026-09-20 11:39:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:39:05 [INFO] build_vector_db - 进度: 3800/6807
+2026-09-20 11:39:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:39:10 [INFO] build_vector_db - 进度: 3900/6807
+2026-09-20 11:39:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:39:15 [INFO] build_vector_db - 进度: 4000/6807
+2026-09-20 11:39:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:39:21 [INFO] build_vector_db - 进度: 4100/6807
+2026-09-20 11:39:27 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:39:27 [INFO] build_vector_db - 进度: 4200/6807
+2026-09-20 11:39:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:39:34 [INFO] build_vector_db - 进度: 4300/6807
+2026-09-20 11:39:39 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:39:39 [INFO] build_vector_db - 进度: 4400/6807
+2026-09-20 11:39:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:39:44 [INFO] build_vector_db - 进度: 4500/6807
+2026-09-20 11:39:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:39:50 [INFO] build_vector_db - 进度: 4600/6807
+2026-09-20 11:39:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:39:55 [INFO] build_vector_db - 进度: 4700/6807
+2026-09-20 11:39:59 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:39:59 [INFO] build_vector_db - 进度: 4800/6807
+2026-09-20 11:40:04 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:40:04 [INFO] build_vector_db - 进度: 4900/6807
+2026-09-20 11:40:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:40:10 [INFO] build_vector_db - 进度: 5000/6807
+2026-09-20 11:40:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:40:15 [INFO] build_vector_db - 进度: 5100/6807
+2026-09-20 11:40:20 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:40:20 [INFO] build_vector_db - 进度: 5200/6807
+2026-09-20 11:40:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:40:26 [INFO] build_vector_db - 进度: 5300/6807
+2026-09-20 11:40:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:40:31 [INFO] build_vector_db - 进度: 5400/6807
+2026-09-20 11:40:36 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:40:36 [INFO] build_vector_db - 进度: 5500/6807
+2026-09-20 11:40:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:40:41 [INFO] build_vector_db - 进度: 5600/6807
+2026-09-20 11:40:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:40:46 [INFO] build_vector_db - 进度: 5700/6807
+2026-09-20 11:40:52 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:40:52 [INFO] build_vector_db - 进度: 5800/6807
+2026-09-20 11:40:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:40:57 [INFO] build_vector_db - 进度: 5900/6807
+2026-09-20 11:41:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:41:03 [INFO] build_vector_db - 进度: 6000/6807
+2026-09-20 11:41:08 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:41:08 [INFO] build_vector_db - 进度: 6100/6807
+2026-09-20 11:41:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:41:13 [INFO] build_vector_db - 进度: 6200/6807
+2026-09-20 11:41:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:41:18 [INFO] build_vector_db - 进度: 6300/6807
+2026-09-20 11:41:22 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:41:22 [INFO] build_vector_db - 进度: 6400/6807
+2026-09-20 11:41:27 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:41:27 [INFO] build_vector_db - 进度: 6500/6807
+2026-09-20 11:41:32 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:41:32 [INFO] build_vector_db - 进度: 6600/6807
+2026-09-20 11:41:38 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:41:38 [INFO] build_vector_db - 进度: 6700/6807
+2026-09-20 11:41:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 11:41:45 [INFO] build_vector_db - 进度: 6800/6807
+2026-09-20 11:41:45 [INFO] retriever.vector_db - 添加 7 条文本到向量库
+2026-09-20 11:41:45 [INFO] build_vector_db - 进度: 6807/6807
+2026-09-20 11:41:45 [INFO] build_vector_db - 灌库完成，库内共 6807 条
+2026-09-20 11:42:25 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 11:42:27 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 11:42:28 [INFO] retriever.vector_db - ChromaDB 初始化成功
+2026-09-20 11:42:28 [WARNING] tools.deep_tools - 本地向量库不可用: Error executing plan: Error sending backfill request to compactor: Error constructing hnsw segment reader: Error creating hnsw segment reader: Error loading hnsw index
+2026-09-20 12:17:20 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
+2026-09-20 12:17:21 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
+2026-09-20 12:17:56 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 12:17:58 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 12:18:01 [INFO] retriever.vector_db - ChromaDB 初始化成功
+2026-09-20 12:18:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:18:10 [INFO] build_vector_db - 进度: 100/6807
+2026-09-20 12:18:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:18:17 [INFO] build_vector_db - 进度: 200/6807
+2026-09-20 12:18:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:18:23 [INFO] build_vector_db - 进度: 300/6807
+2026-09-20 12:18:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:18:30 [INFO] build_vector_db - 进度: 400/6807
+2026-09-20 12:18:36 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:18:36 [INFO] build_vector_db - 进度: 500/6807
+2026-09-20 12:18:42 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:18:42 [INFO] build_vector_db - 进度: 600/6807
+2026-09-20 12:18:48 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:18:48 [INFO] build_vector_db - 进度: 700/6807
+2026-09-20 12:18:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:18:54 [INFO] build_vector_db - 进度: 800/6807
+2026-09-20 12:19:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:19:00 [INFO] build_vector_db - 进度: 900/6807
+2026-09-20 12:19:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:19:06 [INFO] build_vector_db - 进度: 1000/6807
+2026-09-20 12:19:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:19:12 [INFO] build_vector_db - 进度: 1100/6807
+2026-09-20 12:19:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:19:19 [INFO] build_vector_db - 进度: 1200/6807
+2026-09-20 12:19:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:19:25 [INFO] build_vector_db - 进度: 1300/6807
+2026-09-20 12:19:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:19:30 [INFO] build_vector_db - 进度: 1400/6807
+2026-09-20 12:19:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:19:35 [INFO] build_vector_db - 进度: 1500/6807
+2026-09-20 12:19:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:19:40 [INFO] build_vector_db - 进度: 1600/6807
+2026-09-20 12:19:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:19:45 [INFO] build_vector_db - 进度: 1700/6807
+2026-09-20 12:19:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:19:51 [INFO] build_vector_db - 进度: 1800/6807
+2026-09-20 12:19:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:19:56 [INFO] build_vector_db - 进度: 1900/6807
+2026-09-20 12:20:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:20:01 [INFO] build_vector_db - 进度: 2000/6807
+2026-09-20 12:20:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:20:06 [INFO] build_vector_db - 进度: 2100/6807
+2026-09-20 12:20:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:20:12 [INFO] build_vector_db - 进度: 2200/6807
+2026-09-20 12:20:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:20:17 [INFO] build_vector_db - 进度: 2300/6807
+2026-09-20 12:20:22 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:20:22 [INFO] build_vector_db - 进度: 2400/6807
+2026-09-20 12:20:27 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:20:27 [INFO] build_vector_db - 进度: 2500/6807
+2026-09-20 12:20:33 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:20:33 [INFO] build_vector_db - 进度: 2600/6807
+2026-09-20 12:20:38 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:20:38 [INFO] build_vector_db - 进度: 2700/6807
+2026-09-20 12:20:43 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:20:43 [INFO] build_vector_db - 进度: 2800/6807
+2026-09-20 12:20:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:20:49 [INFO] build_vector_db - 进度: 2900/6807
+2026-09-20 12:20:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:20:54 [INFO] build_vector_db - 进度: 3000/6807
+2026-09-20 12:20:59 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:20:59 [INFO] build_vector_db - 进度: 3100/6807
+2026-09-20 12:21:04 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:21:04 [INFO] build_vector_db - 进度: 3200/6807
+2026-09-20 12:21:09 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:21:09 [INFO] build_vector_db - 进度: 3300/6807
+2026-09-20 12:21:14 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:21:14 [INFO] build_vector_db - 进度: 3400/6807
+2026-09-20 12:21:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:21:19 [INFO] build_vector_db - 进度: 3500/6807
+2026-09-20 12:21:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:21:23 [INFO] build_vector_db - 进度: 3600/6807
+2026-09-20 12:21:28 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:21:28 [INFO] build_vector_db - 进度: 3700/6807
+2026-09-20 12:21:33 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:21:33 [INFO] build_vector_db - 进度: 3800/6807
+2026-09-20 12:21:38 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:21:38 [INFO] build_vector_db - 进度: 3900/6807
+2026-09-20 12:21:43 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:21:43 [INFO] build_vector_db - 进度: 4000/6807
+2026-09-20 12:21:48 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:21:48 [INFO] build_vector_db - 进度: 4100/6807
+2026-09-20 12:21:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:21:54 [INFO] build_vector_db - 进度: 4200/6807
+2026-09-20 12:22:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:22:01 [INFO] build_vector_db - 进度: 4300/6807
+2026-09-20 12:22:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:22:05 [INFO] build_vector_db - 进度: 4400/6807
+2026-09-20 12:22:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:22:10 [INFO] build_vector_db - 进度: 4500/6807
+2026-09-20 12:22:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:22:15 [INFO] build_vector_db - 进度: 4600/6807
+2026-09-20 12:22:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:22:19 [INFO] build_vector_db - 进度: 4700/6807
+2026-09-20 12:22:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:22:24 [INFO] build_vector_db - 进度: 4800/6807
+2026-09-20 12:22:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:22:29 [INFO] build_vector_db - 进度: 4900/6807
+2026-09-20 12:22:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:22:34 [INFO] build_vector_db - 进度: 5000/6807
+2026-09-20 12:22:39 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:22:39 [INFO] build_vector_db - 进度: 5100/6807
+2026-09-20 12:22:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:22:44 [INFO] build_vector_db - 进度: 5200/6807
+2026-09-20 12:22:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:22:49 [INFO] build_vector_db - 进度: 5300/6807
+2026-09-20 12:22:53 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:22:53 [INFO] build_vector_db - 进度: 5400/6807
+2026-09-20 12:22:58 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:22:58 [INFO] build_vector_db - 进度: 5500/6807
+2026-09-20 12:23:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:23:03 [INFO] build_vector_db - 进度: 5600/6807
+2026-09-20 12:23:08 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:23:08 [INFO] build_vector_db - 进度: 5700/6807
+2026-09-20 12:23:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:23:13 [INFO] build_vector_db - 进度: 5800/6807
+2026-09-20 12:23:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:23:17 [INFO] build_vector_db - 进度: 5900/6807
+2026-09-20 12:23:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:23:23 [INFO] build_vector_db - 进度: 6000/6807
+2026-09-20 12:23:28 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:23:28 [INFO] build_vector_db - 进度: 6100/6807
+2026-09-20 12:23:32 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:23:32 [INFO] build_vector_db - 进度: 6200/6807
+2026-09-20 12:23:37 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:23:37 [INFO] build_vector_db - 进度: 6300/6807
+2026-09-20 12:23:42 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:23:42 [INFO] build_vector_db - 进度: 6400/6807
+2026-09-20 12:23:47 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:23:47 [INFO] build_vector_db - 进度: 6500/6807
+2026-09-20 12:23:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:23:51 [INFO] build_vector_db - 进度: 6600/6807
+2026-09-20 12:23:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:23:57 [INFO] build_vector_db - 进度: 6700/6807
+2026-09-20 12:24:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:24:03 [INFO] build_vector_db - 进度: 6800/6807
+2026-09-20 12:24:03 [INFO] retriever.vector_db - 添加 7 条文本到向量库
+2026-09-20 12:24:03 [INFO] build_vector_db - 进度: 6807/6807
+2026-09-20 12:24:03 [INFO] build_vector_db - 灌库完成，库内共 6807 条
+2026-09-20 12:25:10 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
+2026-09-20 12:25:12 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
+2026-09-20 12:25:41 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 12:25:43 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 12:25:45 [INFO] retriever.vector_db - ChromaDB 初始化成功
+2026-09-20 12:25:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:25:51 [INFO] build_vector_db - 进度: 100/6807
+2026-09-20 12:25:58 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:25:58 [INFO] build_vector_db - 进度: 200/6807
+2026-09-20 12:26:04 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:26:04 [INFO] build_vector_db - 进度: 300/6807
+2026-09-20 12:26:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:26:11 [INFO] build_vector_db - 进度: 400/6807
+2026-09-20 12:26:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:26:17 [INFO] build_vector_db - 进度: 500/6807
+2026-09-20 12:26:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:26:23 [INFO] build_vector_db - 进度: 600/6807
+2026-09-20 12:26:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:26:29 [INFO] build_vector_db - 进度: 700/6807
+2026-09-20 12:26:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:26:35 [INFO] build_vector_db - 进度: 800/6807
+2026-09-20 12:26:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:26:40 [INFO] build_vector_db - 进度: 900/6807
+2026-09-20 12:26:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:26:46 [INFO] build_vector_db - 进度: 1000/6807
+2026-09-20 12:26:52 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:26:52 [INFO] build_vector_db - 进度: 1100/6807
+2026-09-20 12:26:59 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:26:59 [INFO] build_vector_db - 进度: 1200/6807
+2026-09-20 12:27:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:27:05 [INFO] build_vector_db - 进度: 1300/6807
+2026-09-20 12:27:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:27:10 [INFO] build_vector_db - 进度: 1400/6807
+2026-09-20 12:27:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:27:15 [INFO] build_vector_db - 进度: 1500/6807
+2026-09-20 12:27:20 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:27:20 [INFO] build_vector_db - 进度: 1600/6807
+2026-09-20 12:27:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:27:25 [INFO] build_vector_db - 进度: 1700/6807
+2026-09-20 12:27:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:27:31 [INFO] build_vector_db - 进度: 1800/6807
+2026-09-20 12:27:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:27:35 [INFO] build_vector_db - 进度: 1900/6807
+2026-09-20 12:27:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:27:40 [INFO] build_vector_db - 进度: 2000/6807
+2026-09-20 12:27:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:27:45 [INFO] build_vector_db - 进度: 2100/6807
+2026-09-20 12:27:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:27:50 [INFO] build_vector_db - 进度: 2200/6807
+2026-09-20 12:27:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:27:55 [INFO] build_vector_db - 进度: 2300/6807
+2026-09-20 12:28:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:28:00 [INFO] build_vector_db - 进度: 2400/6807
+2026-09-20 12:28:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:28:05 [INFO] build_vector_db - 进度: 2500/6807
+2026-09-20 12:28:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:28:10 [INFO] build_vector_db - 进度: 2600/6807
+2026-09-20 12:28:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:28:15 [INFO] build_vector_db - 进度: 2700/6807
+2026-09-20 12:28:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:28:21 [INFO] build_vector_db - 进度: 2800/6807
+2026-09-20 12:28:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:28:26 [INFO] build_vector_db - 进度: 2900/6807
+2026-09-20 12:28:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:28:31 [INFO] build_vector_db - 进度: 3000/6807
+2026-09-20 12:28:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:28:35 [INFO] build_vector_db - 进度: 3100/6807
+2026-09-20 12:28:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:28:40 [INFO] build_vector_db - 进度: 3200/6807
+2026-09-20 12:28:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:28:46 [INFO] build_vector_db - 进度: 3300/6807
+2026-09-20 12:28:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:28:51 [INFO] build_vector_db - 进度: 3400/6807
+2026-09-20 12:28:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:28:56 [INFO] build_vector_db - 进度: 3500/6807
+2026-09-20 12:29:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:29:01 [INFO] build_vector_db - 进度: 3600/6807
+2026-09-20 12:29:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:29:06 [INFO] build_vector_db - 进度: 3700/6807
+2026-09-20 12:29:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:29:11 [INFO] build_vector_db - 进度: 3800/6807
+2026-09-20 12:29:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:29:16 [INFO] build_vector_db - 进度: 3900/6807
+2026-09-20 12:29:22 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:29:22 [INFO] build_vector_db - 进度: 4000/6807
+2026-09-20 12:29:28 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:29:28 [INFO] build_vector_db - 进度: 4100/6807
+2026-09-20 12:29:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:29:34 [INFO] build_vector_db - 进度: 4200/6807
+2026-09-20 12:29:42 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:29:42 [INFO] build_vector_db - 进度: 4300/6807
+2026-09-20 12:29:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:29:46 [INFO] build_vector_db - 进度: 4400/6807
+2026-09-20 12:29:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:29:51 [INFO] build_vector_db - 进度: 4500/6807
+2026-09-20 12:29:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:29:57 [INFO] build_vector_db - 进度: 4600/6807
+2026-09-20 12:30:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:30:02 [INFO] build_vector_db - 进度: 4700/6807
+2026-09-20 12:30:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:30:06 [INFO] build_vector_db - 进度: 4800/6807
+2026-09-20 12:30:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:30:12 [INFO] build_vector_db - 进度: 4900/6807
+2026-09-20 12:30:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:30:17 [INFO] build_vector_db - 进度: 5000/6807
+2026-09-20 12:30:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:30:23 [INFO] build_vector_db - 进度: 5100/6807
+2026-09-20 12:30:28 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:30:28 [INFO] build_vector_db - 进度: 5200/6807
+2026-09-20 12:30:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:30:34 [INFO] build_vector_db - 进度: 5300/6807
+2026-09-20 12:30:39 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:30:39 [INFO] build_vector_db - 进度: 5400/6807
+2026-09-20 12:30:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:30:44 [INFO] build_vector_db - 进度: 5500/6807
+2026-09-20 12:30:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:30:49 [INFO] build_vector_db - 进度: 5600/6807
+2026-09-20 12:30:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:30:54 [INFO] build_vector_db - 进度: 5700/6807
+2026-09-20 12:31:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:31:00 [INFO] build_vector_db - 进度: 5800/6807
+2026-09-20 12:31:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:31:05 [INFO] build_vector_db - 进度: 5900/6807
+2026-09-20 12:31:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:31:11 [INFO] build_vector_db - 进度: 6000/6807
+2026-09-20 12:31:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:31:16 [INFO] build_vector_db - 进度: 6100/6807
+2026-09-20 12:31:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:31:21 [INFO] build_vector_db - 进度: 6200/6807
+2026-09-20 12:31:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:31:26 [INFO] build_vector_db - 进度: 6300/6807
+2026-09-20 12:31:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:31:31 [INFO] build_vector_db - 进度: 6400/6807
+2026-09-20 12:31:36 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:31:36 [INFO] build_vector_db - 进度: 6500/6807
+2026-09-20 12:31:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:31:41 [INFO] build_vector_db - 进度: 6600/6807
+2026-09-20 12:31:47 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:31:47 [INFO] build_vector_db - 进度: 6700/6807
+2026-09-20 12:31:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 12:31:54 [INFO] build_vector_db - 进度: 6800/6807
+2026-09-20 12:31:54 [INFO] retriever.vector_db - 添加 7 条文本到向量库
+2026-09-20 12:31:54 [INFO] build_vector_db - 进度: 6807/6807
+2026-09-20 12:31:54 [INFO] build_vector_db - 灌库完成，库内共 6807 条
+2026-09-20 12:31:54 [INFO] build_vector_db - Chroma 索引落盘完成
+2026-09-20 12:49:48 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 12:49:50 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 12:51:31 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 12:51:33 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 12:53:26 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 12:53:28 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 12:56:00 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 12:56:02 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:00:20 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:00:21 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:04:46 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:04:48 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:10:48 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
+2026-09-20 13:10:50 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
+2026-09-20 13:11:25 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:11:27 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:11:29 [INFO] retriever.vector_db - ChromaDB 初始化成功，1 个分片
+2026-09-20 13:11:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:11:35 [INFO] build_vector_db - 进度: 100/6807
+2026-09-20 13:11:42 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:11:42 [INFO] build_vector_db - 进度: 200/6807
+2026-09-20 13:11:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:11:49 [INFO] build_vector_db - 进度: 300/6807
+2026-09-20 13:11:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:11:55 [INFO] build_vector_db - 进度: 400/6807
+2026-09-20 13:12:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:12:01 [INFO] build_vector_db - 进度: 500/6807
+2026-09-20 13:12:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:12:07 [INFO] build_vector_db - 进度: 600/6807
+2026-09-20 13:12:14 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:12:14 [INFO] build_vector_db - 进度: 700/6807
+2026-09-20 13:12:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:12:19 [INFO] build_vector_db - 进度: 800/6807
+2026-09-20 13:12:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:12:25 [INFO] build_vector_db - 进度: 900/6807
+2026-09-20 13:12:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:12:31 [INFO] build_vector_db - 进度: 1000/6807
+2026-09-20 13:12:37 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:12:37 [INFO] build_vector_db - 进度: 1100/6807
+2026-09-20 13:12:43 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:12:43 [INFO] build_vector_db - 进度: 1200/6807
+2026-09-20 13:12:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:12:49 [INFO] build_vector_db - 进度: 1300/6807
+2026-09-20 13:12:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:12:55 [INFO] build_vector_db - 进度: 1400/6807
+2026-09-20 13:13:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:13:00 [INFO] build_vector_db - 进度: 1500/6807
+2026-09-20 13:13:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:13:05 [INFO] build_vector_db - 进度: 1600/6807
+2026-09-20 13:13:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:13:10 [INFO] build_vector_db - 进度: 1700/6807
+2026-09-20 13:13:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:13:16 [INFO] build_vector_db - 进度: 1800/6807
+2026-09-20 13:13:20 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:13:20 [INFO] build_vector_db - 进度: 1900/6807
+2026-09-20 13:13:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:13:25 [INFO] build_vector_db - 进度: 2000/6807
+2026-09-20 13:13:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:13:30 [INFO] build_vector_db - 进度: 2100/6807
+2026-09-20 13:13:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:13:35 [INFO] build_vector_db - 进度: 2200/6807
+2026-09-20 13:13:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:13:41 [INFO] build_vector_db - 进度: 2300/6807
+2026-09-20 13:13:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:13:45 [INFO] build_vector_db - 进度: 2400/6807
+2026-09-20 13:13:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:13:51 [INFO] build_vector_db - 进度: 2500/6807
+2026-09-20 13:13:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:13:56 [INFO] build_vector_db - 进度: 2600/6807
+2026-09-20 13:14:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:14:00 [INFO] build_vector_db - 进度: 2700/6807
+2026-09-20 13:14:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:14:06 [INFO] build_vector_db - 进度: 2800/6807
+2026-09-20 13:14:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:14:12 [INFO] build_vector_db - 进度: 2900/6807
+2026-09-20 13:14:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:14:16 [INFO] build_vector_db - 进度: 3000/6807
+2026-09-20 13:14:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:14:21 [INFO] build_vector_db - 进度: 3100/6807
+2026-09-20 13:14:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:14:26 [INFO] build_vector_db - 进度: 3200/6807
+2026-09-20 13:14:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:14:31 [INFO] build_vector_db - 进度: 3300/6807
+2026-09-20 13:14:36 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:14:36 [INFO] build_vector_db - 进度: 3400/6807
+2026-09-20 13:14:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:14:41 [INFO] build_vector_db - 进度: 3500/6807
+2026-09-20 13:14:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:14:45 [INFO] build_vector_db - 进度: 3600/6807
+2026-09-20 13:14:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:14:50 [INFO] build_vector_db - 进度: 3700/6807
+2026-09-20 13:14:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:14:55 [INFO] build_vector_db - 进度: 3800/6807
+2026-09-20 13:15:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:15:00 [INFO] build_vector_db - 进度: 3900/6807
+2026-09-20 13:15:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:15:05 [INFO] build_vector_db - 进度: 4000/6807
+2026-09-20 13:15:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:15:11 [INFO] build_vector_db - 进度: 4100/6807
+2026-09-20 13:15:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:15:17 [INFO] build_vector_db - 进度: 4200/6807
+2026-09-20 13:15:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:15:23 [INFO] build_vector_db - 进度: 4300/6807
+2026-09-20 13:15:28 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:15:28 [INFO] build_vector_db - 进度: 4400/6807
+2026-09-20 13:15:33 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:15:33 [INFO] build_vector_db - 进度: 4500/6807
+2026-09-20 13:15:37 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:15:37 [INFO] build_vector_db - 进度: 4600/6807
+2026-09-20 13:15:42 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:15:42 [INFO] build_vector_db - 进度: 4700/6807
+2026-09-20 13:15:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:15:46 [INFO] build_vector_db - 进度: 4800/6807
+2026-09-20 13:15:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:15:51 [INFO] build_vector_db - 进度: 4900/6807
+2026-09-20 13:15:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:15:57 [INFO] build_vector_db - 进度: 5000/6807
+2026-09-20 13:16:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:16:02 [INFO] build_vector_db - 进度: 5100/6807
+2026-09-20 13:16:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:16:07 [INFO] build_vector_db - 进度: 5200/6807
+2026-09-20 13:16:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:16:12 [INFO] build_vector_db - 进度: 5300/6807
+2026-09-20 13:16:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:16:16 [INFO] build_vector_db - 进度: 5400/6807
+2026-09-20 13:16:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:16:21 [INFO] build_vector_db - 进度: 5500/6807
+2026-09-20 13:16:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:16:26 [INFO] build_vector_db - 进度: 5600/6807
+2026-09-20 13:16:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:16:31 [INFO] build_vector_db - 进度: 5700/6807
+2026-09-20 13:16:36 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:16:36 [INFO] build_vector_db - 进度: 5800/6807
+2026-09-20 13:16:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:16:41 [INFO] build_vector_db - 进度: 5900/6807
+2026-09-20 13:16:47 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:16:47 [INFO] build_vector_db - 进度: 6000/6807
+2026-09-20 13:16:52 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:16:52 [INFO] build_vector_db - 进度: 6100/6807
+2026-09-20 13:16:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:16:57 [INFO] build_vector_db - 进度: 6200/6807
+2026-09-20 13:17:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:17:02 [INFO] build_vector_db - 进度: 6300/6807
+2026-09-20 13:17:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:17:07 [INFO] build_vector_db - 进度: 6400/6807
+2026-09-20 13:17:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:17:13 [INFO] build_vector_db - 进度: 6500/6807
+2026-09-20 13:17:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:17:18 [INFO] build_vector_db - 进度: 6600/6807
+2026-09-20 13:17:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:17:24 [INFO] build_vector_db - 进度: 6700/6807
+2026-09-20 13:17:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:17:30 [INFO] build_vector_db - 进度: 6800/6807
+2026-09-20 13:17:31 [INFO] retriever.vector_db - 添加 7 条文本到向量库
+2026-09-20 13:17:31 [INFO] build_vector_db - 进度: 6807/6807
+2026-09-20 13:17:31 [INFO] build_vector_db - 灌库完成，库内共 6807 条
+2026-09-20 13:17:31 [INFO] build_vector_db - Chroma 索引落盘完成
+2026-09-20 13:18:34 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:18:36 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:18:36 [INFO] retriever.vector_db - ChromaDB 初始化成功，18 个分片
+2026-09-20 13:18:36 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-20 13:18:36 [ERROR] retriever.vector_db - 向量检索失败: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+2026-09-20 13:20:15 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:20:17 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:20:19 [INFO] retriever.vector_db - ChromaDB 初始化成功，1 个分片
+2026-09-20 13:20:41 [INFO] retriever.vector_db - 添加 500 条文本到向量库
+2026-09-20 13:22:28 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:22:30 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:22:32 [INFO] retriever.vector_db - ChromaDB 初始化成功，2 个分片
+2026-09-20 13:22:57 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
+2026-09-20 13:22:58 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
+2026-09-20 13:23:34 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:23:36 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:23:38 [INFO] retriever.vector_db - ChromaDB 初始化成功，1 个分片
+2026-09-20 13:23:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:23:44 [INFO] build_vector_db - 进度: 100/6807
+2026-09-20 13:23:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:23:51 [INFO] build_vector_db - 进度: 200/6807
+2026-09-20 13:23:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:23:57 [INFO] build_vector_db - 进度: 300/6807
+2026-09-20 13:24:04 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:24:04 [INFO] build_vector_db - 进度: 400/6807
+2026-09-20 13:24:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:24:11 [INFO] build_vector_db - 进度: 500/6807
+2026-09-20 13:24:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:24:18 [INFO] build_vector_db - 进度: 600/6807
+2026-09-20 13:24:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:24:25 [INFO] build_vector_db - 进度: 700/6807
+2026-09-20 13:24:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:24:31 [INFO] build_vector_db - 进度: 800/6807
+2026-09-20 13:24:37 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:24:37 [INFO] build_vector_db - 进度: 900/6807
+2026-09-20 13:24:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:24:44 [INFO] build_vector_db - 进度: 1000/6807
+2026-09-20 13:24:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:24:51 [INFO] build_vector_db - 进度: 1100/6807
+2026-09-20 13:24:58 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:24:58 [INFO] build_vector_db - 进度: 1200/6807
+2026-09-20 13:25:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:25:05 [INFO] build_vector_db - 进度: 1300/6807
+2026-09-20 13:25:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:25:10 [INFO] build_vector_db - 进度: 1400/6807
+2026-09-20 13:25:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:25:16 [INFO] build_vector_db - 进度: 1500/6807
+2026-09-20 13:25:22 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:25:22 [INFO] build_vector_db - 进度: 1600/6807
+2026-09-20 13:25:27 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:25:27 [INFO] build_vector_db - 进度: 1700/6807
+2026-09-20 13:25:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:25:34 [INFO] build_vector_db - 进度: 1800/6807
+2026-09-20 13:25:39 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:25:39 [INFO] build_vector_db - 进度: 1900/6807
+2026-09-20 13:25:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:25:44 [INFO] build_vector_db - 进度: 2000/6807
+2026-09-20 13:25:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:25:50 [INFO] build_vector_db - 进度: 2100/6807
+2026-09-20 13:25:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:25:55 [INFO] build_vector_db - 进度: 2200/6807
+2026-09-20 13:26:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:26:01 [INFO] build_vector_db - 进度: 2300/6807
+2026-09-20 13:26:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:26:06 [INFO] build_vector_db - 进度: 2400/6807
+2026-09-20 13:26:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:26:12 [INFO] build_vector_db - 进度: 2500/6807
+2026-09-20 13:26:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:26:17 [INFO] build_vector_db - 进度: 2600/6807
+2026-09-20 13:26:22 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:26:22 [INFO] build_vector_db - 进度: 2700/6807
+2026-09-20 13:26:28 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:26:28 [INFO] build_vector_db - 进度: 2800/6807
+2026-09-20 13:26:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:26:34 [INFO] build_vector_db - 进度: 2900/6807
+2026-09-20 13:26:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:26:40 [INFO] build_vector_db - 进度: 3000/6807
+2026-09-20 13:26:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:26:45 [INFO] build_vector_db - 进度: 3100/6807
+2026-09-20 13:26:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:26:50 [INFO] build_vector_db - 进度: 3200/6807
+2026-09-20 13:26:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:26:55 [INFO] build_vector_db - 进度: 3300/6807
+2026-09-20 13:27:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:27:01 [INFO] build_vector_db - 进度: 3400/6807
+2026-09-20 13:27:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:27:06 [INFO] build_vector_db - 进度: 3500/6807
+2026-09-20 13:27:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:27:11 [INFO] build_vector_db - 进度: 3600/6807
+2026-09-20 13:27:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:27:16 [INFO] build_vector_db - 进度: 3700/6807
+2026-09-20 13:27:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:27:21 [INFO] build_vector_db - 进度: 3800/6807
+2026-09-20 13:27:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:27:26 [INFO] build_vector_db - 进度: 3900/6807
+2026-09-20 13:27:32 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:27:32 [INFO] build_vector_db - 进度: 4000/6807
+2026-09-20 13:27:38 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:27:38 [INFO] build_vector_db - 进度: 4100/6807
+2026-09-20 13:27:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:27:45 [INFO] build_vector_db - 进度: 4200/6807
+2026-09-20 13:27:52 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:27:52 [INFO] build_vector_db - 进度: 4300/6807
+2026-09-20 13:27:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:27:57 [INFO] build_vector_db - 进度: 4400/6807
+2026-09-20 13:28:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:28:02 [INFO] build_vector_db - 进度: 4500/6807
+2026-09-20 13:28:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:28:07 [INFO] build_vector_db - 进度: 4600/6807
+2026-09-20 13:28:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:28:12 [INFO] build_vector_db - 进度: 4700/6807
+2026-09-20 13:28:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:28:17 [INFO] build_vector_db - 进度: 4800/6807
+2026-09-20 13:28:22 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:28:22 [INFO] build_vector_db - 进度: 4900/6807
+2026-09-20 13:28:28 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:28:28 [INFO] build_vector_db - 进度: 5000/6807
+2026-09-20 13:28:33 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:28:33 [INFO] build_vector_db - 进度: 5100/6807
+2026-09-20 13:28:39 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:28:39 [INFO] build_vector_db - 进度: 5200/6807
+2026-09-20 13:28:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:28:44 [INFO] build_vector_db - 进度: 5300/6807
+2026-09-20 13:28:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:28:49 [INFO] build_vector_db - 进度: 5400/6807
+2026-09-20 13:28:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:28:54 [INFO] build_vector_db - 进度: 5500/6807
+2026-09-20 13:29:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:29:00 [INFO] build_vector_db - 进度: 5600/6807
+2026-09-20 13:29:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:29:05 [INFO] build_vector_db - 进度: 5700/6807
+2026-09-20 13:29:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:29:10 [INFO] build_vector_db - 进度: 5800/6807
+2026-09-20 13:29:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:29:15 [INFO] build_vector_db - 进度: 5900/6807
+2026-09-20 13:29:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:29:21 [INFO] build_vector_db - 进度: 6000/6807
+2026-09-20 13:29:27 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:29:27 [INFO] build_vector_db - 进度: 6100/6807
+2026-09-20 13:29:32 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:29:32 [INFO] build_vector_db - 进度: 6200/6807
+2026-09-20 13:29:37 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:29:37 [INFO] build_vector_db - 进度: 6300/6807
+2026-09-20 13:29:42 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:29:42 [INFO] build_vector_db - 进度: 6400/6807
+2026-09-20 13:29:47 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:29:47 [INFO] build_vector_db - 进度: 6500/6807
+2026-09-20 13:29:52 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:29:52 [INFO] build_vector_db - 进度: 6600/6807
+2026-09-20 13:29:58 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:29:58 [INFO] build_vector_db - 进度: 6700/6807
+2026-09-20 13:30:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:30:05 [INFO] build_vector_db - 进度: 6800/6807
+2026-09-20 13:30:05 [INFO] retriever.vector_db - 添加 7 条文本到向量库
+2026-09-20 13:30:05 [INFO] build_vector_db - 进度: 6807/6807
+2026-09-20 13:30:05 [INFO] build_vector_db - 灌库完成，库内共 6807 条
+2026-09-20 13:30:05 [INFO] build_vector_db - 等待 Chroma 索引落盘（60 秒）...
+2026-09-20 13:31:05 [INFO] build_vector_db - Chroma 索引落盘等待结束
+2026-09-20 13:31:50 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:31:52 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:31:52 [INFO] retriever.vector_db - ChromaDB 初始化成功，18 个分片
+2026-09-20 13:31:52 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-20 13:32:49 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:32:51 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:32:52 [INFO] retriever.vector_db - ChromaDB 初始化成功，18 个分片
+2026-09-20 13:32:53 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-20 13:32:53 [ERROR] retriever.vector_db - 向量检索失败: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+2026-09-20 13:33:55 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:33:57 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:33:59 [INFO] retriever.vector_db - ChromaDB 初始化成功，18 个分片
+2026-09-20 13:33:59 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-20 13:33:59 [ERROR] retriever.vector_db - 向量检索失败: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+2026-09-20 13:34:01 [ERROR] retriever.vector_db - 向量检索失败: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+2026-09-20 13:34:03 [ERROR] retriever.vector_db - 向量检索失败: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+2026-09-20 13:34:05 [ERROR] retriever.vector_db - 向量检索失败: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+2026-09-20 13:36:32 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
+2026-09-20 13:36:33 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
+2026-09-20 13:37:01 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:37:03 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:37:04 [INFO] retriever.vector_db - ChromaDB 初始化成功，1 个分片
+2026-09-20 13:37:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:37:10 [INFO] build_vector_db - 进度: 100/6807
+2026-09-20 13:37:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:37:18 [INFO] build_vector_db - 进度: 200/6807
+2026-09-20 13:37:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:37:24 [INFO] build_vector_db - 进度: 300/6807
+2026-09-20 13:37:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:37:30 [INFO] build_vector_db - 进度: 400/6807
+2026-09-20 13:37:37 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:37:37 [INFO] build_vector_db - 进度: 500/6807
+2026-09-20 13:37:43 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:37:43 [INFO] build_vector_db - 进度: 600/6807
+2026-09-20 13:37:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:37:49 [INFO] build_vector_db - 进度: 700/6807
+2026-09-20 13:37:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:37:55 [INFO] build_vector_db - 进度: 800/6807
+2026-09-20 13:38:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:38:00 [INFO] build_vector_db - 进度: 900/6807
+2026-09-20 13:38:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:38:06 [INFO] build_vector_db - 进度: 1000/6807
+2026-09-20 13:38:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:38:12 [INFO] build_vector_db - 进度: 1100/6807
+2026-09-20 13:38:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:38:18 [INFO] build_vector_db - 进度: 1200/6807
+2026-09-20 13:38:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:38:25 [INFO] build_vector_db - 进度: 1300/6807
+2026-09-20 13:38:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:38:30 [INFO] build_vector_db - 进度: 1400/6807
+2026-09-20 13:38:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:38:35 [INFO] build_vector_db - 进度: 1500/6807
+2026-09-20 13:38:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:38:40 [INFO] build_vector_db - 进度: 1600/6807
+2026-09-20 13:38:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:38:45 [INFO] build_vector_db - 进度: 1700/6807
+2026-09-20 13:38:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:38:50 [INFO] build_vector_db - 进度: 1800/6807
+2026-09-20 13:38:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:38:55 [INFO] build_vector_db - 进度: 1900/6807
+2026-09-20 13:39:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:39:00 [INFO] build_vector_db - 进度: 2000/6807
+2026-09-20 13:39:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:39:05 [INFO] build_vector_db - 进度: 2100/6807
+2026-09-20 13:39:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:39:10 [INFO] build_vector_db - 进度: 2200/6807
+2026-09-20 13:39:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:39:15 [INFO] build_vector_db - 进度: 2300/6807
+2026-09-20 13:39:20 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:39:20 [INFO] build_vector_db - 进度: 2400/6807
+2026-09-20 13:39:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:39:25 [INFO] build_vector_db - 进度: 2500/6807
+2026-09-20 13:39:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:39:30 [INFO] build_vector_db - 进度: 2600/6807
+2026-09-20 13:39:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:39:35 [INFO] build_vector_db - 进度: 2700/6807
+2026-09-20 13:39:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:39:40 [INFO] build_vector_db - 进度: 2800/6807
+2026-09-20 13:39:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:39:46 [INFO] build_vector_db - 进度: 2900/6807
+2026-09-20 13:39:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:39:51 [INFO] build_vector_db - 进度: 3000/6807
+2026-09-20 13:39:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:39:55 [INFO] build_vector_db - 进度: 3100/6807
+2026-09-20 13:40:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:40:00 [INFO] build_vector_db - 进度: 3200/6807
+2026-09-20 13:40:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:40:05 [INFO] build_vector_db - 进度: 3300/6807
+2026-09-20 13:40:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:40:10 [INFO] build_vector_db - 进度: 3400/6807
+2026-09-20 13:40:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:40:15 [INFO] build_vector_db - 进度: 3500/6807
+2026-09-20 13:40:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:40:19 [INFO] build_vector_db - 进度: 3600/6807
+2026-09-20 13:40:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:40:24 [INFO] build_vector_db - 进度: 3700/6807
+2026-09-20 13:40:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:40:29 [INFO] build_vector_db - 进度: 3800/6807
+2026-09-20 13:40:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:40:34 [INFO] build_vector_db - 进度: 3900/6807
+2026-09-20 13:40:39 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:40:39 [INFO] build_vector_db - 进度: 4000/6807
+2026-09-20 13:40:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:40:44 [INFO] build_vector_db - 进度: 4100/6807
+2026-09-20 13:40:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:40:50 [INFO] build_vector_db - 进度: 4200/6807
+2026-09-20 13:40:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:40:57 [INFO] build_vector_db - 进度: 4300/6807
+2026-09-20 13:41:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:41:01 [INFO] build_vector_db - 进度: 4400/6807
+2026-09-20 13:41:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:41:06 [INFO] build_vector_db - 进度: 4500/6807
+2026-09-20 13:41:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:41:10 [INFO] build_vector_db - 进度: 4600/6807
+2026-09-20 13:41:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:41:15 [INFO] build_vector_db - 进度: 4700/6807
+2026-09-20 13:41:20 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:41:20 [INFO] build_vector_db - 进度: 4800/6807
+2026-09-20 13:41:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:41:24 [INFO] build_vector_db - 进度: 4900/6807
+2026-09-20 13:41:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:41:29 [INFO] build_vector_db - 进度: 5000/6807
+2026-09-20 13:41:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:41:35 [INFO] build_vector_db - 进度: 5100/6807
+2026-09-20 13:41:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:41:40 [INFO] build_vector_db - 进度: 5200/6807
+2026-09-20 13:41:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:41:45 [INFO] build_vector_db - 进度: 5300/6807
+2026-09-20 13:41:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:41:49 [INFO] build_vector_db - 进度: 5400/6807
+2026-09-20 13:41:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:41:54 [INFO] build_vector_db - 进度: 5500/6807
+2026-09-20 13:41:59 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:41:59 [INFO] build_vector_db - 进度: 5600/6807
+2026-09-20 13:42:04 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:42:04 [INFO] build_vector_db - 进度: 5700/6807
+2026-09-20 13:42:09 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:42:09 [INFO] build_vector_db - 进度: 5800/6807
+2026-09-20 13:42:14 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:42:14 [INFO] build_vector_db - 进度: 5900/6807
+2026-09-20 13:42:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:42:19 [INFO] build_vector_db - 进度: 6000/6807
+2026-09-20 13:42:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:42:24 [INFO] build_vector_db - 进度: 6100/6807
+2026-09-20 13:42:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:42:30 [INFO] build_vector_db - 进度: 6200/6807
+2026-09-20 13:42:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:42:35 [INFO] build_vector_db - 进度: 6300/6807
+2026-09-20 13:42:39 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:42:39 [INFO] build_vector_db - 进度: 6400/6807
+2026-09-20 13:42:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:42:45 [INFO] build_vector_db - 进度: 6500/6807
+2026-09-20 13:42:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:42:50 [INFO] build_vector_db - 进度: 6600/6807
+2026-09-20 13:42:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:42:56 [INFO] build_vector_db - 进度: 6700/6807
+2026-09-20 13:43:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 13:43:02 [INFO] build_vector_db - 进度: 6800/6807
+2026-09-20 13:43:03 [INFO] retriever.vector_db - 添加 7 条文本到向量库
+2026-09-20 13:43:03 [INFO] build_vector_db - 进度: 6807/6807
+2026-09-20 13:43:03 [INFO] build_vector_db - 灌库完成，库内共 6807 条
+2026-09-20 13:43:03 [INFO] build_vector_db - 等待 Chroma 索引落盘（60 秒）...
+2026-09-20 13:44:03 [INFO] build_vector_db - Chroma 索引落盘等待结束
+2026-09-20 13:45:09 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:45:11 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:45:12 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
+2026-09-20 13:45:12 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-20 13:45:13 [ERROR] retriever.vector_db - 向量检索失败: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+2026-09-20 13:46:15 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:46:17 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:47:13 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:47:15 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:47:17 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
+2026-09-20 13:48:08 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:48:10 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:48:12 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
+2026-09-20 13:51:24 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:51:26 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:51:28 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
+2026-09-20 13:52:16 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:52:18 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:52:19 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
+2026-09-20 13:52:20 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-20 13:52:20 [ERROR] retriever.vector_db - 向量检索失败: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+2026-09-20 13:53:24 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:53:26 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:53:27 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
+2026-09-20 13:53:28 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-20 13:54:54 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 13:54:55 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 13:54:57 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
+2026-09-20 13:54:57 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-20 14:04:13 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 14:04:15 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 14:04:16 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
+2026-09-20 14:04:18 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 14:04:20 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 14:04:20 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
+2026-09-20 14:04:20 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-20 14:04:20 [WARNING] retriever.vector_db - 分片 drug_atc_knowledge_shard_2 检索失败，跳过: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+2026-09-20 14:04:20 [WARNING] retriever.vector_db - 分片 drug_atc_knowledge_shard_6 检索失败，跳过: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+2026-09-20 14:04:20 [WARNING] retriever.vector_db - 分片 drug_atc_knowledge_shard_7 检索失败，跳过: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+2026-09-20 14:06:35 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 14:06:37 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 14:06:38 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
+2026-09-20 14:06:39 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-20 14:06:40 [WARNING] retriever.vector_db - 分片 drug_atc_knowledge_shard_3 检索失败，跳过: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+2026-09-20 14:15:29 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 14:15:31 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 14:15:32 [INFO] retriever.vector_db - ChromaDB 初始化成功，1 个分片
+2026-09-20 14:15:32 [INFO] tools.deep_tools - 本地向量库就绪，共 0 条知识
+2026-09-20 14:26:02 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
+2026-09-20 14:26:03 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
+2026-09-20 14:27:32 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 14:27:34 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 14:27:35 [INFO] retriever.vector_db - ChromaDB 初始化成功，1 个分片
+2026-09-20 14:27:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 14:27:44 [INFO] build_vector_db - 进度: 100/6807
+2026-09-20 14:27:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 14:27:51 [INFO] build_vector_db - 进度: 200/6807
+2026-09-20 14:27:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 14:27:57 [INFO] build_vector_db - 进度: 300/6807
+2026-09-20 14:28:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 14:28:03 [INFO] build_vector_db - 进度: 400/6807
+2026-09-20 15:17:17 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+2026-09-20 15:17:19 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 15:17:21 [INFO] retriever.vector_db - ChromaDB 初始化成功，1 个分片
+2026-09-20 15:17:21 [INFO] tools.deep_tools - 本地向量库就绪，共 0 条知识

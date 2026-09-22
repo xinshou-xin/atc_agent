@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>药物ATC映射DeepAgent框架流程</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Microsoft YaHei", "PingFang SC", "Segoe UI", sans-serif; background: #f4f7fb; color: #1f2d3d; padding: 24px; line-height: 1.55; }
+  .wrap { max-width: 1180px; margin: 0 auto; }
+  h1 { font-size: 24px; color: #0b5e5a; margin-bottom: 6px; }
+  .sub { color: #5a6b7b; font-size: 14px; margin-bottom: 24px; }
+  .block { background: #fff; border: 1px solid #dfe7ef; border-radius: 12px; padding: 18px 20px; margin-bottom: 20px; box-shadow: 0 1px 4px rgba(15,40,60,.06); }
+  .block h2 { font-size: 17px; color: #0b5e5a; margin-bottom: 4px; }
+  .block .desc { font-size: 13px; color: #5a6b7b; margin-bottom: 14px; }
+  .flow { display: flex; flex-wrap: wrap; align-items: stretch; gap: 8px; }
+  .step { background: #eef6f5; border: 1px solid #bcd9d4; border-radius: 8px; padding: 10px 12px; min-width: 130px; flex: 1 1 150px; }
+  .step .t { font-weight: 700; font-size: 13px; color: #0b5e5a; }
+  .step .d { font-size: 12px; color: #44596b; margin-top: 3px; }
+  .step.hl { background: #d9efea; border-color: #7cbfb4; }
+  .arrow { align-self: center; color: #8aa3b5; font-size: 18px; font-weight: 700; flex: 0 0 auto; }
+  .arrow.loop { color: #c07a2e; }
+  .grid { display: flex; flex-wrap: wrap; gap: 10px; }
+  .card { background: #f6f9fc; border: 1px solid #dbe5ee; border-radius: 8px; padding: 10px 12px; flex: 1 1 180px; min-width: 170px; }
+  .card .t { font-weight: 700; font-size: 13px; color: #24425c; }
+  .card .d { font-size: 12px; color: #5a6b7b; margin-top: 3px; }
+  .badge { display: inline-block; background: #0b5e5a; color: #fff; font-size: 11px; border-radius: 10px; padding: 1px 8px; margin-left: 6px; vertical-align: middle; }
+  .badge.warn { background: #c07a2e; }
+  .badge.gray { background: #8aa3b5; }
+  .note { font-size: 12px; color: #7a8b9a; background: #f2f6f9; border-left: 3px solid #8aa3b5; padding: 8px 12px; border-radius: 4px; margin-top: 12px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 16px; font-size: 12px; color: #5a6b7b; margin-top: 10px; }
+  .legend span b { color: #24425c; }
+  .mini { font-size: 12px; color: #5a6b7b; }
+  .flow.v { flex-direction: column; }
+  .flow.v .row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+  .gate { border: 1.5px dashed #c07a2e; background: #fdf3e6; border-radius: 8px; padding: 8px 12px; font-size: 12.5px; color: #7a4a12; min-width: 150px; flex: 1 1 170px; }
+  .gate b { display: block; margin-bottom: 2px; }
+  .tag { font-size: 11px; color: #fff; border-radius: 4px; padding: 1px 6px; margin-left: 4px; }
+  .tag.pri { background: #c0392b; }
+  .tag.aux { background: #5d7fa3; }
+  .tag.low { background: #9aa7b2; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>药物 ATC 映射 DeepAgent 框架流程</h1>
+  <div class="sub">deepagents 动态运行时 · 本地 Chroma 分片 RAG · 多源证据融合 · 批量评测（示意：结构与真实代码一致）</div>
+
+  <!-- ============ A 整体架构 ============ -->
+  <div class="block">
+    <h2>一、整体架构（四层）</h2>
+    <div class="desc">从入口到数据源的分层结构，各层通过统一接口连接。</div>
+    <div class="grid">
+      <div class="card"><div class="t">入口层</div><div class="d">test-deepagents.py（单药）· experiments/run_deepagents_dataset.py（批量评测）</div></div>
+      <div class="card"><div class="t">Agent 层</div><div class="d">DeepATCAgent → create_deep_agent（deepagents 0.7.x），动态规划工具调用 + Skills 只读 + 反思精化</div></div>
+      <div class="card"><div class="t">工具层</div><div class="d">6 个只读工具：翻译 / WHO 搜索 / WHO 核验 / PubChem / Tavily / 本地 RAG</div></div>
+      <div class="card"><div class="t">数据层</div><div class="d">deepseek-chat（LLM）· Chroma 17 分片（6807 条）· bge-m3（1024 维）· 外部 API（WHO/PubChem/Tavily/百度翻译）</div></div>
+    </div>
+  </div>
+
+  <!-- ============ B 离线构建 ============ -->
+  <div class="block">
+    <h2>二、离线知识构建（RAG 灌库，一次完成）</h2>
+    <div class="desc">ATC 知识源 → 清洗组装 → 向量化 → Chroma 分片落盘。产出 <b>data/vector_db</b>（17 分片 / 6807 条）。</div>
+    <div class="flow">
+      <div class="step"><div class="t">① ATC.csv</div><div class="d">data/knowledge/ATC.csv，6807 条</div></div>
+      <div class="arrow">→</div>
+      <div class="step"><div class="t">② 列映射 + 清洗</div><div class="d">build_vector_db.py 自动识别列名、去空行</div></div>
+      <div class="arrow">→</div>
+      <div class="step"><div class="t">③ 组装知识文档</div><div class="d">“药物: X，ATC 编码: Y，相关信息: …”</div></div>
+      <div class="arrow">→</div>
+      <div class="step"><div class="t">④ bge-m3 向量化</div><div class="d">本地模型，1024 维，分批 100 条/次</div></div>
+      <div class="arrow">→</div>
+      <div class="step"><div class="t">⑤ Chroma 分片存储</div><div class="d">400 条/片 ×16 + 407 = 17 片（不足 100 并入，避免小分片无法落盘）</div></div>
+      <div class="arrow">→</div>
+      <div class="step hl"><div class="t">⑥ 等待索引落盘</div><div class="d">compactor 异步写 HNSW，等待 300 秒（进程内不得重开 client）</div></div>
+      <div class="arrow">→</div>
+      <div class="step"><div class="t">⑦ data/vector_db</div><div class="d">chroma.sqlite3 + 17 个分片集合，检索时合并排序</div></div>
+    </div>
+    <div class="note">为何分片：本机 chromadb 对超大单集合的 HNSW 索引无法落盘（报 Error loading hnsw index），≤500 条的分片可正常落盘，故按 400 条/片存储，查询时遍历各片合并后取 TopK。</div>
+  </div>
+
+  <!-- ============ C 在线映射 ============ -->
+  <div class="block">
+    <h2>三、在线 ATC 映射（DeepAgent 动态流程）</h2>
+    <div class="desc">输入药物名 → Agent 按证据缺口动态调用工具 → LLM 推理 → 反思精化 → 输出可审计结果。</div>
+    <div class="flow v">
+      <div class="row">
+        <div class="step"><div class="t">输入药物名</div><div class="d">如 “阿司匹林”</div></div>
+        <div class="arrow">→</div>
+        <div class="step"><div class="t">Agent 分析</div><div class="d">判断是否需翻译 / 是否有歧义</div></div>
+        <div class="arrow">→</div>
+        <div class="step"><div class="t">动态工具循环</div><div class="d">每轮只调用解决当前证据缺口的工具，按优先级</div></div>
+        <div class="arrow">→</div>
+        <div class="step"><div class="t">LLM 推理</div><div class="d">deepseek-chat，输出规定 JSON（编码 + 置信度 + 依据）</div></div>
+        <div class="arrow">→</div>
+        <div class="gate"><b>反思门</b>无候选 / 编码格式非法 / 最高置信度 &lt; 0.80 → 再推理 1 轮（≤1 轮）</div>
+        <div class="arrow loop">↺</div>
+        <div class="step hl"><div class="t">输出结果</div><div class="d">主编码 / 全部编码 / 证据源 / 人工核验标记</div></div>
+      </div>
+      <div class="mini" style="margin-top:4px;">工具失败自动降级：外部 API 报错 → 结构化错误返回 Agent → Agent 换策略或靠 WHO / 本地 RAG 兜底，不中断流程。</div>
+    </div>
+
+    <h2 style="margin-top:16px; font-size:15px;">6 个工具与优先级</h2>
+    <div class="grid" style="margin-top:8px;">
+      <div class="card"><div class="t">search_who_atc<span class="tag pri">高优先</span></div><div class="d">WHO ATC 官方索引按名查候选编码</div></div>
+      <div class="card"><div class="t">validate_who_atc<span class="tag pri">高优先</span></div><div class="d">核验每个 7 位编码及其官方层级</div></div>
+      <div class="card"><div class="t">search_local_atc_knowledge<span class="tag aux">辅助</span></div><div class="d">本地 RAG：bge-m3 查询 → 17 分片合并 → TopK</div></div>
+      <div class="card"><div class="t">search_pubchem<span class="tag aux">辅助</span></div><div class="d">药物性质 / 别名 / ATC 相关信息</div></div>
+      <div class="card"><div class="t">translate_drug_name<span class="tag gray">前置</span></div><div class="d">中文名 → 英文检索名（百度翻译）</div></div>
+      <div class="card"><div class="t">search_tavily<span class="tag low">低优先</span></div><div class="d">网络搜索补充背景，不能覆盖 WHO 结论</div></div>
+    </div>
+  </div>
+
+  <!-- ============ D 批量评测 ============ -->
+  <div class="block">
+    <h2>四、批量评测流程（数据集级）</h2>
+    <div class="desc">对整张药物表批量映射并产出指标报告，支持断点续跑与缓存隔离。</div>
+    <div class="flow">
+      <div class="step"><div class="t">① 选择数据集</div><div class="d">gdph（中文）/ pyxis（MIMIC）/ healthcanada 等</div></div>
+      <div class="arrow">→</div>
+      <div class="step"><div class="t">② run_deepagents_dataset.py</div><div class="d">缓存隔离 + --limit / --resume 断点续跑</div></div>
+      <div class="arrow">→</div>
+      <div class="step"><div class="t">③ 逐药映射</div><div class="d">复用 DeepATCAgent，结果即时写 JSONL</div></div>
+      <div class="arrow">→</div>
+      <div class="step"><div class="t">④ 指标计算（metrics.py）</div><div class="d">三分类 exact/partial/none + F1 宏平均 + Top1 + 覆盖率 + 幻觉率</div></div>
+      <div class="arrow">→</div>
+      <div class="step hl"><div class="t">⑤ 报告产出</div><div class="d">results/deepagents/_report.xlsx + predictions.jsonl</div></div>
+    </div>
+    <div class="legend">
+      <span><b>F1</b>＝2·P·R/(P+R)，按药物宏平均（集合级，惩罚漏码/多码）</span>
+      <span><b>Top1</b>＝第一个预测编码命中金标准</span>
+      <span><b>Exact</b>＝预测集合==金标准集合</span>
+      <span><b>Halluc</b>＝预测编码不在 WHO 知识库的比例</span>
+    </div>
+    <div class="note">实测参考（pyxis 50 药）：F1 0.838 · Top1 0.940 · Exact 0.720 · 幻觉 0 · 需人工核验 10%。</div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+# 模型权重，不要提交
+model/
+*.safetensors
+*.bin
+
+# 缓存、环境
+__pycache__/
+*.pyc
+.env
+.venv/
+deepagents/
+
+# 向量库、数据缓存
+*.chroma
+*.sqlite3
+data/knowledge/*.parquet
+data/knowledge/*.pkl
+
+# 日志
+logs/
+*.log

@@ -1,0 +1,29 @@
+﻿2026-09-20 14:26:02 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
+2026-09-20 14:26:03 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
+
+============================================================
+列名映射结果（逻辑列 → 实际列）:
+  drug_name    -> name
+  atc_code     -> code
+  description  -> 【未找到】
+============================================================
+2026-09-20 14:27:32 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
+python.exe : 
+所在位置 行:1 字符: 42
++ ... gent - 副本"; & "C:\Users\netuser\.conda\envs\deepagents\python.exe" bu ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 391/391 [00:00<00:00, 38540.44it/s]
+2026-09-20 14:27:34 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-20 14:27:35 [INFO] retriever.vector_db - ChromaDB 初始化成功，1 个分片
+2026-09-20 14:27:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 14:27:44 [INFO] build_vector_db - 进度: 100/6807
+2026-09-20 14:27:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 14:27:51 [INFO] build_vector_db - 进度: 200/6807
+2026-09-20 14:27:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 14:27:57 [INFO] build_vector_db - 进度: 300/6807
+2026-09-20 14:28:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-20 14:28:03 [INFO] build_vector_db - 进度: 400/6807

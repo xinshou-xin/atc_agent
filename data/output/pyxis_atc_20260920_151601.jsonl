@@ -1,0 +1,2 @@
+{"drug_name": "Morphine", "primary_atc_code": "N02AA01", "atc_all": "N02AA01;N02AG01;N02AA51;A07DA52", "atc_count": 4, "info_sources": "pubchem;rxnorm;vector_db;who_atc", "needs_human_review": false, "review_reason": "", "status": "success", "error": ""}
+{"drug_name": "Ondansetron", "primary_atc_code": "A04AA01", "atc_all": "A04AA01", "atc_count": 1, "info_sources": "pubchem;rxnorm;vector_db;who_atc", "needs_human_review": false, "review_reason": "", "status": "success", "error": ""}
