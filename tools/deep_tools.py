@@ -47,21 +47,19 @@ def make_atc_tools() -> List[Any]:
         ) from error
 
     from tools.atc_search import ATCSearcher
+    from tools.drug_normalizer import DrugNameNormalizer
     from tools.pubchem import PubChemClient
     from tools.tavily import TavilyClient
-    from tools.translator import BaiduTranslator
 
-    translator = BaiduTranslator()
+    normalizer = DrugNameNormalizer()
     pubchem = PubChemClient()
     tavily = TavilyClient()
     atc_searcher = ATCSearcher()
 
     @tool
     def translate_drug_name(drug_name: str) -> str:
-        """将中文药物名称翻译为英文检索名；英文输入会原样返回。"""
-        if not any("\u4e00" <= char <= "\u9fff" for char in drug_name):
-            return _json({"source": "input", "ok": True, "data": drug_name})
-        return _safe_call("baidu_translate", lambda: translator.translate(drug_name))
+        """将药物名称（中文/英文/商品名）标准化为英文检索名；返回结构含 INN 通用名(inn)、别名(aliases)。WHO 检索应优先使用返回的 inn 字段。"""
+        return normalizer.normalize(drug_name)
 
     @tool
     def search_pubchem(drug_name: str) -> str:
@@ -70,7 +68,7 @@ def make_atc_tools() -> List[Any]:
 
     @tool
     def search_tavily(drug_name: str) -> str:
-        """从 Tavily 网络搜索补充药物概述；仅作为低优先级辅助证据。"""
+        """从 Tavily 网络搜索补充药物概述，作用部位，适应症等等；仅作为低优先级辅助证据。"""
         return _safe_call("tavily", lambda: tavily.get_drug_info(drug_name))
 
     @tool

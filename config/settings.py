@@ -40,15 +40,6 @@ LEARNING_CONFIG = {
     "dir": os.path.join(PROJECT_ROOT, "data", "learning"),
 }
 
-# ==================== 百度翻译 ====================
-BAIDU_TRANSLATE = {
-    "app_id": os.getenv("BAIDU_TRANSLATE_APP_ID", ""),
-    "app_key": os.getenv("BAIDU_TRANSLATE_APP_KEY", ""),
-    "url": "https://fanyi-api.baidu.com/api/trans/vip/translate",
-    "from_lang": "zh",
-    "to_lang": "en",
-}
-
 # ==================== PubChem ====================
 PUBCHEM = {
     "base_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug",
@@ -81,21 +72,24 @@ VECTOR_DB = {
 
 # ==================== Embedding ====================
 EMBEDDING = {
-    "provider": os.getenv("EMBEDDING_PROVIDER", "local"),  # local / openai
+    "provider": os.getenv("EMBEDDING_PROVIDER", "local"),  # local / openai / api
 
     # local
     "model_path": os.getenv("EMBEDDING_MODEL_PATH",""),
-    # api
+    # api（openai 兼容）
     "api_key": os.getenv("EMBEDDING_API_KEY", ""),
     "base_url": os.getenv("EMBEDDING_BASE_URL","https://api.openai.com/v1"),
     "model": os.getenv("EMBEDDING_MODEL","text-embedding-3-small"),
-    "dimension": 1024
+    "dimension": 1024,
+    # 自建 BGE-M3 服务（FastAPI：POST /embedding）
+    "api_url": os.getenv("EMBEDDING_API_URL", ""),
+    "api_token": os.getenv("EMBEDDING_API_TOKEN", ""),
 }
 
 
 # ==================== Reranker ====================
 RERANKER = {
-    "provider": os.getenv("RERANKER_PROVIDER", "local"),  # local / cohere
+    "provider": os.getenv("RERANKER_PROVIDER", "local"),  # local / cohere / api
     "model_path": os.getenv("RERANKER_MODEL_PATH", ""),
     "api_key": os.getenv("RERANKER_API_KEY", ""),
     "model": os.getenv("RERANKER_MODEL", "rerank-multilingual-v3.0"),
@@ -103,6 +97,9 @@ RERANKER = {
     # 多卡机器上建议指定单卡（如 "cuda:0"），避免多卡初始化慢/死锁；
     # 留空则走默认行为（GPU 可用时自动多卡）
     "devices": os.getenv("RERANKER_DEVICES", "cuda:0"),
+    # 自建 BGE-Reranker 服务（FastAPI：POST /rank）
+    "api_url": os.getenv("RERANKER_API_URL", ""),
+    "api_token": os.getenv("RERANKER_API_TOKEN", ""),
 }
 
 # ==================== 缓存 ====================

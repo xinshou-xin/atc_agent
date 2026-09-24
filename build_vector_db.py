@@ -1,28 +1,38 @@
 """
-向量库构建脚本（本地 CSV 知识库）
+向量库构建脚本
 用法:
-    python build_vector_db.py                     # 灌入 data/knowledge/ATC.csv（默认）
-    python build_vector_db.py path/to/other.csv   # 灌入指定 CSV
-    python build_vector_db.py --preview           # 只预览列映射和样例，不写库
+    python build_vector_db.py file                      # 灌入 data/knowledge/ATC.csv（默认）
+    python build_vector_db.py file path/to/other.csv    # 灌入指定 CSV
+    python build_vector_db.py file --preview            # 只预览列映射和样例，不写库
+    python build_vector_db.py who                       # 爬 WHO 官网 ATC 分类树（可选，约 7~10 分钟）
 
 注意:
     - chroma 重复 id 会自动跳过，重复运行不会灌重
     - 想重建库：先删掉 data/vector_db/ 目录再跑
+    - Embedding 远程服务超时时，批次自动重试（最多 3 次，指数退避）；
+      仍失败的批次会跳过并在结束时提示，待服务恢复后重跑本脚本即可自动补齐。
 """
 import os
+import re
 import sys
+import time
 import hashlib
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from config.settings import PROJECT_ROOT, VECTOR_DB
+import requests
+from bs4 import BeautifulSoup
+
+from config.settings import ATC_SEARCH, PROJECT_ROOT
 from retriever.vector_db import VectorDB
 from utils.logger import setup_logger
 
 logger = setup_logger("build_vector_db")
 
 DEFAULT_CSV = os.path.join(PROJECT_ROOT, "data", "knowledge", "ATC.csv")
-BATCH_SIZE = 100  # 分批写入，避免一次性向量化过多文本
+BATCH_SIZE = 100              # 分批写入，避免一次性向量化过多文本
+EMBED_RETRY = 3               # 每批 Embedding 失败重试次数
+EMBED_RETRY_BACKOFF = 5       # 首次重试等待秒数，之后翻倍（5s / 10s / 20s）
 
 
 # ============================================================
@@ -140,15 +150,116 @@ def build_from_csv(path: str, preview_only: bool = False):
 
 
 # ============================================================
-# 入口
+# 模式二：爬 WHO 官网分类树（可选）
 # ============================================================
-def add_in_batches(db: VectorDB, texts, ids, metas):
-    """分批写入向量库"""
+
+BASE_URL = ATC_SEARCH["who_url"]
+CODE_RE = re.compile(r"[?&]code=([A-Z][A-Z0-9]{0,6})")
+
+session = requests.Session()
+session.headers.update({
+    "User-Agent": "Mozilla/5.0 (compatible; drug-atc-research/1.0)"
+})
+
+
+def level_of(code: str) -> int:
+    return {1: 1, 3: 2, 4: 3, 5: 4, 7: 5}.get(len(code or ""), 0)
+
+
+def fetch_page(code: str = None) -> BeautifulSoup:
+    params = {"code": code, "showdescription": "no"} if code else {}
+    resp = session.get(BASE_URL, params=params, timeout=30)
+    resp.raise_for_status()
+    return BeautifulSoup(resp.text, "html.parser")
+
+
+def extract_links(soup) -> list:
+    items, seen = [], set()
+    for a in soup.find_all("a", href=True):
+        m = CODE_RE.search(a["href"])
+        if not m or m.group(1) in seen:
+            continue
+        seen.add(m.group(1))
+        items.append((m.group(1), a.get_text(strip=True)))
+    return items
+
+
+def crawl(max_level: int = 4) -> dict:
+    tree = {}
+    queue = [None]
+    visited = set()
+    while queue:
+        code = queue.pop(0)
+        if code in visited:
+            continue
+        visited.add(code)
+        try:
+            soup = fetch_page(code)
+        except Exception as e:
+            logger.warning(f"页面获取失败 {code}: {e}")
+            continue
+        for child_code, child_name in extract_links(soup):
+            if code is not None:
+                if not child_code.startswith(code) or len(child_code) <= len(code):
+                    continue
+            if child_code not in tree:
+                tree[child_code] = (child_name, code)
+            if level_of(child_code) < max_level and child_code not in visited:
+                queue.append(child_code)
+        time.sleep(0.3)  # 限速
+    return tree
+
+
+def build_from_who():
+    tree = crawl(max_level=4)
+    texts, ids, metas = [], [], []
+    for code, (name, parent) in sorted(tree.items()):
+        # 从叶子向上收集各级：父编码 + 父名称
+        chain, cur = [], parent
+        while cur:
+            pname = tree.get(cur, ("", None))[0]
+            chain.append(f"{cur} {pname}".strip())
+            cur = tree.get(cur, ("", None))[1]
+        doc = f"WHO ATC 分类知识: 编码 {code}，名称: {name}"
+        if chain:
+            doc += f"，上级分类: {' > '.join(reversed(chain))}"
+        texts.append(doc)
+        ids.append(f"who_atc_{code}")
+        metas.append({"source": "who_atc_tree", "code": code, "level": level_of(code)})
+    return texts, ids, metas
+
+
+# ============================================================
+# 分批写入（含失败重试）
+# ============================================================
+
+def add_in_batches(db: VectorDB, texts, ids, metas) -> list:
+    """分批写入向量库；每批 Embedding 失败自动重试，返回仍失败的 (start,end) 列表"""
     total = len(texts)
+    failed_batches = []
     for start in range(0, total, BATCH_SIZE):
         end = min(start + BATCH_SIZE, total)
-        db.add(texts[start:end], ids[start:end], metas[start:end])
-        logger.info(f"进度: {end}/{total}")
+        ok = False
+        for attempt in range(1, EMBED_RETRY + 1):
+            try:
+                db.add(texts[start:end], ids[start:end], metas[start:end])
+                ok = True
+                break
+            except Exception as e:
+                wait = EMBED_RETRY_BACKOFF * (2 ** (attempt - 1))
+                logger.warning(
+                    f"批次 {start}:{end} 第 {attempt}/{EMBED_RETRY} 次失败: {e}，{wait}s 后重试"
+                )
+                time.sleep(wait)
+        if ok:
+            logger.info(f"进度: {end}/{total}")
+        else:
+            failed_batches.append((start, end))
+            logger.error(
+                f"批次 {start}:{end} 重试 {EMBED_RETRY} 次仍失败，已跳过；"
+                f"待 Embedding 服务恢复后重跑本脚本会自动补齐"
+            )
+    return failed_batches
 
 
 def _wait_chroma_persist(db: VectorDB) -> None:
@@ -169,10 +280,13 @@ def _wait_chroma_persist(db: VectorDB) -> None:
 
 
 if __name__ == "__main__":
+    from config.settings import VECTOR_DB
+
     args = sys.argv[1:]
     mode = args[0] if args else "file"
     preview = "--preview" in args
     db = None
+    failed = []
 
     if mode == "file":
         # 第二个非 --preview 参数作为 CSV 路径
@@ -181,12 +295,28 @@ if __name__ == "__main__":
         texts, ids, metas = build_from_csv(csv_path, preview_only=preview)
         if not preview and texts:
             db = VectorDB()
-            add_in_batches(db, texts, ids, metas)
+            failed = add_in_batches(db, texts, ids, metas)
+
+    elif mode == "who":
+        logger.info("开始爬取 WHO ATC 分类树（约 7~10 分钟）...")
+        texts, ids, metas = build_from_who()
+        logger.info(f"WHO 分类树解析完成，共 {len(texts)} 条")
+        if texts:
+            db = VectorDB()
+            failed = add_in_batches(db, texts, ids, metas)
 
     else:
         print("用法: python build_vector_db.py [file|who] [csv路径] [--preview]")
         sys.exit(1)
 
     if db:
-        logger.info(f"灌库完成，库内共 {db.count()} 条")
+        expected = len(texts)
+        actual = db.count()
+        gap = expected - actual
+        logger.info(f"灌库完成：应写入 {expected} 条，库内实际 {actual} 条，差 {gap} 条")
+        if gap > 0 or failed:
+            logger.warning(
+                f"仍有 {len(failed)} 批写入失败或缺失 {max(gap, 0)} 条。"
+                f"待 Embedding 服务恢复后重跑本脚本即可自动补齐（幂等，不会重复）。"
+            )
         _wait_chroma_persist(db)

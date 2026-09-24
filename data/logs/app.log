@@ -1,1283 +1,526 @@
-2026-09-20 09:53:18 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
-2026-09-20 09:53:22 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
-2026-09-20 09:54:01 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 11:12:05 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 11:12:07 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 11:12:07 [INFO] retriever.vector_db - NumPy 向量库为空，等待灌库
-2026-09-20 11:12:07 [INFO] tools.deep_tools - 本地向量库就绪，共 0 条知识
-2026-09-20 11:13:09 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
-2026-09-20 11:13:10 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
-2026-09-20 11:13:35 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 11:13:37 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 11:13:37 [INFO] retriever.vector_db - NumPy 向量库为空，等待灌库
-2026-09-20 11:13:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:13:45 [INFO] build_vector_db - 进度: 100/6807
-2026-09-20 11:13:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:13:51 [INFO] build_vector_db - 进度: 200/6807
-2026-09-20 11:13:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:13:57 [INFO] build_vector_db - 进度: 300/6807
-2026-09-20 11:14:04 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:14:04 [INFO] build_vector_db - 进度: 400/6807
-2026-09-20 11:14:09 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:14:09 [INFO] build_vector_db - 进度: 500/6807
-2026-09-20 11:14:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:14:15 [INFO] build_vector_db - 进度: 600/6807
-2026-09-20 11:14:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:14:21 [INFO] build_vector_db - 进度: 700/6807
-2026-09-20 11:14:27 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:14:27 [INFO] build_vector_db - 进度: 800/6807
-2026-09-20 11:14:32 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:14:32 [INFO] build_vector_db - 进度: 900/6807
-2026-09-20 11:14:37 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:14:37 [INFO] build_vector_db - 进度: 1000/6807
-2026-09-20 11:14:43 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:14:43 [INFO] build_vector_db - 进度: 1100/6807
-2026-09-20 11:14:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:14:49 [INFO] build_vector_db - 进度: 1200/6807
-2026-09-20 11:14:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:14:55 [INFO] build_vector_db - 进度: 1300/6807
-2026-09-20 11:15:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:15:00 [INFO] build_vector_db - 进度: 1400/6807
-2026-09-20 11:15:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:15:05 [INFO] build_vector_db - 进度: 1500/6807
-2026-09-20 11:15:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:15:10 [INFO] build_vector_db - 进度: 1600/6807
-2026-09-20 11:15:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:15:15 [INFO] build_vector_db - 进度: 1700/6807
-2026-09-20 11:15:20 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:15:20 [INFO] build_vector_db - 进度: 1800/6807
-2026-09-20 11:15:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:15:25 [INFO] build_vector_db - 进度: 1900/6807
-2026-09-20 11:15:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:15:30 [INFO] build_vector_db - 进度: 2000/6807
-2026-09-20 11:15:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:15:35 [INFO] build_vector_db - 进度: 2100/6807
-2026-09-20 11:15:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:15:40 [INFO] build_vector_db - 进度: 2200/6807
-2026-09-20 11:15:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:15:46 [INFO] build_vector_db - 进度: 2300/6807
-2026-09-20 11:15:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:15:51 [INFO] build_vector_db - 进度: 2400/6807
-2026-09-20 11:15:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:15:56 [INFO] build_vector_db - 进度: 2500/6807
-2026-09-20 11:16:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:16:01 [INFO] build_vector_db - 进度: 2600/6807
-2026-09-20 11:16:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:16:06 [INFO] build_vector_db - 进度: 2700/6807
-2026-09-20 11:16:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:16:11 [INFO] build_vector_db - 进度: 2800/6807
-2026-09-20 11:16:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:16:16 [INFO] build_vector_db - 进度: 2900/6807
-2026-09-20 11:16:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:16:21 [INFO] build_vector_db - 进度: 3000/6807
-2026-09-20 11:16:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:16:25 [INFO] build_vector_db - 进度: 3100/6807
-2026-09-20 11:16:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:16:30 [INFO] build_vector_db - 进度: 3200/6807
-2026-09-20 11:16:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:16:35 [INFO] build_vector_db - 进度: 3300/6807
-2026-09-20 11:16:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:16:40 [INFO] build_vector_db - 进度: 3400/6807
-2026-09-20 11:16:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:16:45 [INFO] build_vector_db - 进度: 3500/6807
-2026-09-20 11:16:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:16:49 [INFO] build_vector_db - 进度: 3600/6807
-2026-09-20 11:16:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:16:54 [INFO] build_vector_db - 进度: 3700/6807
-2026-09-20 11:16:58 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:16:58 [INFO] build_vector_db - 进度: 3800/6807
-2026-09-20 11:17:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:17:03 [INFO] build_vector_db - 进度: 3900/6807
-2026-09-20 11:17:08 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:17:08 [INFO] build_vector_db - 进度: 4000/6807
-2026-09-20 11:17:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:17:13 [INFO] build_vector_db - 进度: 4100/6807
-2026-09-20 11:17:20 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:17:20 [INFO] build_vector_db - 进度: 4200/6807
-2026-09-20 11:17:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:17:26 [INFO] build_vector_db - 进度: 4300/6807
-2026-09-20 11:17:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:17:30 [INFO] build_vector_db - 进度: 4400/6807
-2026-09-20 11:17:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:17:35 [INFO] build_vector_db - 进度: 4500/6807
-2026-09-20 11:17:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:17:40 [INFO] build_vector_db - 进度: 4600/6807
-2026-09-20 11:17:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:17:44 [INFO] build_vector_db - 进度: 4700/6807
-2026-09-20 11:17:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:17:49 [INFO] build_vector_db - 进度: 4800/6807
-2026-09-20 11:17:53 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:17:53 [INFO] build_vector_db - 进度: 4900/6807
-2026-09-20 11:17:58 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:17:58 [INFO] build_vector_db - 进度: 5000/6807
-2026-09-20 11:18:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:18:03 [INFO] build_vector_db - 进度: 5100/6807
-2026-09-20 11:18:08 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:18:08 [INFO] build_vector_db - 进度: 5200/6807
-2026-09-20 11:18:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:18:13 [INFO] build_vector_db - 进度: 5300/6807
-2026-09-20 11:18:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:18:17 [INFO] build_vector_db - 进度: 5400/6807
-2026-09-20 11:18:22 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:18:22 [INFO] build_vector_db - 进度: 5500/6807
-2026-09-20 11:18:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:18:26 [INFO] build_vector_db - 进度: 5600/6807
-2026-09-20 11:18:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:18:31 [INFO] build_vector_db - 进度: 5700/6807
-2026-09-20 11:18:36 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:18:36 [INFO] build_vector_db - 进度: 5800/6807
-2026-09-20 11:18:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:18:41 [INFO] build_vector_db - 进度: 5900/6807
-2026-09-20 11:18:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:18:46 [INFO] build_vector_db - 进度: 6000/6807
-2026-09-20 11:18:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:18:51 [INFO] build_vector_db - 进度: 6100/6807
-2026-09-20 11:18:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:18:56 [INFO] build_vector_db - 进度: 6200/6807
-2026-09-20 11:19:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:19:00 [INFO] build_vector_db - 进度: 6300/6807
-2026-09-20 11:19:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:19:05 [INFO] build_vector_db - 进度: 6400/6807
-2026-09-20 11:19:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:19:10 [INFO] build_vector_db - 进度: 6500/6807
-2026-09-20 11:19:14 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:19:14 [INFO] build_vector_db - 进度: 6600/6807
-2026-09-20 11:19:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:19:19 [INFO] build_vector_db - 进度: 6700/6807
-2026-09-20 11:19:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:19:25 [INFO] build_vector_db - 进度: 6800/6807
-2026-09-20 11:19:26 [INFO] retriever.vector_db - 添加 7 条文本到向量库
-2026-09-20 11:19:26 [INFO] build_vector_db - 进度: 6807/6807
-2026-09-20 11:19:26 [INFO] build_vector_db - 灌库完成，库内共 6807 条
-2026-09-20 11:20:08 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 11:20:10 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 11:20:10 [INFO] retriever.vector_db - NumPy 向量库加载成功，共 6807 条
-2026-09-20 11:20:10 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
-2026-09-20 11:25:04 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
-2026-09-20 11:25:06 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
-2026-09-20 11:25:34 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 11:25:36 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 11:25:38 [INFO] retriever.vector_db - ChromaDB 初始化成功
-2026-09-20 11:25:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:25:46 [INFO] build_vector_db - 进度: 100/6807
-2026-09-20 11:25:53 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:25:53 [INFO] build_vector_db - 进度: 200/6807
-2026-09-20 11:25:59 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:25:59 [INFO] build_vector_db - 进度: 300/6807
-2026-09-20 11:26:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:26:06 [INFO] build_vector_db - 进度: 400/6807
-2026-09-20 11:26:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:26:12 [INFO] build_vector_db - 进度: 500/6807
-2026-09-20 11:26:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:26:18 [INFO] build_vector_db - 进度: 600/6807
-2026-09-20 11:26:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:26:24 [INFO] build_vector_db - 进度: 700/6807
-2026-09-20 11:26:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:26:30 [INFO] build_vector_db - 进度: 800/6807
-2026-09-20 11:26:36 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:26:36 [INFO] build_vector_db - 进度: 900/6807
-2026-09-20 11:26:42 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:26:42 [INFO] build_vector_db - 进度: 1000/6807
-2026-09-20 11:26:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:26:49 [INFO] build_vector_db - 进度: 1100/6807
-2026-09-20 11:26:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:26:55 [INFO] build_vector_db - 进度: 1200/6807
-2026-09-20 11:27:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:27:02 [INFO] build_vector_db - 进度: 1300/6807
-2026-09-20 11:27:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:27:07 [INFO] build_vector_db - 进度: 1400/6807
-2026-09-20 11:27:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:27:13 [INFO] build_vector_db - 进度: 1500/6807
-2026-09-20 11:27:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:27:18 [INFO] build_vector_db - 进度: 1600/6807
-2026-09-20 11:27:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:27:23 [INFO] build_vector_db - 进度: 1700/6807
-2026-09-20 11:27:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:27:30 [INFO] build_vector_db - 进度: 1800/6807
-2026-09-20 11:27:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:27:35 [INFO] build_vector_db - 进度: 1900/6807
-2026-09-20 11:27:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:27:41 [INFO] build_vector_db - 进度: 2000/6807
-2026-09-20 11:27:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:27:46 [INFO] build_vector_db - 进度: 2100/6807
-2026-09-20 11:27:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:27:51 [INFO] build_vector_db - 进度: 2200/6807
-2026-09-20 11:27:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:27:57 [INFO] build_vector_db - 进度: 2300/6807
-2026-09-20 11:28:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:28:02 [INFO] build_vector_db - 进度: 2400/6807
-2026-09-20 11:28:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:28:07 [INFO] build_vector_db - 进度: 2500/6807
-2026-09-20 11:28:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:28:13 [INFO] build_vector_db - 进度: 2600/6807
-2026-09-20 11:28:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:28:18 [INFO] build_vector_db - 进度: 2700/6807
-2026-09-20 11:28:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:28:24 [INFO] build_vector_db - 进度: 2800/6807
-2026-09-20 11:28:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:28:31 [INFO] build_vector_db - 进度: 2900/6807
-2026-09-20 11:28:36 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:28:36 [INFO] build_vector_db - 进度: 3000/6807
-2026-09-20 11:28:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:28:41 [INFO] build_vector_db - 进度: 3100/6807
-2026-09-20 11:28:47 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:28:47 [INFO] build_vector_db - 进度: 3200/6807
-2026-09-20 11:28:52 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:28:52 [INFO] build_vector_db - 进度: 3300/6807
-2026-09-20 11:28:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:28:57 [INFO] build_vector_db - 进度: 3400/6807
-2026-09-20 11:29:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:29:02 [INFO] build_vector_db - 进度: 3500/6807
-2026-09-20 11:29:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:29:07 [INFO] build_vector_db - 进度: 3600/6807
-2026-09-20 11:29:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:29:13 [INFO] build_vector_db - 进度: 3700/6807
-2026-09-20 11:29:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:29:18 [INFO] build_vector_db - 进度: 3800/6807
-2026-09-20 11:29:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:29:23 [INFO] build_vector_db - 进度: 3900/6807
-2026-09-20 11:29:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:29:29 [INFO] build_vector_db - 进度: 4000/6807
-2026-09-20 11:29:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:29:34 [INFO] build_vector_db - 进度: 4100/6807
-2026-09-20 11:29:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:29:41 [INFO] build_vector_db - 进度: 4200/6807
-2026-09-20 11:29:48 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:29:48 [INFO] build_vector_db - 进度: 4300/6807
-2026-09-20 11:29:53 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:29:53 [INFO] build_vector_db - 进度: 4400/6807
-2026-09-20 11:29:58 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:29:58 [INFO] build_vector_db - 进度: 4500/6807
-2026-09-20 11:30:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:30:03 [INFO] build_vector_db - 进度: 4600/6807
-2026-09-20 11:30:08 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:30:08 [INFO] build_vector_db - 进度: 4700/6807
-2026-09-20 11:30:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:30:13 [INFO] build_vector_db - 进度: 4800/6807
-2026-09-20 11:30:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:30:18 [INFO] build_vector_db - 进度: 4900/6807
-2026-09-20 11:30:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:30:24 [INFO] build_vector_db - 进度: 5000/6807
-2026-09-20 11:30:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:30:29 [INFO] build_vector_db - 进度: 5100/6807
-2026-09-20 11:30:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:30:35 [INFO] build_vector_db - 进度: 5200/6807
-2026-09-20 11:30:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:30:40 [INFO] build_vector_db - 进度: 5300/6807
-2026-09-20 11:30:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:30:45 [INFO] build_vector_db - 进度: 5400/6807
-2026-09-20 11:30:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:30:51 [INFO] build_vector_db - 进度: 5500/6807
-2026-09-20 11:30:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:30:56 [INFO] build_vector_db - 进度: 5600/6807
-2026-09-20 11:31:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:31:01 [INFO] build_vector_db - 进度: 5700/6807
-2026-09-20 11:31:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:31:06 [INFO] build_vector_db - 进度: 5800/6807
-2026-09-20 11:31:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:31:12 [INFO] build_vector_db - 进度: 5900/6807
-2026-09-20 11:31:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:31:18 [INFO] build_vector_db - 进度: 6000/6807
-2026-09-20 11:31:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:31:24 [INFO] build_vector_db - 进度: 6100/6807
-2026-09-20 11:31:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:31:29 [INFO] build_vector_db - 进度: 6200/6807
-2026-09-20 11:31:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:31:34 [INFO] build_vector_db - 进度: 6300/6807
-2026-09-20 11:31:39 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:31:39 [INFO] build_vector_db - 进度: 6400/6807
-2026-09-20 11:31:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:31:44 [INFO] build_vector_db - 进度: 6500/6807
-2026-09-20 11:31:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:31:49 [INFO] build_vector_db - 进度: 6600/6807
-2026-09-20 11:31:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:31:55 [INFO] build_vector_db - 进度: 6700/6807
-2026-09-20 11:32:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:32:01 [INFO] build_vector_db - 进度: 6800/6807
-2026-09-20 11:32:02 [INFO] retriever.vector_db - 添加 7 条文本到向量库
-2026-09-20 11:32:02 [INFO] build_vector_db - 进度: 6807/6807
-2026-09-20 11:32:02 [INFO] build_vector_db - 灌库完成，库内共 6807 条
-2026-09-20 11:32:43 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 11:32:45 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 11:32:46 [INFO] retriever.vector_db - ChromaDB 初始化成功
-2026-09-20 11:32:46 [WARNING] tools.deep_tools - 本地向量库不可用: Error executing plan: Error sending backfill request to compactor: Error constructing hnsw segment reader: Error creating hnsw segment reader: Error loading hnsw index
-2026-09-20 11:34:58 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
-2026-09-20 11:35:00 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
-2026-09-20 11:35:25 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 11:35:27 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 11:35:29 [INFO] retriever.vector_db - ChromaDB 初始化成功
-2026-09-20 11:35:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:35:34 [INFO] build_vector_db - 进度: 100/6807
-2026-09-20 11:35:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:35:41 [INFO] build_vector_db - 进度: 200/6807
-2026-09-20 11:35:47 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:35:47 [INFO] build_vector_db - 进度: 300/6807
-2026-09-20 11:35:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:35:54 [INFO] build_vector_db - 进度: 400/6807
-2026-09-20 11:36:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:36:00 [INFO] build_vector_db - 进度: 500/6807
-2026-09-20 11:36:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:36:06 [INFO] build_vector_db - 进度: 600/6807
-2026-09-20 11:36:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:36:13 [INFO] build_vector_db - 进度: 700/6807
-2026-09-20 11:36:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:36:19 [INFO] build_vector_db - 进度: 800/6807
-2026-09-20 11:36:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:36:25 [INFO] build_vector_db - 进度: 900/6807
-2026-09-20 11:36:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:36:31 [INFO] build_vector_db - 进度: 1000/6807
-2026-09-20 11:36:37 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:36:37 [INFO] build_vector_db - 进度: 1100/6807
-2026-09-20 11:36:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:36:44 [INFO] build_vector_db - 进度: 1200/6807
-2026-09-20 11:36:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:36:51 [INFO] build_vector_db - 进度: 1300/6807
-2026-09-20 11:36:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:36:56 [INFO] build_vector_db - 进度: 1400/6807
-2026-09-20 11:37:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:37:02 [INFO] build_vector_db - 进度: 1500/6807
-2026-09-20 11:37:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:37:07 [INFO] build_vector_db - 进度: 1600/6807
-2026-09-20 11:37:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:37:12 [INFO] build_vector_db - 进度: 1700/6807
-2026-09-20 11:37:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:37:18 [INFO] build_vector_db - 进度: 1800/6807
-2026-09-20 11:37:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:37:23 [INFO] build_vector_db - 进度: 1900/6807
-2026-09-20 11:37:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:37:29 [INFO] build_vector_db - 进度: 2000/6807
-2026-09-20 11:37:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:37:34 [INFO] build_vector_db - 进度: 2100/6807
-2026-09-20 11:37:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:37:40 [INFO] build_vector_db - 进度: 2200/6807
-2026-09-20 11:37:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:37:46 [INFO] build_vector_db - 进度: 2300/6807
-2026-09-20 11:37:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:37:51 [INFO] build_vector_db - 进度: 2400/6807
-2026-09-20 11:37:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:37:56 [INFO] build_vector_db - 进度: 2500/6807
-2026-09-20 11:38:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:38:01 [INFO] build_vector_db - 进度: 2600/6807
-2026-09-20 11:38:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:38:07 [INFO] build_vector_db - 进度: 2700/6807
-2026-09-20 11:38:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:38:12 [INFO] build_vector_db - 进度: 2800/6807
-2026-09-20 11:38:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:38:18 [INFO] build_vector_db - 进度: 2900/6807
-2026-09-20 11:38:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:38:24 [INFO] build_vector_db - 进度: 3000/6807
-2026-09-20 11:38:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:38:29 [INFO] build_vector_db - 进度: 3100/6807
-2026-09-20 11:38:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:38:34 [INFO] build_vector_db - 进度: 3200/6807
-2026-09-20 11:38:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:38:40 [INFO] build_vector_db - 进度: 3300/6807
-2026-09-20 11:38:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:38:45 [INFO] build_vector_db - 进度: 3400/6807
-2026-09-20 11:38:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:38:50 [INFO] build_vector_db - 进度: 3500/6807
-2026-09-20 11:38:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:38:55 [INFO] build_vector_db - 进度: 3600/6807
-2026-09-20 11:39:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:39:00 [INFO] build_vector_db - 进度: 3700/6807
-2026-09-20 11:39:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:39:05 [INFO] build_vector_db - 进度: 3800/6807
-2026-09-20 11:39:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:39:10 [INFO] build_vector_db - 进度: 3900/6807
-2026-09-20 11:39:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:39:15 [INFO] build_vector_db - 进度: 4000/6807
-2026-09-20 11:39:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:39:21 [INFO] build_vector_db - 进度: 4100/6807
-2026-09-20 11:39:27 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:39:27 [INFO] build_vector_db - 进度: 4200/6807
-2026-09-20 11:39:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:39:34 [INFO] build_vector_db - 进度: 4300/6807
-2026-09-20 11:39:39 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:39:39 [INFO] build_vector_db - 进度: 4400/6807
-2026-09-20 11:39:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:39:44 [INFO] build_vector_db - 进度: 4500/6807
-2026-09-20 11:39:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:39:50 [INFO] build_vector_db - 进度: 4600/6807
-2026-09-20 11:39:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:39:55 [INFO] build_vector_db - 进度: 4700/6807
-2026-09-20 11:39:59 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:39:59 [INFO] build_vector_db - 进度: 4800/6807
-2026-09-20 11:40:04 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:40:04 [INFO] build_vector_db - 进度: 4900/6807
-2026-09-20 11:40:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:40:10 [INFO] build_vector_db - 进度: 5000/6807
-2026-09-20 11:40:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:40:15 [INFO] build_vector_db - 进度: 5100/6807
-2026-09-20 11:40:20 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:40:20 [INFO] build_vector_db - 进度: 5200/6807
-2026-09-20 11:40:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:40:26 [INFO] build_vector_db - 进度: 5300/6807
-2026-09-20 11:40:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:40:31 [INFO] build_vector_db - 进度: 5400/6807
-2026-09-20 11:40:36 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:40:36 [INFO] build_vector_db - 进度: 5500/6807
-2026-09-20 11:40:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:40:41 [INFO] build_vector_db - 进度: 5600/6807
-2026-09-20 11:40:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:40:46 [INFO] build_vector_db - 进度: 5700/6807
-2026-09-20 11:40:52 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:40:52 [INFO] build_vector_db - 进度: 5800/6807
-2026-09-20 11:40:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:40:57 [INFO] build_vector_db - 进度: 5900/6807
-2026-09-20 11:41:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:41:03 [INFO] build_vector_db - 进度: 6000/6807
-2026-09-20 11:41:08 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:41:08 [INFO] build_vector_db - 进度: 6100/6807
-2026-09-20 11:41:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:41:13 [INFO] build_vector_db - 进度: 6200/6807
-2026-09-20 11:41:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:41:18 [INFO] build_vector_db - 进度: 6300/6807
-2026-09-20 11:41:22 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:41:22 [INFO] build_vector_db - 进度: 6400/6807
-2026-09-20 11:41:27 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:41:27 [INFO] build_vector_db - 进度: 6500/6807
-2026-09-20 11:41:32 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:41:32 [INFO] build_vector_db - 进度: 6600/6807
-2026-09-20 11:41:38 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:41:38 [INFO] build_vector_db - 进度: 6700/6807
-2026-09-20 11:41:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 11:41:45 [INFO] build_vector_db - 进度: 6800/6807
-2026-09-20 11:41:45 [INFO] retriever.vector_db - 添加 7 条文本到向量库
-2026-09-20 11:41:45 [INFO] build_vector_db - 进度: 6807/6807
-2026-09-20 11:41:45 [INFO] build_vector_db - 灌库完成，库内共 6807 条
-2026-09-20 11:42:25 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 11:42:27 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 11:42:28 [INFO] retriever.vector_db - ChromaDB 初始化成功
-2026-09-20 11:42:28 [WARNING] tools.deep_tools - 本地向量库不可用: Error executing plan: Error sending backfill request to compactor: Error constructing hnsw segment reader: Error creating hnsw segment reader: Error loading hnsw index
-2026-09-20 12:17:20 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
-2026-09-20 12:17:21 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
-2026-09-20 12:17:56 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 12:17:58 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 12:18:01 [INFO] retriever.vector_db - ChromaDB 初始化成功
-2026-09-20 12:18:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:18:10 [INFO] build_vector_db - 进度: 100/6807
-2026-09-20 12:18:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:18:17 [INFO] build_vector_db - 进度: 200/6807
-2026-09-20 12:18:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:18:23 [INFO] build_vector_db - 进度: 300/6807
-2026-09-20 12:18:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:18:30 [INFO] build_vector_db - 进度: 400/6807
-2026-09-20 12:18:36 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:18:36 [INFO] build_vector_db - 进度: 500/6807
-2026-09-20 12:18:42 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:18:42 [INFO] build_vector_db - 进度: 600/6807
-2026-09-20 12:18:48 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:18:48 [INFO] build_vector_db - 进度: 700/6807
-2026-09-20 12:18:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:18:54 [INFO] build_vector_db - 进度: 800/6807
-2026-09-20 12:19:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:19:00 [INFO] build_vector_db - 进度: 900/6807
-2026-09-20 12:19:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:19:06 [INFO] build_vector_db - 进度: 1000/6807
-2026-09-20 12:19:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:19:12 [INFO] build_vector_db - 进度: 1100/6807
-2026-09-20 12:19:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:19:19 [INFO] build_vector_db - 进度: 1200/6807
-2026-09-20 12:19:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:19:25 [INFO] build_vector_db - 进度: 1300/6807
-2026-09-20 12:19:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:19:30 [INFO] build_vector_db - 进度: 1400/6807
-2026-09-20 12:19:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:19:35 [INFO] build_vector_db - 进度: 1500/6807
-2026-09-20 12:19:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:19:40 [INFO] build_vector_db - 进度: 1600/6807
-2026-09-20 12:19:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:19:45 [INFO] build_vector_db - 进度: 1700/6807
-2026-09-20 12:19:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:19:51 [INFO] build_vector_db - 进度: 1800/6807
-2026-09-20 12:19:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:19:56 [INFO] build_vector_db - 进度: 1900/6807
-2026-09-20 12:20:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:20:01 [INFO] build_vector_db - 进度: 2000/6807
-2026-09-20 12:20:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:20:06 [INFO] build_vector_db - 进度: 2100/6807
-2026-09-20 12:20:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:20:12 [INFO] build_vector_db - 进度: 2200/6807
-2026-09-20 12:20:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:20:17 [INFO] build_vector_db - 进度: 2300/6807
-2026-09-20 12:20:22 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:20:22 [INFO] build_vector_db - 进度: 2400/6807
-2026-09-20 12:20:27 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:20:27 [INFO] build_vector_db - 进度: 2500/6807
-2026-09-20 12:20:33 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:20:33 [INFO] build_vector_db - 进度: 2600/6807
-2026-09-20 12:20:38 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:20:38 [INFO] build_vector_db - 进度: 2700/6807
-2026-09-20 12:20:43 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:20:43 [INFO] build_vector_db - 进度: 2800/6807
-2026-09-20 12:20:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:20:49 [INFO] build_vector_db - 进度: 2900/6807
-2026-09-20 12:20:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:20:54 [INFO] build_vector_db - 进度: 3000/6807
-2026-09-20 12:20:59 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:20:59 [INFO] build_vector_db - 进度: 3100/6807
-2026-09-20 12:21:04 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:21:04 [INFO] build_vector_db - 进度: 3200/6807
-2026-09-20 12:21:09 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:21:09 [INFO] build_vector_db - 进度: 3300/6807
-2026-09-20 12:21:14 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:21:14 [INFO] build_vector_db - 进度: 3400/6807
-2026-09-20 12:21:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:21:19 [INFO] build_vector_db - 进度: 3500/6807
-2026-09-20 12:21:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:21:23 [INFO] build_vector_db - 进度: 3600/6807
-2026-09-20 12:21:28 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:21:28 [INFO] build_vector_db - 进度: 3700/6807
-2026-09-20 12:21:33 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:21:33 [INFO] build_vector_db - 进度: 3800/6807
-2026-09-20 12:21:38 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:21:38 [INFO] build_vector_db - 进度: 3900/6807
-2026-09-20 12:21:43 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:21:43 [INFO] build_vector_db - 进度: 4000/6807
-2026-09-20 12:21:48 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:21:48 [INFO] build_vector_db - 进度: 4100/6807
-2026-09-20 12:21:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:21:54 [INFO] build_vector_db - 进度: 4200/6807
-2026-09-20 12:22:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:22:01 [INFO] build_vector_db - 进度: 4300/6807
-2026-09-20 12:22:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:22:05 [INFO] build_vector_db - 进度: 4400/6807
-2026-09-20 12:22:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:22:10 [INFO] build_vector_db - 进度: 4500/6807
-2026-09-20 12:22:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:22:15 [INFO] build_vector_db - 进度: 4600/6807
-2026-09-20 12:22:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:22:19 [INFO] build_vector_db - 进度: 4700/6807
-2026-09-20 12:22:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:22:24 [INFO] build_vector_db - 进度: 4800/6807
-2026-09-20 12:22:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:22:29 [INFO] build_vector_db - 进度: 4900/6807
-2026-09-20 12:22:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:22:34 [INFO] build_vector_db - 进度: 5000/6807
-2026-09-20 12:22:39 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:22:39 [INFO] build_vector_db - 进度: 5100/6807
-2026-09-20 12:22:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:22:44 [INFO] build_vector_db - 进度: 5200/6807
-2026-09-20 12:22:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:22:49 [INFO] build_vector_db - 进度: 5300/6807
-2026-09-20 12:22:53 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:22:53 [INFO] build_vector_db - 进度: 5400/6807
-2026-09-20 12:22:58 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:22:58 [INFO] build_vector_db - 进度: 5500/6807
-2026-09-20 12:23:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:23:03 [INFO] build_vector_db - 进度: 5600/6807
-2026-09-20 12:23:08 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:23:08 [INFO] build_vector_db - 进度: 5700/6807
-2026-09-20 12:23:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:23:13 [INFO] build_vector_db - 进度: 5800/6807
-2026-09-20 12:23:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:23:17 [INFO] build_vector_db - 进度: 5900/6807
-2026-09-20 12:23:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:23:23 [INFO] build_vector_db - 进度: 6000/6807
-2026-09-20 12:23:28 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:23:28 [INFO] build_vector_db - 进度: 6100/6807
-2026-09-20 12:23:32 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:23:32 [INFO] build_vector_db - 进度: 6200/6807
-2026-09-20 12:23:37 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:23:37 [INFO] build_vector_db - 进度: 6300/6807
-2026-09-20 12:23:42 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:23:42 [INFO] build_vector_db - 进度: 6400/6807
-2026-09-20 12:23:47 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:23:47 [INFO] build_vector_db - 进度: 6500/6807
-2026-09-20 12:23:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:23:51 [INFO] build_vector_db - 进度: 6600/6807
-2026-09-20 12:23:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:23:57 [INFO] build_vector_db - 进度: 6700/6807
-2026-09-20 12:24:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:24:03 [INFO] build_vector_db - 进度: 6800/6807
-2026-09-20 12:24:03 [INFO] retriever.vector_db - 添加 7 条文本到向量库
-2026-09-20 12:24:03 [INFO] build_vector_db - 进度: 6807/6807
-2026-09-20 12:24:03 [INFO] build_vector_db - 灌库完成，库内共 6807 条
-2026-09-20 12:25:10 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
-2026-09-20 12:25:12 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
-2026-09-20 12:25:41 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 12:25:43 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 12:25:45 [INFO] retriever.vector_db - ChromaDB 初始化成功
-2026-09-20 12:25:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:25:51 [INFO] build_vector_db - 进度: 100/6807
-2026-09-20 12:25:58 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:25:58 [INFO] build_vector_db - 进度: 200/6807
-2026-09-20 12:26:04 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:26:04 [INFO] build_vector_db - 进度: 300/6807
-2026-09-20 12:26:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:26:11 [INFO] build_vector_db - 进度: 400/6807
-2026-09-20 12:26:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:26:17 [INFO] build_vector_db - 进度: 500/6807
-2026-09-20 12:26:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:26:23 [INFO] build_vector_db - 进度: 600/6807
-2026-09-20 12:26:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:26:29 [INFO] build_vector_db - 进度: 700/6807
-2026-09-20 12:26:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:26:35 [INFO] build_vector_db - 进度: 800/6807
-2026-09-20 12:26:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:26:40 [INFO] build_vector_db - 进度: 900/6807
-2026-09-20 12:26:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:26:46 [INFO] build_vector_db - 进度: 1000/6807
-2026-09-20 12:26:52 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:26:52 [INFO] build_vector_db - 进度: 1100/6807
-2026-09-20 12:26:59 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:26:59 [INFO] build_vector_db - 进度: 1200/6807
-2026-09-20 12:27:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:27:05 [INFO] build_vector_db - 进度: 1300/6807
-2026-09-20 12:27:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:27:10 [INFO] build_vector_db - 进度: 1400/6807
-2026-09-20 12:27:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:27:15 [INFO] build_vector_db - 进度: 1500/6807
-2026-09-20 12:27:20 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:27:20 [INFO] build_vector_db - 进度: 1600/6807
-2026-09-20 12:27:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:27:25 [INFO] build_vector_db - 进度: 1700/6807
-2026-09-20 12:27:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:27:31 [INFO] build_vector_db - 进度: 1800/6807
-2026-09-20 12:27:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:27:35 [INFO] build_vector_db - 进度: 1900/6807
-2026-09-20 12:27:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:27:40 [INFO] build_vector_db - 进度: 2000/6807
-2026-09-20 12:27:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:27:45 [INFO] build_vector_db - 进度: 2100/6807
-2026-09-20 12:27:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:27:50 [INFO] build_vector_db - 进度: 2200/6807
-2026-09-20 12:27:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:27:55 [INFO] build_vector_db - 进度: 2300/6807
-2026-09-20 12:28:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:28:00 [INFO] build_vector_db - 进度: 2400/6807
-2026-09-20 12:28:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:28:05 [INFO] build_vector_db - 进度: 2500/6807
-2026-09-20 12:28:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:28:10 [INFO] build_vector_db - 进度: 2600/6807
-2026-09-20 12:28:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:28:15 [INFO] build_vector_db - 进度: 2700/6807
-2026-09-20 12:28:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:28:21 [INFO] build_vector_db - 进度: 2800/6807
-2026-09-20 12:28:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:28:26 [INFO] build_vector_db - 进度: 2900/6807
-2026-09-20 12:28:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:28:31 [INFO] build_vector_db - 进度: 3000/6807
-2026-09-20 12:28:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:28:35 [INFO] build_vector_db - 进度: 3100/6807
-2026-09-20 12:28:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:28:40 [INFO] build_vector_db - 进度: 3200/6807
-2026-09-20 12:28:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:28:46 [INFO] build_vector_db - 进度: 3300/6807
-2026-09-20 12:28:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:28:51 [INFO] build_vector_db - 进度: 3400/6807
-2026-09-20 12:28:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:28:56 [INFO] build_vector_db - 进度: 3500/6807
-2026-09-20 12:29:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:29:01 [INFO] build_vector_db - 进度: 3600/6807
-2026-09-20 12:29:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:29:06 [INFO] build_vector_db - 进度: 3700/6807
-2026-09-20 12:29:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:29:11 [INFO] build_vector_db - 进度: 3800/6807
-2026-09-20 12:29:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:29:16 [INFO] build_vector_db - 进度: 3900/6807
-2026-09-20 12:29:22 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:29:22 [INFO] build_vector_db - 进度: 4000/6807
-2026-09-20 12:29:28 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:29:28 [INFO] build_vector_db - 进度: 4100/6807
-2026-09-20 12:29:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:29:34 [INFO] build_vector_db - 进度: 4200/6807
-2026-09-20 12:29:42 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:29:42 [INFO] build_vector_db - 进度: 4300/6807
-2026-09-20 12:29:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:29:46 [INFO] build_vector_db - 进度: 4400/6807
-2026-09-20 12:29:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:29:51 [INFO] build_vector_db - 进度: 4500/6807
-2026-09-20 12:29:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:29:57 [INFO] build_vector_db - 进度: 4600/6807
-2026-09-20 12:30:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:30:02 [INFO] build_vector_db - 进度: 4700/6807
-2026-09-20 12:30:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:30:06 [INFO] build_vector_db - 进度: 4800/6807
-2026-09-20 12:30:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:30:12 [INFO] build_vector_db - 进度: 4900/6807
-2026-09-20 12:30:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:30:17 [INFO] build_vector_db - 进度: 5000/6807
-2026-09-20 12:30:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:30:23 [INFO] build_vector_db - 进度: 5100/6807
-2026-09-20 12:30:28 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:30:28 [INFO] build_vector_db - 进度: 5200/6807
-2026-09-20 12:30:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:30:34 [INFO] build_vector_db - 进度: 5300/6807
-2026-09-20 12:30:39 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:30:39 [INFO] build_vector_db - 进度: 5400/6807
-2026-09-20 12:30:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:30:44 [INFO] build_vector_db - 进度: 5500/6807
-2026-09-20 12:30:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:30:49 [INFO] build_vector_db - 进度: 5600/6807
-2026-09-20 12:30:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:30:54 [INFO] build_vector_db - 进度: 5700/6807
-2026-09-20 12:31:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:31:00 [INFO] build_vector_db - 进度: 5800/6807
-2026-09-20 12:31:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:31:05 [INFO] build_vector_db - 进度: 5900/6807
-2026-09-20 12:31:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:31:11 [INFO] build_vector_db - 进度: 6000/6807
-2026-09-20 12:31:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:31:16 [INFO] build_vector_db - 进度: 6100/6807
-2026-09-20 12:31:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:31:21 [INFO] build_vector_db - 进度: 6200/6807
-2026-09-20 12:31:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:31:26 [INFO] build_vector_db - 进度: 6300/6807
-2026-09-20 12:31:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:31:31 [INFO] build_vector_db - 进度: 6400/6807
-2026-09-20 12:31:36 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:31:36 [INFO] build_vector_db - 进度: 6500/6807
-2026-09-20 12:31:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:31:41 [INFO] build_vector_db - 进度: 6600/6807
-2026-09-20 12:31:47 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:31:47 [INFO] build_vector_db - 进度: 6700/6807
-2026-09-20 12:31:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 12:31:54 [INFO] build_vector_db - 进度: 6800/6807
-2026-09-20 12:31:54 [INFO] retriever.vector_db - 添加 7 条文本到向量库
-2026-09-20 12:31:54 [INFO] build_vector_db - 进度: 6807/6807
-2026-09-20 12:31:54 [INFO] build_vector_db - 灌库完成，库内共 6807 条
-2026-09-20 12:31:54 [INFO] build_vector_db - Chroma 索引落盘完成
-2026-09-20 12:49:48 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 12:49:50 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 12:51:31 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 12:51:33 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 12:53:26 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 12:53:28 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 12:56:00 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 12:56:02 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:00:20 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:00:21 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:04:46 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:04:48 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:10:48 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
-2026-09-20 13:10:50 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
-2026-09-20 13:11:25 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:11:27 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:11:29 [INFO] retriever.vector_db - ChromaDB 初始化成功，1 个分片
-2026-09-20 13:11:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:11:35 [INFO] build_vector_db - 进度: 100/6807
-2026-09-20 13:11:42 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:11:42 [INFO] build_vector_db - 进度: 200/6807
-2026-09-20 13:11:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:11:49 [INFO] build_vector_db - 进度: 300/6807
-2026-09-20 13:11:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:11:55 [INFO] build_vector_db - 进度: 400/6807
-2026-09-20 13:12:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:12:01 [INFO] build_vector_db - 进度: 500/6807
-2026-09-20 13:12:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:12:07 [INFO] build_vector_db - 进度: 600/6807
-2026-09-20 13:12:14 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:12:14 [INFO] build_vector_db - 进度: 700/6807
-2026-09-20 13:12:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:12:19 [INFO] build_vector_db - 进度: 800/6807
-2026-09-20 13:12:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:12:25 [INFO] build_vector_db - 进度: 900/6807
-2026-09-20 13:12:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:12:31 [INFO] build_vector_db - 进度: 1000/6807
-2026-09-20 13:12:37 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:12:37 [INFO] build_vector_db - 进度: 1100/6807
-2026-09-20 13:12:43 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:12:43 [INFO] build_vector_db - 进度: 1200/6807
-2026-09-20 13:12:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:12:49 [INFO] build_vector_db - 进度: 1300/6807
-2026-09-20 13:12:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:12:55 [INFO] build_vector_db - 进度: 1400/6807
-2026-09-20 13:13:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:13:00 [INFO] build_vector_db - 进度: 1500/6807
-2026-09-20 13:13:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:13:05 [INFO] build_vector_db - 进度: 1600/6807
-2026-09-20 13:13:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:13:10 [INFO] build_vector_db - 进度: 1700/6807
-2026-09-20 13:13:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:13:16 [INFO] build_vector_db - 进度: 1800/6807
-2026-09-20 13:13:20 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:13:20 [INFO] build_vector_db - 进度: 1900/6807
-2026-09-20 13:13:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:13:25 [INFO] build_vector_db - 进度: 2000/6807
-2026-09-20 13:13:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:13:30 [INFO] build_vector_db - 进度: 2100/6807
-2026-09-20 13:13:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:13:35 [INFO] build_vector_db - 进度: 2200/6807
-2026-09-20 13:13:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:13:41 [INFO] build_vector_db - 进度: 2300/6807
-2026-09-20 13:13:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:13:45 [INFO] build_vector_db - 进度: 2400/6807
-2026-09-20 13:13:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:13:51 [INFO] build_vector_db - 进度: 2500/6807
-2026-09-20 13:13:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:13:56 [INFO] build_vector_db - 进度: 2600/6807
-2026-09-20 13:14:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:14:00 [INFO] build_vector_db - 进度: 2700/6807
-2026-09-20 13:14:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:14:06 [INFO] build_vector_db - 进度: 2800/6807
-2026-09-20 13:14:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:14:12 [INFO] build_vector_db - 进度: 2900/6807
-2026-09-20 13:14:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:14:16 [INFO] build_vector_db - 进度: 3000/6807
-2026-09-20 13:14:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:14:21 [INFO] build_vector_db - 进度: 3100/6807
-2026-09-20 13:14:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:14:26 [INFO] build_vector_db - 进度: 3200/6807
-2026-09-20 13:14:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:14:31 [INFO] build_vector_db - 进度: 3300/6807
-2026-09-20 13:14:36 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:14:36 [INFO] build_vector_db - 进度: 3400/6807
-2026-09-20 13:14:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:14:41 [INFO] build_vector_db - 进度: 3500/6807
-2026-09-20 13:14:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:14:45 [INFO] build_vector_db - 进度: 3600/6807
-2026-09-20 13:14:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:14:50 [INFO] build_vector_db - 进度: 3700/6807
-2026-09-20 13:14:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:14:55 [INFO] build_vector_db - 进度: 3800/6807
-2026-09-20 13:15:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:15:00 [INFO] build_vector_db - 进度: 3900/6807
-2026-09-20 13:15:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:15:05 [INFO] build_vector_db - 进度: 4000/6807
-2026-09-20 13:15:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:15:11 [INFO] build_vector_db - 进度: 4100/6807
-2026-09-20 13:15:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:15:17 [INFO] build_vector_db - 进度: 4200/6807
-2026-09-20 13:15:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:15:23 [INFO] build_vector_db - 进度: 4300/6807
-2026-09-20 13:15:28 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:15:28 [INFO] build_vector_db - 进度: 4400/6807
-2026-09-20 13:15:33 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:15:33 [INFO] build_vector_db - 进度: 4500/6807
-2026-09-20 13:15:37 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:15:37 [INFO] build_vector_db - 进度: 4600/6807
-2026-09-20 13:15:42 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:15:42 [INFO] build_vector_db - 进度: 4700/6807
-2026-09-20 13:15:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:15:46 [INFO] build_vector_db - 进度: 4800/6807
-2026-09-20 13:15:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:15:51 [INFO] build_vector_db - 进度: 4900/6807
-2026-09-20 13:15:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:15:57 [INFO] build_vector_db - 进度: 5000/6807
-2026-09-20 13:16:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:16:02 [INFO] build_vector_db - 进度: 5100/6807
-2026-09-20 13:16:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:16:07 [INFO] build_vector_db - 进度: 5200/6807
-2026-09-20 13:16:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:16:12 [INFO] build_vector_db - 进度: 5300/6807
-2026-09-20 13:16:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:16:16 [INFO] build_vector_db - 进度: 5400/6807
-2026-09-20 13:16:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:16:21 [INFO] build_vector_db - 进度: 5500/6807
-2026-09-20 13:16:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:16:26 [INFO] build_vector_db - 进度: 5600/6807
-2026-09-20 13:16:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:16:31 [INFO] build_vector_db - 进度: 5700/6807
-2026-09-20 13:16:36 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:16:36 [INFO] build_vector_db - 进度: 5800/6807
-2026-09-20 13:16:41 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:16:41 [INFO] build_vector_db - 进度: 5900/6807
-2026-09-20 13:16:47 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:16:47 [INFO] build_vector_db - 进度: 6000/6807
-2026-09-20 13:16:52 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:16:52 [INFO] build_vector_db - 进度: 6100/6807
-2026-09-20 13:16:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:16:57 [INFO] build_vector_db - 进度: 6200/6807
-2026-09-20 13:17:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:17:02 [INFO] build_vector_db - 进度: 6300/6807
-2026-09-20 13:17:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:17:07 [INFO] build_vector_db - 进度: 6400/6807
-2026-09-20 13:17:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:17:13 [INFO] build_vector_db - 进度: 6500/6807
-2026-09-20 13:17:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:17:18 [INFO] build_vector_db - 进度: 6600/6807
-2026-09-20 13:17:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:17:24 [INFO] build_vector_db - 进度: 6700/6807
-2026-09-20 13:17:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:17:30 [INFO] build_vector_db - 进度: 6800/6807
-2026-09-20 13:17:31 [INFO] retriever.vector_db - 添加 7 条文本到向量库
-2026-09-20 13:17:31 [INFO] build_vector_db - 进度: 6807/6807
-2026-09-20 13:17:31 [INFO] build_vector_db - 灌库完成，库内共 6807 条
-2026-09-20 13:17:31 [INFO] build_vector_db - Chroma 索引落盘完成
-2026-09-20 13:18:34 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:18:36 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:18:36 [INFO] retriever.vector_db - ChromaDB 初始化成功，18 个分片
-2026-09-20 13:18:36 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
-2026-09-20 13:18:36 [ERROR] retriever.vector_db - 向量检索失败: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
-2026-09-20 13:20:15 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:20:17 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:20:19 [INFO] retriever.vector_db - ChromaDB 初始化成功，1 个分片
-2026-09-20 13:20:41 [INFO] retriever.vector_db - 添加 500 条文本到向量库
-2026-09-20 13:22:28 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:22:30 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:22:32 [INFO] retriever.vector_db - ChromaDB 初始化成功，2 个分片
-2026-09-20 13:22:57 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
-2026-09-20 13:22:58 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
-2026-09-20 13:23:34 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:23:36 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:23:38 [INFO] retriever.vector_db - ChromaDB 初始化成功，1 个分片
-2026-09-20 13:23:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:23:44 [INFO] build_vector_db - 进度: 100/6807
-2026-09-20 13:23:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:23:51 [INFO] build_vector_db - 进度: 200/6807
-2026-09-20 13:23:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:23:57 [INFO] build_vector_db - 进度: 300/6807
-2026-09-20 13:24:04 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:24:04 [INFO] build_vector_db - 进度: 400/6807
-2026-09-20 13:24:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:24:11 [INFO] build_vector_db - 进度: 500/6807
-2026-09-20 13:24:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:24:18 [INFO] build_vector_db - 进度: 600/6807
-2026-09-20 13:24:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:24:25 [INFO] build_vector_db - 进度: 700/6807
-2026-09-20 13:24:31 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:24:31 [INFO] build_vector_db - 进度: 800/6807
-2026-09-20 13:24:37 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:24:37 [INFO] build_vector_db - 进度: 900/6807
-2026-09-20 13:24:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:24:44 [INFO] build_vector_db - 进度: 1000/6807
-2026-09-20 13:24:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:24:51 [INFO] build_vector_db - 进度: 1100/6807
-2026-09-20 13:24:58 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:24:58 [INFO] build_vector_db - 进度: 1200/6807
-2026-09-20 13:25:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:25:05 [INFO] build_vector_db - 进度: 1300/6807
-2026-09-20 13:25:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:25:10 [INFO] build_vector_db - 进度: 1400/6807
-2026-09-20 13:25:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:25:16 [INFO] build_vector_db - 进度: 1500/6807
-2026-09-20 13:25:22 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:25:22 [INFO] build_vector_db - 进度: 1600/6807
-2026-09-20 13:25:27 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:25:27 [INFO] build_vector_db - 进度: 1700/6807
-2026-09-20 13:25:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:25:34 [INFO] build_vector_db - 进度: 1800/6807
-2026-09-20 13:25:39 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:25:39 [INFO] build_vector_db - 进度: 1900/6807
-2026-09-20 13:25:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:25:44 [INFO] build_vector_db - 进度: 2000/6807
-2026-09-20 13:25:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:25:50 [INFO] build_vector_db - 进度: 2100/6807
-2026-09-20 13:25:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:25:55 [INFO] build_vector_db - 进度: 2200/6807
-2026-09-20 13:26:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:26:01 [INFO] build_vector_db - 进度: 2300/6807
-2026-09-20 13:26:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:26:06 [INFO] build_vector_db - 进度: 2400/6807
-2026-09-20 13:26:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:26:12 [INFO] build_vector_db - 进度: 2500/6807
-2026-09-20 13:26:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:26:17 [INFO] build_vector_db - 进度: 2600/6807
-2026-09-20 13:26:22 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:26:22 [INFO] build_vector_db - 进度: 2700/6807
-2026-09-20 13:26:28 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:26:28 [INFO] build_vector_db - 进度: 2800/6807
-2026-09-20 13:26:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:26:34 [INFO] build_vector_db - 进度: 2900/6807
-2026-09-20 13:26:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:26:40 [INFO] build_vector_db - 进度: 3000/6807
-2026-09-20 13:26:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:26:45 [INFO] build_vector_db - 进度: 3100/6807
-2026-09-20 13:26:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:26:50 [INFO] build_vector_db - 进度: 3200/6807
-2026-09-20 13:26:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:26:55 [INFO] build_vector_db - 进度: 3300/6807
-2026-09-20 13:27:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:27:01 [INFO] build_vector_db - 进度: 3400/6807
-2026-09-20 13:27:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:27:06 [INFO] build_vector_db - 进度: 3500/6807
-2026-09-20 13:27:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:27:11 [INFO] build_vector_db - 进度: 3600/6807
-2026-09-20 13:27:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:27:16 [INFO] build_vector_db - 进度: 3700/6807
-2026-09-20 13:27:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:27:21 [INFO] build_vector_db - 进度: 3800/6807
-2026-09-20 13:27:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:27:26 [INFO] build_vector_db - 进度: 3900/6807
-2026-09-20 13:27:32 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:27:32 [INFO] build_vector_db - 进度: 4000/6807
-2026-09-20 13:27:38 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:27:38 [INFO] build_vector_db - 进度: 4100/6807
-2026-09-20 13:27:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:27:45 [INFO] build_vector_db - 进度: 4200/6807
-2026-09-20 13:27:52 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:27:52 [INFO] build_vector_db - 进度: 4300/6807
-2026-09-20 13:27:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:27:57 [INFO] build_vector_db - 进度: 4400/6807
-2026-09-20 13:28:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:28:02 [INFO] build_vector_db - 进度: 4500/6807
-2026-09-20 13:28:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:28:07 [INFO] build_vector_db - 进度: 4600/6807
-2026-09-20 13:28:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:28:12 [INFO] build_vector_db - 进度: 4700/6807
-2026-09-20 13:28:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:28:17 [INFO] build_vector_db - 进度: 4800/6807
-2026-09-20 13:28:22 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:28:22 [INFO] build_vector_db - 进度: 4900/6807
-2026-09-20 13:28:28 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:28:28 [INFO] build_vector_db - 进度: 5000/6807
-2026-09-20 13:28:33 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:28:33 [INFO] build_vector_db - 进度: 5100/6807
-2026-09-20 13:28:39 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:28:39 [INFO] build_vector_db - 进度: 5200/6807
-2026-09-20 13:28:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:28:44 [INFO] build_vector_db - 进度: 5300/6807
-2026-09-20 13:28:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:28:49 [INFO] build_vector_db - 进度: 5400/6807
-2026-09-20 13:28:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:28:54 [INFO] build_vector_db - 进度: 5500/6807
-2026-09-20 13:29:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:29:00 [INFO] build_vector_db - 进度: 5600/6807
-2026-09-20 13:29:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:29:05 [INFO] build_vector_db - 进度: 5700/6807
-2026-09-20 13:29:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:29:10 [INFO] build_vector_db - 进度: 5800/6807
-2026-09-20 13:29:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:29:15 [INFO] build_vector_db - 进度: 5900/6807
-2026-09-20 13:29:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:29:21 [INFO] build_vector_db - 进度: 6000/6807
-2026-09-20 13:29:27 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:29:27 [INFO] build_vector_db - 进度: 6100/6807
-2026-09-20 13:29:32 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:29:32 [INFO] build_vector_db - 进度: 6200/6807
-2026-09-20 13:29:37 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:29:37 [INFO] build_vector_db - 进度: 6300/6807
-2026-09-20 13:29:42 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:29:42 [INFO] build_vector_db - 进度: 6400/6807
-2026-09-20 13:29:47 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:29:47 [INFO] build_vector_db - 进度: 6500/6807
-2026-09-20 13:29:52 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:29:52 [INFO] build_vector_db - 进度: 6600/6807
-2026-09-20 13:29:58 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:29:58 [INFO] build_vector_db - 进度: 6700/6807
-2026-09-20 13:30:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:30:05 [INFO] build_vector_db - 进度: 6800/6807
-2026-09-20 13:30:05 [INFO] retriever.vector_db - 添加 7 条文本到向量库
-2026-09-20 13:30:05 [INFO] build_vector_db - 进度: 6807/6807
-2026-09-20 13:30:05 [INFO] build_vector_db - 灌库完成，库内共 6807 条
-2026-09-20 13:30:05 [INFO] build_vector_db - 等待 Chroma 索引落盘（60 秒）...
-2026-09-20 13:31:05 [INFO] build_vector_db - Chroma 索引落盘等待结束
-2026-09-20 13:31:50 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:31:52 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:31:52 [INFO] retriever.vector_db - ChromaDB 初始化成功，18 个分片
-2026-09-20 13:31:52 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
-2026-09-20 13:32:49 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:32:51 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:32:52 [INFO] retriever.vector_db - ChromaDB 初始化成功，18 个分片
-2026-09-20 13:32:53 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
-2026-09-20 13:32:53 [ERROR] retriever.vector_db - 向量检索失败: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
-2026-09-20 13:33:55 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:33:57 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:33:59 [INFO] retriever.vector_db - ChromaDB 初始化成功，18 个分片
-2026-09-20 13:33:59 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
-2026-09-20 13:33:59 [ERROR] retriever.vector_db - 向量检索失败: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
-2026-09-20 13:34:01 [ERROR] retriever.vector_db - 向量检索失败: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
-2026-09-20 13:34:03 [ERROR] retriever.vector_db - 向量检索失败: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
-2026-09-20 13:34:05 [ERROR] retriever.vector_db - 向量检索失败: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
-2026-09-20 13:36:32 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
-2026-09-20 13:36:33 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
-2026-09-20 13:37:01 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:37:03 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:37:04 [INFO] retriever.vector_db - ChromaDB 初始化成功，1 个分片
-2026-09-20 13:37:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:37:10 [INFO] build_vector_db - 进度: 100/6807
-2026-09-20 13:37:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:37:18 [INFO] build_vector_db - 进度: 200/6807
-2026-09-20 13:37:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:37:24 [INFO] build_vector_db - 进度: 300/6807
-2026-09-20 13:37:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:37:30 [INFO] build_vector_db - 进度: 400/6807
-2026-09-20 13:37:37 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:37:37 [INFO] build_vector_db - 进度: 500/6807
-2026-09-20 13:37:43 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:37:43 [INFO] build_vector_db - 进度: 600/6807
-2026-09-20 13:37:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:37:49 [INFO] build_vector_db - 进度: 700/6807
-2026-09-20 13:37:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:37:55 [INFO] build_vector_db - 进度: 800/6807
-2026-09-20 13:38:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:38:00 [INFO] build_vector_db - 进度: 900/6807
-2026-09-20 13:38:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:38:06 [INFO] build_vector_db - 进度: 1000/6807
-2026-09-20 13:38:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:38:12 [INFO] build_vector_db - 进度: 1100/6807
-2026-09-20 13:38:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:38:18 [INFO] build_vector_db - 进度: 1200/6807
-2026-09-20 13:38:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:38:25 [INFO] build_vector_db - 进度: 1300/6807
-2026-09-20 13:38:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:38:30 [INFO] build_vector_db - 进度: 1400/6807
-2026-09-20 13:38:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:38:35 [INFO] build_vector_db - 进度: 1500/6807
-2026-09-20 13:38:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:38:40 [INFO] build_vector_db - 进度: 1600/6807
-2026-09-20 13:38:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:38:45 [INFO] build_vector_db - 进度: 1700/6807
-2026-09-20 13:38:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:38:50 [INFO] build_vector_db - 进度: 1800/6807
-2026-09-20 13:38:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:38:55 [INFO] build_vector_db - 进度: 1900/6807
-2026-09-20 13:39:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:39:00 [INFO] build_vector_db - 进度: 2000/6807
-2026-09-20 13:39:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:39:05 [INFO] build_vector_db - 进度: 2100/6807
-2026-09-20 13:39:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:39:10 [INFO] build_vector_db - 进度: 2200/6807
-2026-09-20 13:39:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:39:15 [INFO] build_vector_db - 进度: 2300/6807
-2026-09-20 13:39:20 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:39:20 [INFO] build_vector_db - 进度: 2400/6807
-2026-09-20 13:39:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:39:25 [INFO] build_vector_db - 进度: 2500/6807
-2026-09-20 13:39:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:39:30 [INFO] build_vector_db - 进度: 2600/6807
-2026-09-20 13:39:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:39:35 [INFO] build_vector_db - 进度: 2700/6807
-2026-09-20 13:39:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:39:40 [INFO] build_vector_db - 进度: 2800/6807
-2026-09-20 13:39:46 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:39:46 [INFO] build_vector_db - 进度: 2900/6807
-2026-09-20 13:39:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:39:51 [INFO] build_vector_db - 进度: 3000/6807
-2026-09-20 13:39:55 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:39:55 [INFO] build_vector_db - 进度: 3100/6807
-2026-09-20 13:40:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:40:00 [INFO] build_vector_db - 进度: 3200/6807
-2026-09-20 13:40:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:40:05 [INFO] build_vector_db - 进度: 3300/6807
-2026-09-20 13:40:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:40:10 [INFO] build_vector_db - 进度: 3400/6807
-2026-09-20 13:40:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:40:15 [INFO] build_vector_db - 进度: 3500/6807
-2026-09-20 13:40:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:40:19 [INFO] build_vector_db - 进度: 3600/6807
-2026-09-20 13:40:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:40:24 [INFO] build_vector_db - 进度: 3700/6807
-2026-09-20 13:40:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:40:29 [INFO] build_vector_db - 进度: 3800/6807
-2026-09-20 13:40:34 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:40:34 [INFO] build_vector_db - 进度: 3900/6807
-2026-09-20 13:40:39 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:40:39 [INFO] build_vector_db - 进度: 4000/6807
-2026-09-20 13:40:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:40:44 [INFO] build_vector_db - 进度: 4100/6807
-2026-09-20 13:40:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:40:50 [INFO] build_vector_db - 进度: 4200/6807
-2026-09-20 13:40:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:40:57 [INFO] build_vector_db - 进度: 4300/6807
-2026-09-20 13:41:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:41:01 [INFO] build_vector_db - 进度: 4400/6807
-2026-09-20 13:41:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:41:06 [INFO] build_vector_db - 进度: 4500/6807
-2026-09-20 13:41:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:41:10 [INFO] build_vector_db - 进度: 4600/6807
-2026-09-20 13:41:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:41:15 [INFO] build_vector_db - 进度: 4700/6807
-2026-09-20 13:41:20 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:41:20 [INFO] build_vector_db - 进度: 4800/6807
-2026-09-20 13:41:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:41:24 [INFO] build_vector_db - 进度: 4900/6807
-2026-09-20 13:41:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:41:29 [INFO] build_vector_db - 进度: 5000/6807
-2026-09-20 13:41:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:41:35 [INFO] build_vector_db - 进度: 5100/6807
-2026-09-20 13:41:40 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:41:40 [INFO] build_vector_db - 进度: 5200/6807
-2026-09-20 13:41:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:41:45 [INFO] build_vector_db - 进度: 5300/6807
-2026-09-20 13:41:49 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:41:49 [INFO] build_vector_db - 进度: 5400/6807
-2026-09-20 13:41:54 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:41:54 [INFO] build_vector_db - 进度: 5500/6807
-2026-09-20 13:41:59 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:41:59 [INFO] build_vector_db - 进度: 5600/6807
-2026-09-20 13:42:04 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:42:04 [INFO] build_vector_db - 进度: 5700/6807
-2026-09-20 13:42:09 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:42:09 [INFO] build_vector_db - 进度: 5800/6807
-2026-09-20 13:42:14 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:42:14 [INFO] build_vector_db - 进度: 5900/6807
-2026-09-20 13:42:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:42:19 [INFO] build_vector_db - 进度: 6000/6807
-2026-09-20 13:42:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:42:24 [INFO] build_vector_db - 进度: 6100/6807
-2026-09-20 13:42:30 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:42:30 [INFO] build_vector_db - 进度: 6200/6807
-2026-09-20 13:42:35 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:42:35 [INFO] build_vector_db - 进度: 6300/6807
-2026-09-20 13:42:39 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:42:39 [INFO] build_vector_db - 进度: 6400/6807
-2026-09-20 13:42:45 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:42:45 [INFO] build_vector_db - 进度: 6500/6807
-2026-09-20 13:42:50 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:42:50 [INFO] build_vector_db - 进度: 6600/6807
-2026-09-20 13:42:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:42:56 [INFO] build_vector_db - 进度: 6700/6807
-2026-09-20 13:43:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 13:43:02 [INFO] build_vector_db - 进度: 6800/6807
-2026-09-20 13:43:03 [INFO] retriever.vector_db - 添加 7 条文本到向量库
-2026-09-20 13:43:03 [INFO] build_vector_db - 进度: 6807/6807
-2026-09-20 13:43:03 [INFO] build_vector_db - 灌库完成，库内共 6807 条
-2026-09-20 13:43:03 [INFO] build_vector_db - 等待 Chroma 索引落盘（60 秒）...
-2026-09-20 13:44:03 [INFO] build_vector_db - Chroma 索引落盘等待结束
-2026-09-20 13:45:09 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:45:11 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:45:12 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
-2026-09-20 13:45:12 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
-2026-09-20 13:45:13 [ERROR] retriever.vector_db - 向量检索失败: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
-2026-09-20 13:46:15 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:46:17 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:47:13 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:47:15 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:47:17 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
-2026-09-20 13:48:08 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:48:10 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:48:12 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
-2026-09-20 13:51:24 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:51:26 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:51:28 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
-2026-09-20 13:52:16 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:52:18 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:52:19 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
-2026-09-20 13:52:20 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
-2026-09-20 13:52:20 [ERROR] retriever.vector_db - 向量检索失败: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
-2026-09-20 13:53:24 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:53:26 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:53:27 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
-2026-09-20 13:53:28 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
-2026-09-20 13:54:54 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 13:54:55 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 13:54:57 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
-2026-09-20 13:54:57 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
-2026-09-20 14:04:13 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 14:04:15 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 14:04:16 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
-2026-09-20 14:04:18 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 14:04:20 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 14:04:20 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
-2026-09-20 14:04:20 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
-2026-09-20 14:04:20 [WARNING] retriever.vector_db - 分片 drug_atc_knowledge_shard_2 检索失败，跳过: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
-2026-09-20 14:04:20 [WARNING] retriever.vector_db - 分片 drug_atc_knowledge_shard_6 检索失败，跳过: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
-2026-09-20 14:04:20 [WARNING] retriever.vector_db - 分片 drug_atc_knowledge_shard_7 检索失败，跳过: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
-2026-09-20 14:06:35 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 14:06:37 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 14:06:38 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
-2026-09-20 14:06:39 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
-2026-09-20 14:06:40 [WARNING] retriever.vector_db - 分片 drug_atc_knowledge_shard_3 检索失败，跳过: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
-2026-09-20 14:15:29 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 14:15:31 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 14:15:32 [INFO] retriever.vector_db - ChromaDB 初始化成功，1 个分片
-2026-09-20 14:15:32 [INFO] tools.deep_tools - 本地向量库就绪，共 0 条知识
-2026-09-20 14:26:02 [INFO] build_vector_db - 知识文件: D:\桌面\药物MappingATC\drug_Agent - 副本\data\knowledge\ATC.csv
-2026-09-20 14:26:03 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
-2026-09-20 14:27:32 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 14:27:34 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 14:27:35 [INFO] retriever.vector_db - ChromaDB 初始化成功，1 个分片
-2026-09-20 14:27:44 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 14:27:44 [INFO] build_vector_db - 进度: 100/6807
-2026-09-20 14:27:51 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 14:27:51 [INFO] build_vector_db - 进度: 200/6807
-2026-09-20 14:27:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 14:27:57 [INFO] build_vector_db - 进度: 300/6807
-2026-09-20 14:28:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
-2026-09-20 14:28:03 [INFO] build_vector_db - 进度: 400/6807
-2026-09-20 15:17:17 [INFO] retriever.embedding - 加载本地 Embedding 模型: D:\桌面\药物MappingATC\drug_Agent - 副本\model\BAAI\bge-m3
-2026-09-20 15:17:19 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
-2026-09-20 15:17:21 [INFO] retriever.vector_db - ChromaDB 初始化成功，1 个分片
-2026-09-20 15:17:21 [INFO] tools.deep_tools - 本地向量库就绪，共 0 条知识
+2026-09-23 15:28:45 [INFO] build_vector_db - 知识文件: /home/huangjinxin/MED_ATC_Agent/drug_deepagengts/data/knowledge/ATC.csv
+2026-09-23 15:28:45 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
+2026-09-23 15:28:50 [INFO] retriever.embedding - 加载本地 Embedding 模型: /home/huangjinxin/deepagengts_drug/model/BAAI/bge-m3
+2026-09-23 15:29:45 [INFO] build_vector_db - 知识文件: /home/huangjinxin/MED_ATC_Agent/drug_deepagengts/data/knowledge/ATC.csv
+2026-09-23 15:29:46 [INFO] build_vector_db - CSV 读取成功（编码: utf-8-sig），共 6807 行
+2026-09-23 15:29:51 [INFO] retriever.embedding - 加载本地 Embedding 模型: /home/huangjinxin/MED_ATC_Agent/drug_deepagengts/model/BAAI/bge-m3
+2026-09-23 15:29:54 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-23 15:29:55 [INFO] retriever.vector_db - ChromaDB 初始化成功，1 个分片
+2026-09-23 15:29:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:29:56 [INFO] build_vector_db - 进度: 100/6807
+2026-09-23 15:29:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:29:56 [INFO] build_vector_db - 进度: 200/6807
+2026-09-23 15:29:56 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:29:56 [INFO] build_vector_db - 进度: 300/6807
+2026-09-23 15:29:57 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:29:57 [INFO] build_vector_db - 进度: 400/6807
+2026-09-23 15:29:58 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:29:58 [INFO] build_vector_db - 进度: 500/6807
+2026-09-23 15:29:58 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:29:58 [INFO] build_vector_db - 进度: 600/6807
+2026-09-23 15:29:59 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:29:59 [INFO] build_vector_db - 进度: 700/6807
+2026-09-23 15:29:59 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:29:59 [INFO] build_vector_db - 进度: 800/6807
+2026-09-23 15:30:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:00 [INFO] build_vector_db - 进度: 900/6807
+2026-09-23 15:30:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:00 [INFO] build_vector_db - 进度: 1000/6807
+2026-09-23 15:30:00 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:01 [INFO] build_vector_db - 进度: 1100/6807
+2026-09-23 15:30:01 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:01 [INFO] build_vector_db - 进度: 1200/6807
+2026-09-23 15:30:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:02 [INFO] build_vector_db - 进度: 1300/6807
+2026-09-23 15:30:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:02 [INFO] build_vector_db - 进度: 1400/6807
+2026-09-23 15:30:02 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:02 [INFO] build_vector_db - 进度: 1500/6807
+2026-09-23 15:30:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:03 [INFO] build_vector_db - 进度: 1600/6807
+2026-09-23 15:30:03 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:03 [INFO] build_vector_db - 进度: 1700/6807
+2026-09-23 15:30:04 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:04 [INFO] build_vector_db - 进度: 1800/6807
+2026-09-23 15:30:04 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:04 [INFO] build_vector_db - 进度: 1900/6807
+2026-09-23 15:30:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:05 [INFO] build_vector_db - 进度: 2000/6807
+2026-09-23 15:30:05 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:05 [INFO] build_vector_db - 进度: 2100/6807
+2026-09-23 15:30:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:06 [INFO] build_vector_db - 进度: 2200/6807
+2026-09-23 15:30:06 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:06 [INFO] build_vector_db - 进度: 2300/6807
+2026-09-23 15:30:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:07 [INFO] build_vector_db - 进度: 2400/6807
+2026-09-23 15:30:07 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:07 [INFO] build_vector_db - 进度: 2500/6807
+2026-09-23 15:30:08 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:08 [INFO] build_vector_db - 进度: 2600/6807
+2026-09-23 15:30:08 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:08 [INFO] build_vector_db - 进度: 2700/6807
+2026-09-23 15:30:09 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:09 [INFO] build_vector_db - 进度: 2800/6807
+2026-09-23 15:30:09 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:09 [INFO] build_vector_db - 进度: 2900/6807
+2026-09-23 15:30:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:10 [INFO] build_vector_db - 进度: 3000/6807
+2026-09-23 15:30:10 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:10 [INFO] build_vector_db - 进度: 3100/6807
+2026-09-23 15:30:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:11 [INFO] build_vector_db - 进度: 3200/6807
+2026-09-23 15:30:11 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:11 [INFO] build_vector_db - 进度: 3300/6807
+2026-09-23 15:30:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:12 [INFO] build_vector_db - 进度: 3400/6807
+2026-09-23 15:30:12 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:12 [INFO] build_vector_db - 进度: 3500/6807
+2026-09-23 15:30:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:13 [INFO] build_vector_db - 进度: 3600/6807
+2026-09-23 15:30:13 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:13 [INFO] build_vector_db - 进度: 3700/6807
+2026-09-23 15:30:14 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:14 [INFO] build_vector_db - 进度: 3800/6807
+2026-09-23 15:30:14 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:14 [INFO] build_vector_db - 进度: 3900/6807
+2026-09-23 15:30:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:15 [INFO] build_vector_db - 进度: 4000/6807
+2026-09-23 15:30:15 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:15 [INFO] build_vector_db - 进度: 4100/6807
+2026-09-23 15:30:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:16 [INFO] build_vector_db - 进度: 4200/6807
+2026-09-23 15:30:16 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:16 [INFO] build_vector_db - 进度: 4300/6807
+2026-09-23 15:30:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:17 [INFO] build_vector_db - 进度: 4400/6807
+2026-09-23 15:30:17 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:17 [INFO] build_vector_db - 进度: 4500/6807
+2026-09-23 15:30:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:18 [INFO] build_vector_db - 进度: 4600/6807
+2026-09-23 15:30:18 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:18 [INFO] build_vector_db - 进度: 4700/6807
+2026-09-23 15:30:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:19 [INFO] build_vector_db - 进度: 4800/6807
+2026-09-23 15:30:19 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:19 [INFO] build_vector_db - 进度: 4900/6807
+2026-09-23 15:30:20 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:20 [INFO] build_vector_db - 进度: 5000/6807
+2026-09-23 15:30:20 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:20 [INFO] build_vector_db - 进度: 5100/6807
+2026-09-23 15:30:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:21 [INFO] build_vector_db - 进度: 5200/6807
+2026-09-23 15:30:21 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:21 [INFO] build_vector_db - 进度: 5300/6807
+2026-09-23 15:30:22 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:22 [INFO] build_vector_db - 进度: 5400/6807
+2026-09-23 15:30:22 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:22 [INFO] build_vector_db - 进度: 5500/6807
+2026-09-23 15:30:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:23 [INFO] build_vector_db - 进度: 5600/6807
+2026-09-23 15:30:23 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:23 [INFO] build_vector_db - 进度: 5700/6807
+2026-09-23 15:30:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:24 [INFO] build_vector_db - 进度: 5800/6807
+2026-09-23 15:30:24 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:24 [INFO] build_vector_db - 进度: 5900/6807
+2026-09-23 15:30:25 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:25 [INFO] build_vector_db - 进度: 6000/6807
+2026-09-23 15:30:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:26 [INFO] build_vector_db - 进度: 6100/6807
+2026-09-23 15:30:26 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:26 [INFO] build_vector_db - 进度: 6200/6807
+2026-09-23 15:30:27 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:27 [INFO] build_vector_db - 进度: 6300/6807
+2026-09-23 15:30:27 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:27 [INFO] build_vector_db - 进度: 6400/6807
+2026-09-23 15:30:28 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:28 [INFO] build_vector_db - 进度: 6500/6807
+2026-09-23 15:30:28 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:28 [INFO] build_vector_db - 进度: 6600/6807
+2026-09-23 15:30:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:29 [INFO] build_vector_db - 进度: 6700/6807
+2026-09-23 15:30:29 [INFO] retriever.vector_db - 添加 100 条文本到向量库
+2026-09-23 15:30:29 [INFO] build_vector_db - 进度: 6800/6807
+2026-09-23 15:30:29 [INFO] retriever.vector_db - 添加 7 条文本到向量库
+2026-09-23 15:30:29 [INFO] build_vector_db - 进度: 6807/6807
+2026-09-23 15:30:29 [INFO] build_vector_db - 灌库完成：应写入 6807 条，库内实际 6807 条，差 0 条
+2026-09-23 15:30:29 [INFO] build_vector_db - 等待 Chroma 索引落盘（300 秒）...
+2026-09-23 15:35:29 [INFO] build_vector_db - Chroma 索引落盘等待结束
+2026-09-23 15:38:22 [INFO] retriever.embedding - 加载本地 Embedding 模型: /home/huangjinxin/MED_ATC_Agent/drug_deepagengts/model/BAAI/bge-m3
+2026-09-23 15:38:25 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-23 15:38:26 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
+2026-09-23 15:38:27 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-23 15:42:11 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Glucose%20and%20Sodium%20Chloride%20Injection/cids/JSON
+2026-09-23 15:44:15 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%A4%9A%E7%A7%8D%E6%B2%B9%E8%84%82%E8%82%AA%E4%B9%B3%E6%B3%A8%E5%B0%84%E6%B6%B2
+2026-09-23 15:44:20 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/multi-oil%20fat%20emulsion/cids/JSON
+2026-09-23 15:44:41 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/SMOFlipid/cids/JSON
+2026-09-23 15:44:43 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%A4%9A%E7%A7%8D%E6%B2%B9%E8%84%82%E8%82%AA%E4%B9%B3%E6%B3%A8%E5%B0%84%E6%B6%B2
+2026-09-23 15:44:51 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-23 15:46:15 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Pediatric%20Compound%20Amino%20Acid%20Injection/cids/JSON
+2026-09-23 15:46:18 [ERROR] tools.atc_search - ATC 查询失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-23 15:46:54 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E6%B3%A8%E5%B0%84%E7%94%A8%E6%B0%B4%E6%BA%B6%E6%80%A7%E7%BB%B4%E7%94%9F%E7%B4%A0
+2026-09-23 15:46:58 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/water-soluble%20vitamins%20injection/cids/JSON
+2026-09-23 15:47:37 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/water-soluble%20vitamins%20injection/cids/JSON
+2026-09-23 15:51:27 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/human%20albumin/cids/JSON
+2026-09-23 15:52:46 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Addamel/cids/JSON
+2026-09-23 15:53:02 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: Not Found for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ambroxol/cids/JSON
+2026-09-23 15:53:50 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/succinylated%20gelatin/cids/JSON
+2026-09-23 15:54:24 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E8%A1%80%E6%B6%B2%E6%BB%A4%E8%BF%87%E7%BD%AE%E6%8D%A2%E5%9F%BA%E7%A1%80%E6%B6%B2
+2026-09-23 15:54:25 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/%E8%A1%80%E6%B6%B2%E6%BB%A4%E8%BF%87%E7%BD%AE%E6%8D%A2%E5%9F%BA%E7%A1%80%E6%B6%B2/cids/JSON
+2026-09-23 15:54:42 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E8%A1%80%E6%B6%B2%E6%BB%A4%E8%BF%87%E7%BD%AE%E6%8D%A2%E5%9F%BA%E7%A1%80%E6%B6%B2
+2026-09-23 15:54:46 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/hemofiltration%20replacement%20solution/cids/JSON
+2026-09-23 15:55:43 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Human%20Albumin/cids/JSON
+2026-09-23 15:56:37 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/nadroparin%20calcium/cids/JSON
+2026-09-23 15:56:49 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/enoxaparin%20sodium/cids/JSON
+2026-09-23 15:57:02 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E8%84%82%E6%BA%B6%E6%80%A7%E7%BB%B4%E7%94%9F%E7%B4%A0
+2026-09-23 15:57:03 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/fat-soluble%20vitamins/cids/JSON
+2026-09-23 15:57:17 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E8%84%82%E6%BA%B6%E6%80%A7%E7%BB%B4%E7%94%9F%E7%B4%A0%28%E2%85%B0%29
+2026-09-23 15:57:24 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/fat-soluble%20vitamins%20injection/cids/JSON
+2026-09-23 15:57:42 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Lactated%20Ringer's%20Injection/cids/JSON
+2026-09-23 15:58:08 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Amino%20Acid%20Injection%20(14AA-SF)/cids/JSON
+2026-09-23 15:58:49 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/DA/cids/JSON
+2026-09-23 15:59:02 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/DA/cids/JSON
+2026-09-23 15:59:20 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Glucose%20and%20Sodium%20Chloride%20Injection/cids/JSON
+2026-09-23 15:59:43 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%8E%AF%E6%B3%8A%E9%85%9A
+2026-09-23 15:59:59 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%8E%AF%E6%B3%8A%E9%85%9A
+2026-09-23 16:00:17 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Clostridium%20butyricum/cids/JSON
+2026-09-23 16:00:35 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Clostridium%20butyricum/cids/JSON
+2026-09-23 16:01:01 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%94%98%E8%88%92%E9%9C%96
+2026-09-23 16:01:48 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=compound+amino+acid+injection+%2818aa-%E2%85%B2%29+10.36%25
+2026-09-23 16:01:49 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=18aa-%E2%85%B2
+2026-09-23 16:01:50 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Amino%20Acid%20Injection%20(18AA-%E2%85%A2)/cids/JSON
+2026-09-23 16:02:14 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，1s 后重试 (1/3)
+2026-09-23 16:02:54 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Succinylated%20Gelatin/cids/JSON
+2026-09-23 16:03:25 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/human%20serum%20albumin/cids/JSON
+2026-09-23 16:04:27 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/human%20serum%20albumin/cids/JSON
+2026-09-23 16:04:38 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/human%20albumin/cids/JSON
+2026-09-23 16:04:51 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，1s 后重试 (1/3)
+2026-09-23 16:04:53 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，2s 后重试 (2/3)
+2026-09-23 16:05:17 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，1s 后重试 (1/3)
+2026-09-23 16:06:19 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Amino%20Acid%20Injection%20(18AA-II)/cids/JSON
+2026-09-23 16:06:31 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/human%20albumin/cids/JSON
+2026-09-23 16:06:44 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%A5%A5%E6%99%AE%E5%8A%9B%E5%86%9C
+2026-09-23 16:06:52 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-23 16:07:14 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%A5%A5%E6%99%AE%E5%8A%9B%E5%86%9C
+2026-09-23 16:09:27 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%93%8C%E6%8B%89%E8%A5%BF%E6%9E%97%E4%BB%96%E5%94%91%E5%B7%B4%E5%9D%A6
+2026-09-23 16:10:25 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Cefotaxime%20Sulbactam/cids/JSON
+2026-09-23 16:10:39 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Human%20Immunoglobulin%20for%20Intravenous%20Injection/cids/JSON
+2026-09-23 16:11:10 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/calcium%20carbonate%20and%20colecalciferol/cids/JSON
+2026-09-23 16:12:18 [ERROR] tools.pubchem - PubChem 获取信息失败: 503 Server Error: PUGREST.ServerBusy for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Addamel/cids/JSON
+2026-09-23 16:12:47 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%A4%8D%E6%96%B9%E7%94%B5%E8%A7%A3%E8%B4%A8%E6%B3%A8%E5%B0%84%E6%B6%B2
+2026-09-23 16:12:50 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Electrolyte%20Injection/cids/JSON
+2026-09-23 16:12:56 [ERROR] tools.atc_search - ATC 查询失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-23 16:13:06 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Electrolyte%20Injection/cids/JSON
+2026-09-23 16:13:31 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%B0%8F%E5%84%BF%E5%A4%8D%E6%96%B9%E6%B0%A8%E5%9F%BA%E9%85%B8%E6%B3%A8%E5%B0%84%E6%B6%B2
+2026-09-23 16:13:33 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Pediatric%20Compound%20Amino%20Acid%20Injection/cids/JSON
+2026-09-23 16:13:46 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%B0%8F%E5%84%BF%E5%A4%8D%E6%96%B9%E6%B0%A8%E5%9F%BA%E9%85%B8%E6%B3%A8%E5%B0%84%E6%B6%B2
+2026-09-23 16:13:52 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Pediatric%20Compound%20Amino%20Acid%20Injection/cids/JSON
+2026-09-23 16:14:09 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Sodium%20Chloride%20Injection/cids/JSON
+2026-09-23 16:14:23 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Ringer's%20solution/cids/JSON
+2026-09-23 16:14:49 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Licorice%20Oral%20Solution/cids/JSON
+2026-09-23 16:15:09 [ERROR] tools.atc_search - ATC 查询失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-23 16:15:34 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E8%84%82%E6%BA%B6%E6%80%A7%E7%BB%B4%E7%94%9F%E7%B4%A0%E6%B3%A8%E5%B0%84%E6%B6%B2%28%E2%85%B1%29
+2026-09-23 16:15:47 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/fat-soluble%20vitamins%20injection/cids/JSON
+2026-09-23 16:16:12 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-23 16:17:17 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Multiple%20Vitamins%20for%20Injection/cids/JSON
+2026-09-23 16:17:42 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Multiple%20Vitamins%20for%20Injection/cids/JSON
+2026-09-23 16:18:01 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/enoxaparin%20sodium/cids/JSON
+2026-09-23 16:19:23 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Vitalipid/cids/JSON
+2026-09-23 16:19:44 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Vitalipid/cids/JSON
+2026-09-23 16:20:34 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%8D%8A%E8%83%B1%E6%B0%A8%E9%85%B8
+2026-09-23 16:20:56 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/cefoperazone%20sulbactam/cids/JSON
+2026-09-23 16:21:09 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Porcine%20Fibrin%20Sealant/cids/JSON
+2026-09-23 16:21:35 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Porcine%20Fibrin%20Sealant/cids/JSON
+2026-09-23 16:22:16 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: Not Found for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Centrum%20multivitamin/cids/JSON
+2026-09-23 16:23:55 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Sodium%20Potassium%20Magnesium%20Calcium%20and%20Glucose%20Injection/cids/JSON
+2026-09-23 16:24:20 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，1s 后重试 (1/3)
+2026-09-23 16:24:21 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，2s 后重试 (2/3)
+2026-09-23 16:24:41 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，1s 后重试 (1/3)
+2026-09-23 16:25:15 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，1s 后重试 (1/3)
+2026-09-23 16:25:17 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，2s 后重试 (2/3)
+2026-09-23 16:25:20 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，4s 后重试 (3/3)
+2026-09-23 16:25:24 [ERROR] tools.pubchem - PubChem ATC 获取失败: PUG View 繁忙，重试 3 次后仍失败
+2026-09-23 16:25:33 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E9%87%8D%E7%BB%84%E4%BA%BA%E8%84%91%E5%88%A9%E9%92%A0%E8%82%BD
+2026-09-23 16:25:41 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-23 16:29:33 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Polysaccharide%20Iron%20Complex/cids/JSON
+2026-09-23 16:29:53 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Polysaccharide%20Iron%20Complex/cids/JSON
+2026-09-23 16:31:38 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，1s 后重试 (1/3)
+2026-09-23 16:32:01 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，1s 后重试 (1/3)
+2026-09-23 16:32:03 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，2s 后重试 (2/3)
+2026-09-23 16:32:05 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，4s 后重试 (3/3)
+2026-09-23 16:32:09 [ERROR] tools.pubchem - PubChem ATC 获取失败: PUG View 繁忙，重试 3 次后仍失败
+2026-09-23 16:32:27 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，1s 后重试 (1/3)
+2026-09-23 16:32:29 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，2s 后重试 (2/3)
+2026-09-23 16:32:31 [WARNING] tools.pubchem - PubChem PUG View 繁忙(503)，4s 后重试 (3/3)
+2026-09-23 16:32:35 [ERROR] tools.pubchem - PubChem ATC 获取失败: PUG View 繁忙，重试 3 次后仍失败
+2026-09-23 16:33:01 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Enteral%20Nutritional%20Emulsion%20(TPF-D)/cids/JSON
+2026-09-23 16:34:52 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Amino%20Acid%20Injection%209AA/cids/JSON
+2026-09-23 16:35:02 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/nadroparin%20calcium/cids/JSON
+2026-09-24 09:22:46 [INFO] retriever.embedding - 加载本地 Embedding 模型: /home/huangjinxin/MED_ATC_Agent/drug_deepagengts/model/BAAI/bge-m3
+2026-09-24 09:22:48 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-24 09:22:48 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
+2026-09-24 09:22:49 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-24 09:23:06 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Tobramycin%20and%20Dexamethasone/cids/JSON
+2026-09-24 09:25:55 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/polyene%20phosphatidylcholine/cids/JSON
+2026-09-24 09:27:11 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Posterior%20pituitary/cids/JSON
+2026-09-24 09:27:28 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Posterior%20Pituitary%20Injection/cids/JSON
+2026-09-24 09:28:10 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/tobramycin%20dexamethasone/cids/JSON
+2026-09-24 09:29:01 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 09:29:11 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 09:29:50 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 09:30:07 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E9%87%8D%E7%BB%84%E4%BA%BA%E4%BF%83%E7%BA%A2%E7%B4%A0
+2026-09-24 09:30:19 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E6%A1%89%E6%9F%A0%E8%92%8E
+2026-09-24 09:30:19 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Eucalyptol,%20Limonene%20and%20Pinene/cids/JSON
+2026-09-24 09:30:36 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Eucalyptol,%20Limonene%20and%20Pinene/cids/JSON
+2026-09-24 09:30:51 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%91%9E%E5%85%88%E8%82%A0%E5%86%85%E8%90%A5%E5%85%BB%E4%B9%B3%E5%89%82
+2026-09-24 09:30:51 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Enteral%20Nutritional%20Emulsion%20(TPF)/cids/JSON
+2026-09-24 09:31:11 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Enteral%20Nutritional%20Emulsion%20(TPF)/cids/JSON
+2026-09-24 09:32:10 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/omega-3%20triglycerides%20medium%20and%20long%20chain%20fat%20emulsion%20amino%20acids%20glucose%20injection/cids/JSON
+2026-09-24 09:32:42 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Medium%20and%20Long%20Chain%20Fat%20Emulsion/cids/JSON
+2026-09-24 09:33:49 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Bifidobacterium%20and%20Lactobacillus%20Triple%20Live%20Bacteria%20Tablets/cids/JSON
+2026-09-24 09:34:04 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Cefoperazone%20Sulbactam/cids/JSON
+2026-09-24 09:34:25 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/protamine%20sulfate/cids/JSON
+2026-09-24 09:35:16 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Hydroxyethyl%20Starch%20130/0.4/cids/JSON
+2026-09-24 09:35:29 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%A4%8D%E6%96%B9%E8%81%9A%E4%B9%99%E4%BA%8C%E9%86%87%E7%94%B5%E8%A7%A3%E8%B4%A8%E6%95%A3
+2026-09-24 09:35:31 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/polyethylene%20glycol%203350/cids/JSON
+2026-09-24 09:35:54 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%94%98%E8%88%92%E9%9C%96r
+2026-09-24 09:37:26 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E6%96%B0%E6%B5%B7%E8%83%BD
+2026-09-24 09:37:26 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E6%B7%B7%E5%90%88%E7%B3%96%E7%94%B5%E8%A7%A3%E8%B4%A8%E6%B3%A8%E5%B0%84%E6%B6%B2
+2026-09-24 09:37:30 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Multiple%20Electrolytes%20and%20Glucose%20Injection/cids/JSON
+2026-09-24 09:37:47 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E6%B7%B7%E5%90%88%E7%B3%96%E7%94%B5%E8%A7%A3%E8%B4%A8%E6%B3%A8%E5%B0%84%E6%B6%B2
+2026-09-24 09:37:49 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Multiple%20Electrolytes%20and%20Glucose%20Injection/cids/JSON
+2026-09-24 09:38:08 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/human%20fibrinogen/cids/JSON
+2026-09-24 09:38:28 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Ringer's%20solution/cids/JSON
+2026-09-24 09:38:40 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Ringer's%20solution/cids/JSON
+2026-09-24 09:38:54 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/human%20serum%20albumin/cids/JSON
+2026-09-24 09:40:04 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Tobramycin%20and%20Dexamethasone%20Ophthalmic/cids/JSON
+2026-09-24 09:41:05 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/%E5%8A%9B%E5%B0%94%E5%AE%81/cids/JSON
+2026-09-24 09:41:05 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%8A%9B%E5%B0%94%E5%AE%81
+2026-09-24 09:41:18 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%8A%9B%E5%B0%94%E5%AE%81
+2026-09-24 09:41:20 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/%E5%8A%9B%E5%B0%94%E5%AE%81/cids/JSON
+2026-09-24 09:43:11 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%A4%A7%E8%B1%86%E7%A3%B7%E8%84%82%E6%95%A3
+2026-09-24 09:43:12 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Soybean%20Phospholipids/cids/JSON
+2026-09-24 09:43:29 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/phospholipids/cids/JSON
+2026-09-24 09:43:48 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Multivitamins%20(12)%20Injection/cids/JSON
+2026-09-24 09:44:03 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Multivitamins%20(12)%20Injection/cids/JSON
+2026-09-24 09:44:31 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/human%20serum%20albumin/cids/JSON
+2026-09-24 09:44:53 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Hemocoagulase%20Agkistrodon/cids/JSON
+2026-09-24 09:45:28 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Lactated%20Ringer's%20solution/cids/JSON
+2026-09-24 09:46:10 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Fat%20Emulsion%20Amino%20Acids%20Glucose%20Injection/cids/JSON
+2026-09-24 09:46:24 [ERROR] tools.pubchem - PubChem 获取信息失败: 400 Client Error: PUGREST.BadRequest for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Imipenem/Cilastatin/cids/JSON
+2026-09-24 09:47:37 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/codeine%20and%20ibuprofen/cids/JSON
+2026-09-24 09:47:43 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 09:47:58 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%88%A9%E8%A1%80%E7%94%9F
+2026-09-24 09:48:02 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%88%A9%E5%8F%AF%E5%90%9B
+2026-09-24 09:48:15 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%88%A9%E8%A1%80%E7%94%9F
+2026-09-24 09:49:32 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 09:50:16 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E4%BA%BA%E5%87%9D%E8%A1%80%E9%85%B6%E5%8E%9F%E5%A4%8D%E5%90%88%E7%89%A9
+2026-09-24 09:50:17 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%BA%B7%E8%88%92%E5%AE%81
+2026-09-24 09:50:20 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Prothrombin%20Complex%20Concentrate/cids/JSON
+2026-09-24 09:50:54 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 09:52:10 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/human%20immunoglobulin/cids/JSON
+2026-09-24 09:52:23 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%93%8C%E6%8B%89%E8%A5%BF%E6%9E%97%E9%92%A0%E4%BB%96%E5%94%91%E5%B7%B4%E5%9D%A6%E9%92%A0
+2026-09-24 09:53:30 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Amino%20Acid%20Injection%2015AA/cids/JSON
+2026-09-24 09:53:41 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Amino%20Acid%20Injection%20(15AA)/cids/JSON
+2026-09-24 09:53:50 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%99%BE%E6%99%AE%E5%8A%9B
+2026-09-24 09:53:52 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Peptisorb/cids/JSON
+2026-09-24 09:54:16 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%99%BE%E6%99%AE%E5%8A%9B
+2026-09-24 09:54:18 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Peptisorb/cids/JSON
+2026-09-24 09:54:52 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%BE%9F%E4%B9%99%E5%9F%BA%E6%B7%80%E7%B2%89
+2026-09-24 09:54:54 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Hydroxyethyl%20Starch/cids/JSON
+2026-09-24 09:55:11 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Vitamin%20B%20Tablets/cids/JSON
+2026-09-24 09:55:29 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/vitamin%20B%20complex/cids/JSON
+2026-09-24 09:56:45 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%A4%8D%E6%96%B9%E6%B0%A8%E5%9F%BA%E9%85%B8%E6%B3%A8%E5%B0%84%E6%B6%B2%289aa%29
+2026-09-24 09:56:49 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Amino%20Acid%20Injection%20(9AA)/cids/JSON
+2026-09-24 09:57:39 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/iron%20protein%20succinylate/cids/JSON
+2026-09-24 09:58:23 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/calcium%20carbonate%20and%20colecalciferol/cids/JSON
+2026-09-24 09:58:45 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/calcium%20carbonate%20and%20colecalciferol/cids/JSON
+2026-09-24 09:59:53 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/%E8%84%82%E6%BA%B6%E6%80%A7%E7%BB%B4%E7%94%9F%E7%B4%A0(%E2%85%A1)/%E6%B0%B4%E6%BA%B6%E6%80%A7%E7%BB%B4%E7%94%9F%E7%B4%A0%E7%B2%89%E9%92%88/cids/JSON
+2026-09-24 09:59:53 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E8%84%82%E6%BA%B6%E6%80%A7%E7%BB%B4%E7%94%9F%E7%B4%A0%28%E2%85%B1%29%2F%E6%B0%B4%E6%BA%B6%E6%80%A7%E7%BB%B4%E7%94%9F%E7%B4%A0%E7%B2%89%E9%92%88
+2026-09-24 10:00:13 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=fat-soluble+vitamin%28%E2%85%B1%29%2Fwater-soluble+vitamin+for+injection
+2026-09-24 10:00:27 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/%E5%85%8B%E6%84%9F%E5%88%A9%E5%92%BD%E5%8F%A3%E6%9C%8D%E6%B6%B2/cids/JSON
+2026-09-24 10:00:27 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%85%8B%E6%84%9F%E5%88%A9%E5%92%BD%E5%8F%A3%E6%9C%8D%E6%B6%B2
+2026-09-24 10:00:43 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%85%8B%E6%84%9F%E5%88%A9%E5%92%BD%E5%8F%A3%E6%9C%8D%E6%B6%B2
+2026-09-24 10:00:44 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Kegan%20Liyan%20Oral%20Liquid/cids/JSON
+2026-09-24 10:01:03 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Valsartan%20and%20Amlodipine/cids/JSON
+2026-09-24 10:01:26 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Oral%20Rehydration%20Salts/cids/JSON
+2026-09-24 10:01:39 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Oral%20Rehydration%20Salts/cids/JSON
+2026-09-24 10:02:12 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Recombinant%20Human%20Thrombopoietin/cids/JSON
+2026-09-24 10:02:35 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Recombinant%20Human%20Thrombopoietin/cids/JSON
+2026-09-24 10:04:40 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/trafermin/cids/JSON
+2026-09-24 10:44:19 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Polyethylene%20glycol%204000%20electrolytes/cids/JSON
+2026-09-24 10:44:23 [INFO] retriever.embedding - 加载本地 Embedding 模型: /home/huangjinxin/MED_ATC_Agent/drug_deepagengts/model/BAAI/bge-m3
+2026-09-24 10:44:26 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-24 10:44:26 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
+2026-09-24 10:44:27 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-24 10:44:44 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Human%20Fibrin%20Sealant/cids/JSON
+2026-09-24 10:45:08 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/fibrin%20sealant/cids/JSON
+2026-09-24 10:45:30 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%A4%9A%E7%A3%BA%E9%85%B8%E7%B2%98%E5%A4%9A%E7%B3%96
+2026-09-24 10:45:32 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Mucopolysaccharide%20Polysulfate/cids/JSON
+2026-09-24 10:45:49 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Mucopolysaccharide%20Polysulfate/cids/JSON
+2026-09-24 10:45:59 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Bacillus%20licheniformis/cids/JSON
+2026-09-24 10:46:13 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Bacillus%20licheniformis/cids/JSON
+2026-09-24 10:46:53 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E8%82%A0%E5%86%85%E8%90%A5%E5%85%BB%E4%B9%B3%E5%89%82
+2026-09-24 10:46:53 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Supportan/cids/JSON
+2026-09-24 10:47:08 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Supportan/cids/JSON
+2026-09-24 10:47:59 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Glucose%20and%20Sodium%20Chloride%20Injection/cids/JSON
+2026-09-24 10:48:41 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Polysaccharide%20Iron%20Complex/cids/JSON
+2026-09-24 10:48:56 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%BA%A2%E6%BA%90%E8%BE%BE
+2026-09-24 10:48:57 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Polysaccharide%20Iron%20Complex/cids/JSON
+2026-09-24 10:50:49 [ERROR] tools.atc_search - ATC 查询失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 10:51:56 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Nutrison%201.0/cids/JSON
+2026-09-24 10:52:03 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E8%82%A0%E5%86%85%E8%90%A5%E5%85%BB%E6%B7%B7%E6%82%AC%E6%B6%B2
+2026-09-24 10:52:23 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Nutrison/cids/JSON
+2026-09-24 10:52:23 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E8%82%A0%E5%86%85%E8%90%A5%E5%85%BB%E6%B7%B7%E6%82%AC%E6%B6%B2
+2026-09-24 10:53:07 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%A5%A5%E6%99%AE%E5%8A%9B%E5%86%9C
+2026-09-24 10:53:25 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/evolocumab/cids/JSON
+2026-09-24 10:53:32 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/iron%20sucrose/cids/JSON
+2026-09-24 10:53:55 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/iron%20sucrose/cids/JSON
+2026-09-24 10:54:11 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/polyene%20phosphatidylcholine/cids/JSON
+2026-09-24 10:54:23 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/polyene%20phosphatidylcholine/cids/JSON
+2026-09-24 10:54:44 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Nutrison/cids/JSON
+2026-09-24 10:55:07 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Nutrison/cids/JSON
+2026-09-24 10:56:22 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%A4%9A%E7%A7%8D%E5%BE%AE%E9%87%8F%E5%85%83%E7%B4%A0%E6%B3%A8%E5%B0%84%E6%B6%B2
+2026-09-24 10:56:24 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Multi-trace%20Elements%20Injection%20(III)/cids/JSON
+2026-09-24 10:56:40 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Multi-trace%20Elements%20Injection/cids/JSON
+2026-09-24 10:58:38 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%94%9F%E8%A1%80%E5%AE%9D%E9%A2%97%E7%B2%92
+2026-09-24 10:58:39 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Shengxuebao%20Granules/cids/JSON
+2026-09-24 10:58:51 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%94%9F%E8%A1%80%E5%AE%9D%E9%A2%97%E7%B2%92
+2026-09-24 10:58:59 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Nutrison%201.0/cids/JSON
+2026-09-24 11:00:58 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Tobramycin%20and%20Dexamethasone/cids/JSON
+2026-09-24 11:01:21 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/filgrastim/cids/JSON
+2026-09-24 11:01:43 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Ambroxol%20and%20Clenbuterol/cids/JSON
+2026-09-24 11:02:51 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Balanced%20Salt%20Solution/cids/JSON
+2026-09-24 11:04:14 [ERROR] tools.pubchem - PubChem 获取信息失败: 400 Client Error: PUGREST.BadRequest for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Budesonide/Glycopyrronium/Formoterol/cids/JSON
+2026-09-24 11:06:20 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/vitamin%20A%20and%20D/cids/JSON
+2026-09-24 11:06:37 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/vitamin%20A%20and%20D%20combination/cids/JSON
+2026-09-24 11:06:59 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E6%B0%A8%E9%BA%BB%E7%BE%8E%E6%95%8F%E7%89%87%28%E2%85%B1%29
+2026-09-24 11:07:01 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/dextromethorphan%20pseudoephedrine%20paracetamol%20combination/cids/JSON
+2026-09-24 11:08:11 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Calcium%20Polycarbophil/cids/JSON
+2026-09-24 11:08:42 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/mecapegfilgrastim/cids/JSON
+2026-09-24 11:08:58 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%A1%AB%E5%9F%B9%E9%9D%9E%E6%A0%BC%E5%8F%B8%E4%BA%AD
+2026-09-24 11:09:00 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/mecapegfilgrastim/cids/JSON
+2026-09-24 11:09:46 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ulinastatin/cids/JSON
+2026-09-24 11:10:21 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Clinoleic/cids/JSON
+2026-09-24 11:10:58 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 11:11:00 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Insulin%20degludec%20and%20insulin%20aspart/cids/JSON
+2026-09-24 11:11:40 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E6%B5%B7%E5%8D%9A%E9%BA%A6%E5%B8%83
+2026-09-24 11:11:49 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E6%B5%B7%E5%8D%9A%E9%BA%A6%E5%B8%83
+2026-09-24 11:12:04 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Jevity/cids/JSON
+2026-09-24 11:13:26 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/omega-3%20fish%20oil%20lipid%20emulsion/cids/JSON
+2026-09-24 11:13:41 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/fish%20oil%20triglycerides%20injectable%20emulsion/cids/JSON
+2026-09-24 11:14:56 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Combizym/cids/JSON
+2026-09-24 11:15:14 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/salbutamol%20and%20ipratropium%20bromide/cids/JSON
+2026-09-24 11:15:20 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E8%82%A0%E5%86%85%E8%90%A5%E5%85%BB%E4%B9%B3%E5%89%82%28tp-he%29
+2026-09-24 11:15:23 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Enteral%20Nutritional%20Emulsion%20(TP-HE)/cids/JSON
+2026-09-24 11:15:29 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%91%9E%E9%AB%98+%E8%82%A0%E5%86%85%E8%90%A5%E5%85%BB%E4%B9%B3%E5%89%82
+2026-09-24 11:15:42 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E8%82%A0%E5%86%85%E8%90%A5%E5%85%BB%E4%B9%B3%E5%89%82%28tp-he%29
+2026-09-24 11:15:44 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Enteral%20Nutritional%20Emulsion%20TP-HE/cids/JSON
+2026-09-24 11:16:10 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pegfilgrastim/cids/JSON
+2026-09-24 11:16:17 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/polyene%20phosphatidylcholine/cids/JSON
+2026-09-24 11:16:28 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/polyene%20phosphatidylcholine/cids/JSON
+2026-09-24 11:16:38 [ERROR] tools.pubchem - PubChem 获取信息失败: 400 Client Error: PUGREST.BadRequest for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Budesonide/Formoterol/cids/JSON
+2026-09-24 11:17:25 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Polyethylene%20glycol%20eye%20drops/cids/JSON
+2026-09-24 11:17:43 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/polyethylene%20glycol%20400/cids/JSON
+2026-09-24 11:18:08 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Carbomer/cids/JSON
+2026-09-24 11:18:22 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Carbomer/cids/JSON
+2026-09-24 11:19:46 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/human%20fibrinogen/cids/JSON
+2026-09-24 11:20:59 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Tuberculin/cids/JSON
+2026-09-24 11:21:06 [ERROR] tools.pubchem - PubChem 获取信息失败: 400 Client Error: PUGREST.BadRequest for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Imipenem/Cilastatin/cids/JSON
+2026-09-24 11:21:41 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Amino%20Acid%20Injection%2015AA/cids/JSON
+2026-09-24 11:22:08 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/human%20fibrinogen/cids/JSON
+2026-09-24 11:22:16 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%8F%8C%E7%8E%AF%E9%86%87
+2026-09-24 11:22:27 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%8F%8C%E7%8E%AF%E9%86%87
+2026-09-24 11:23:09 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/bemiparin%20sodium/cids/JSON
+2026-09-24 11:23:24 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Paracetamol,%20Pseudoephedrine,%20Dextromethorphan%20and%20Chlorphenamine/cids/JSON
+2026-09-24 11:23:39 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Paracetamol%20Pseudoephedrine%20Dextromethorphan%20Chlorphenamine/cids/JSON
+2026-09-24 11:25:12 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 11:25:55 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Amino%20Acid%20Injection%20(19AA-I)/cids/JSON
+2026-09-24 11:26:07 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Human%20Immunoglobulin%20for%20Intravenous%20Injection/cids/JSON
+2026-09-24 11:26:33 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ferric%20carboxymaltose/cids/JSON
+2026-09-24 11:26:42 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 14:47:18 [INFO] retriever.embedding - 加载本地 Embedding 模型: /home/huangjinxin/MED_ATC_Agent/drug_deepagengts/model/BAAI/bge-m3
+2026-09-24 14:47:20 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-24 14:47:20 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
+2026-09-24 14:47:22 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-24 14:47:45 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 14:47:59 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/polyene%20phosphatidylcholine/cids/JSON
+2026-09-24 14:48:12 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/polyene%20phosphatidylcholine/cids/JSON
+2026-09-24 14:48:33 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Hemocoagulase%20Agkistrodon/cids/JSON
+2026-09-24 14:48:38 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 14:48:51 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Hemocoagulase%20Agkistrodon/cids/JSON
+2026-09-24 14:49:19 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%91%9E%E6%98%93%E8%A5%BF
+2026-09-24 14:49:19 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E8%82%A0%E5%86%85%E8%90%A5%E5%85%BB%E4%B9%B3%E5%89%82%28sp%29
+2026-09-24 14:49:20 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Enteral%20Nutritional%20Emulsion%20(SP)/cids/JSON
+2026-09-24 14:49:29 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%91%9E%E6%98%93%E8%A5%BF
+2026-09-24 14:49:36 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%91%9E%E6%98%93%E8%A5%BF
+2026-09-24 14:49:39 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Enteral%20Nutritional%20Emulsion%20(SP)/cids/JSON
+2026-09-24 14:50:28 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%8E%AF%E6%B3%8A%E9%85%9A
+2026-09-24 14:52:42 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Insulin%20Aspart%2030/cids/JSON
+2026-09-24 14:53:22 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/tislelizumab/cids/JSON
+2026-09-24 14:54:40 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E8%89%BE%E7%91%9E%E6%98%94%E5%B8%83
+2026-09-24 14:55:21 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/salbutamol%20and%20ipratropium%20bromide/cids/JSON
+2026-09-24 14:55:30 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sodium%20hyaluronate/cids/JSON
+2026-09-24 14:55:47 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sodium%20hyaluronate/cids/JSON
+2026-09-24 14:56:39 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Human%20Coagulation%20Factor%20VIII/cids/JSON
+2026-09-24 15:02:19 [INFO] retriever.embedding - 加载本地 Embedding 模型: /home/huangjinxin/MED_ATC_Agent/drug_deepagengts/model/BAAI/bge-m3
+2026-09-24 15:02:22 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-24 15:02:22 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
+2026-09-24 15:02:23 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-24 15:03:50 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E4%B8%AD%2F%E9%95%BF%E9%93%BE%E8%84%82%E8%82%AA%E4%B9%B3%E6%B3%A8%E5%B0%84%E6%B6%B2
+2026-09-24 15:03:54 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Medium%20and%20Long%20Chain%20Fat%20Emulsion/cids/JSON
+2026-09-24 15:04:13 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E4%B8%B0%E5%8E%9F%E6%9E%97
+2026-09-24 15:04:13 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E8%84%82%E6%BA%B6%E6%80%A7%E7%BB%B4%E7%94%9F%E7%B4%A0%28%E2%85%B0%29
+2026-09-24 15:04:15 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Fat-soluble%20vitamins%20(I)/cids/JSON
+2026-09-24 15:04:32 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E4%B8%B0%E5%8E%9F%E6%9E%97
+2026-09-24 15:04:32 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E8%84%82%E6%BA%B6%E6%80%A7%E7%BB%B4%E7%94%9F%E7%B4%A0%28%E2%85%B0%29
+2026-09-24 15:04:34 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Fat-soluble%20vitamins%20injection/cids/JSON
+2026-09-24 15:05:50 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/polymyxin%20B/cids/JSON
+2026-09-24 15:06:05 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/thrombin/cids/JSON
+2026-09-24 15:07:14 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%93%8C%E6%8B%89%E8%A5%BF%E6%9E%97%E9%92%A0%E4%BB%96%E5%94%91%E5%B7%B4%E5%9D%A6%E9%92%A0
+2026-09-24 15:07:49 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Ensure/cids/JSON
+2026-09-24 15:08:07 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Ensure/cids/JSON
+2026-09-24 15:08:45 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/glycerol%20fructose%20sodium%20chloride%20injection/cids/JSON
+2026-09-24 15:09:17 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Shenfu%20Injection/cids/JSON
+2026-09-24 15:09:17 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%8F%82%E9%99%84%E6%B3%A8%E5%B0%84%E6%B6%B2
+2026-09-24 15:09:33 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Shenfu%20Injection/cids/JSON
+2026-09-24 15:09:46 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 15:09:51 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/povidone-iodine/cids/JSON
+2026-09-24 15:10:51 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ulinastatin/cids/JSON
+2026-09-24 15:11:06 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/denosumab/cids/JSON
+2026-09-24 15:12:07 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%8D%AB%E4%BC%98%E4%BD%B3
+2026-09-24 15:12:11 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Pediatric%20Multivitamins%20Injection/cids/JSON
+2026-09-24 15:14:13 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Medium%20and%20Long%20Chain%20Fat%20Emulsion/cids/JSON
+2026-09-24 15:14:42 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E9%98%BF%E5%88%A9%E6%B2%99%E5%9D%A6%E9%85%AF
+2026-09-24 15:14:57 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E9%98%BF%E5%88%A9%E6%B2%99%E5%9D%A6%E9%85%AF
+2026-09-24 15:15:10 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Irbesartan%20and%20Hydrochlorothiazide/cids/JSON
+2026-09-24 15:15:35 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Amphotericin%20B%20Cholesteryl%20Sulfate%20Complex/cids/JSON
+2026-09-24 15:15:56 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Amphotericin%20B%20Cholesteryl%20Sulfate%20Complex/cids/JSON
+2026-09-24 15:16:17 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sulodexide/cids/JSON
+2026-09-24 15:16:29 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/enoxaparin%20sodium/cids/JSON
+2026-09-24 15:16:38 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E6%B0%A8%E9%85%9A%E4%BC%AA%E9%BA%BB%E9%82%A3%E6%95%8F
+2026-09-24 15:16:43 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/paracetamol%20pseudoephedrine%20chlorphenamine/cids/JSON
+2026-09-24 15:17:11 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/alirocumab/cids/JSON
+2026-09-24 15:18:09 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sevelamer%20carbonate/cids/JSON
+2026-09-24 15:18:20 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/urokinase/cids/JSON
+2026-09-24 15:19:01 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pegfilgrastim/cids/JSON
+2026-09-24 15:19:52 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Magnesium%20Sulfate,%20Sodium%20Sulfate%20and%20Potassium%20Sulfate%20Oral%20Concentrate%20Solution/cids/JSON
+2026-09-24 15:19:57 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 15:20:16 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/oral%20sulfate%20solution/cids/JSON
+2026-09-24 15:22:03 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Amino%20Acid%20Injection%20(18AA-II)/cids/JSON
+2026-09-24 15:22:27 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Hemocoagulase%20Agkistrodon/cids/JSON
+2026-09-24 15:22:51 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Hemocoagulase%20Agkistrodon/cids/JSON
+2026-09-24 15:23:20 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/tramadol%20and%20paracetamol/cids/JSON
+2026-09-24 15:23:29 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: Not Found for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Fat%20Emulsion,%20Amino%20Acids%20(17)%20and%20Glucose%20(11%25)%20Injection/cids/JSON
+2026-09-24 15:23:57 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/glycerol%20fructose%20sodium%20chloride/cids/JSON
+2026-09-24 15:24:27 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%A4%8D%E6%96%B9%E8%81%9A%E4%B9%99%E4%BA%8C%E9%86%87%E7%94%B5%E8%A7%A3%E8%B4%A8%E6%95%A3
+2026-09-24 15:24:29 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/polyethylene%20glycol%203350%20electrolytes/cids/JSON
+2026-09-24 15:25:31 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Beclomethasone%20dipropionate%20and%20formoterol%20fumarate/cids/JSON
+2026-09-24 15:29:04 [ERROR] tools.pubchem - PubChem 获取信息失败: 400 Client Error: PUGREST.BadRequest for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Budesonide/Formoterol/cids/JSON
+2026-09-24 15:30:04 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Saccharomyces%20boulardii/cids/JSON
+2026-09-24 15:30:41 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Cefoperazone%20Sulbactam/cids/JSON
+2026-09-24 15:32:25 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/codeine%20and%20ibuprofen/cids/JSON
+2026-09-24 15:32:33 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Electrolyte%20Intraocular%20Irrigating%20Solution/cids/JSON
+2026-09-24 15:33:01 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Electrolyte%20Intraocular%20Irrigating%20Solution/cids/JSON
+2026-09-24 15:34:54 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/fibrinogen%20human/cids/JSON

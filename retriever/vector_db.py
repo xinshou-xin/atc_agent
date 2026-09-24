@@ -254,11 +254,9 @@ class VectorDB:
 
             if not embeddings:
 
-                logger.warning(
-                    "Embedding生成失败，跳过添加"
+                raise RuntimeError(
+                    "embedding 生成失败（远程服务不可用或超时）"
                 )
-
-                return
 
             # ======================================
             # 2. Chroma
@@ -370,6 +368,8 @@ class VectorDB:
             logger.error(
                 f"向量添加失败: {e}"
             )
+
+            raise
 
     def search(
         self,

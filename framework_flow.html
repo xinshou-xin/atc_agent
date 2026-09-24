@@ -55,7 +55,7 @@
       <div class="card"><div class="t">入口层</div><div class="d">test-deepagents.py（单药）· experiments/run_deepagents_dataset.py（批量评测）</div></div>
       <div class="card"><div class="t">Agent 层</div><div class="d">DeepATCAgent → create_deep_agent（deepagents 0.7.x），动态规划工具调用 + Skills 只读 + 反思精化</div></div>
       <div class="card"><div class="t">工具层</div><div class="d">6 个只读工具：翻译 / WHO 搜索 / WHO 核验 / PubChem / Tavily / 本地 RAG</div></div>
-      <div class="card"><div class="t">数据层</div><div class="d">deepseek-chat（LLM）· Chroma 17 分片（6807 条）· bge-m3（1024 维）· 外部 API（WHO/PubChem/Tavily/百度翻译）</div></div>
+      <div class="card"><div class="t">数据层</div><div class="d">deepseek-chat（LLM）· Chroma 17 分片（6807 条）· bge-m3（1024 维）· 外部 API（WHO/PubChem/Tavily）</div></div>
     </div>
   </div>
 
@@ -108,7 +108,7 @@
       <div class="card"><div class="t">validate_who_atc<span class="tag pri">高优先</span></div><div class="d">核验每个 7 位编码及其官方层级</div></div>
       <div class="card"><div class="t">search_local_atc_knowledge<span class="tag aux">辅助</span></div><div class="d">本地 RAG：bge-m3 查询 → 17 分片合并 → TopK</div></div>
       <div class="card"><div class="t">search_pubchem<span class="tag aux">辅助</span></div><div class="d">药物性质 / 别名 / ATC 相关信息</div></div>
-      <div class="card"><div class="t">translate_drug_name<span class="tag gray">前置</span></div><div class="d">中文名 → 英文检索名（百度翻译）</div></div>
+      <div class="card"><div class="t">translate_drug_name<span class="tag gray">前置</span></div><div class="d">药物名 → INN 通用名（LLM 标准化）</div></div>
       <div class="card"><div class="t">search_tavily<span class="tag low">低优先</span></div><div class="d">网络搜索补充背景，不能覆盖 WHO 结论</div></div>
     </div>
   </div>

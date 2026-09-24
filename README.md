@@ -14,7 +14,7 @@ drug_Agent - 副本/
 │   └── deep_atc_agent.py   # Deep Agent（ATC 推理，含反思与精化）
 ├── tools/
 │   ├── deep_tools.py       # 6 个工具（含 search_local_atc_knowledge）
-│   ├── translator.py       # 翻译
+│   ├── drug_normalizer.py  # 药物名标准化（LLM 翻译 + INN）
 │   ├── atc_search.py       # WHO ATC 网站搜索
 │   ├── pubchem.py          # PubChem API
 │   └── tavily.py           # Tavily 搜索 API
@@ -50,6 +50,11 @@ EMBEDDING_MODEL_PATH=.../model/BAAI/bge-m3
 RERANKER_MODEL_PATH=.../model/BAAI/bge-reranker-v2-m3
 ```
 
+Embedding / Reranker 支持三种模式：`local`（本地加载模型）、`api`（调用服务器上自建的
+BGE-M3 / BGE-Reranker FastAPI 服务，本地不占内存，见 `.env` 中的 `EMBEDDING_API_URL` /
+`RERANKER_API_URL`）、`openai` / `cohere`（商业 API）。本地显存/内存不足时把
+`EMBEDDING_PROVIDER`、`RERANKER_PROVIDER` 设为 `api` 即可。
+
 ### 3. 重建本地 RAG 向量库（首次或数据变更时）
 
 ```bash
@@ -67,7 +72,7 @@ python test-deepagents.py
 
 ## 核心流程
 
-1. **药物名称标准化** — 翻译 + LLM 标准化为通用名
+1. **药物名称标准化** — LLM 翻译 + INN 通用名解析（translate_drug_name）
 2. **多源信息检索** — PubChem / Tavily / 向量库
 3. **ATC 编码推理** — 基于检索信息由 LLM 推理 ATC 编码
 4. **反思验证** — Reflection Agent 验证并修正结果
