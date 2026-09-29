@@ -524,3 +524,85 @@
 2026-09-24 15:32:33 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Electrolyte%20Intraocular%20Irrigating%20Solution/cids/JSON
 2026-09-24 15:33:01 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Electrolyte%20Intraocular%20Irrigating%20Solution/cids/JSON
 2026-09-24 15:34:54 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/fibrinogen%20human/cids/JSON
+2026-09-24 15:50:09 [INFO] retriever.embedding - 加载本地 Embedding 模型: /home/huangjinxin/MED_ATC_Agent/drug_deepagengts/model/BAAI/bge-m3
+2026-09-24 15:50:12 [INFO] retriever.embedding - 本地 BGE-M3 加载完成
+2026-09-24 15:50:13 [INFO] retriever.vector_db - ChromaDB 初始化成功，17 个分片
+2026-09-24 15:50:14 [INFO] tools.deep_tools - 本地向量库就绪，共 6807 条知识
+2026-09-24 15:50:29 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sintilimab/cids/JSON
+2026-09-24 15:50:30 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E4%BF%A1%E8%BF%AA%E5%88%A9%E5%8D%95%E6%8A%97
+2026-09-24 15:50:44 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E4%BF%A1%E8%BF%AA%E5%88%A9%E5%8D%95%E6%8A%97
+2026-09-24 15:50:45 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sintilimab/cids/JSON
+2026-09-24 15:51:26 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%90%89%E7%B2%92%E8%8A%AC
+2026-09-24 15:51:27 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/filgrastim/cids/JSON
+2026-09-24 15:51:46 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E4%BA%8C%E7%94%B2%E7%A1%85%E6%B2%B9%E6%95%A3
+2026-09-24 15:52:25 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Bifidobacterium%20Triple%20Live/cids/JSON
+2026-09-24 15:52:54 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E4%B8%89%E7%BB%B4b%E7%89%87
+2026-09-24 15:52:56 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/%E4%B8%89%E7%BB%B4B%E7%89%87/cids/JSON
+2026-09-24 15:55:58 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Levodopa%20and%20Benserazide/cids/JSON
+2026-09-24 15:56:38 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pegfilgrastim/cids/JSON
+2026-09-24 15:56:51 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Pediatric%20Compound%20Amino%20Acid%20Injection%2019AA/cids/JSON
+2026-09-24 15:57:06 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Pediatric%20Compound%20Amino%20Acid%20Injection%2019AA-I/cids/JSON
+2026-09-24 15:59:32 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/tobramycin%20dexamethasone/cids/JSON
+2026-09-24 15:59:51 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Calcium%20Carbonate%20and%20Vitamin%20D3/cids/JSON
+2026-09-24 16:00:06 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Calcium%20Carbonate%20and%20Vitamin%20D3/cids/JSON
+2026-09-24 16:00:48 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Calcium%20Carbonate%20and%20Vitamin%20D3/cids/JSON
+2026-09-24 16:01:08 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E4%B8%AD%2F%E9%95%BF%E9%93%BE%E8%84%82%E8%82%AA%E4%B9%B3%E6%B3%A8%E5%B0%84%E6%B6%B2
+2026-09-24 16:01:10 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Medium%20and%20Long%20Chain%20Fat%20Emulsion/cids/JSON
+2026-09-24 16:01:33 [ERROR] tools.pubchem - PubChem 获取信息失败: 400 Client Error: PUGREST.BadRequest for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Imipenem/Cilastatin/cids/JSON
+2026-09-24 16:01:40 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Licorice%20Oral%20Solution/cids/JSON
+2026-09-24 16:02:04 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Licorice%20Oral%20Solution/cids/JSON
+2026-09-24 16:02:22 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 16:03:35 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Brinzolamide%20and%20Timolol/cids/JSON
+2026-09-24 16:04:50 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Amino%20Acids%20(16AA)%20Glucose%20Electrolyte%20Injection/cids/JSON
+2026-09-24 16:04:57 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 16:04:57 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 16:05:11 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: Not Found for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Compound%20Amino%20Acids%20(16AA)%20Glucose%20Electrolyte%20Injection/cids/JSON
+2026-09-24 16:06:04 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%89%9B%E7%97%98%E7%96%AB%E8%8B%97%E8%87%B4%E7%82%8E%E5%85%94%E7%9A%AE%E6%8F%90%E5%8F%96%E7%89%A9
+2026-09-24 16:06:05 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Neurotropin/cids/JSON
+2026-09-24 16:06:24 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%89%9B%E7%97%98%E7%96%AB%E8%8B%97%E8%87%B4%E7%82%8E%E5%85%94%E7%9A%AE%E6%8F%90%E5%8F%96%E7%89%A9
+2026-09-24 16:06:49 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Bacillus%20subtilis%20and%20Enterococcus%20faecium/cids/JSON
+2026-09-24 16:07:02 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Medilac-Vita/cids/JSON
+2026-09-24 16:07:02 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Bacillus%20subtilis%20and%20Enterococcus%20faecium%20granules/cids/JSON
+2026-09-24 16:07:35 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%B7%A6%E5%A5%A5%E7%A1%9D%E5%94%91
+2026-09-24 16:07:48 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%B7%A6%E5%A5%A5%E7%A1%9D%E5%94%91
+2026-09-24 16:08:41 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E6%B5%B7%E6%9B%B2%E6%B3%8A%E5%B8%95%E4%B9%99%E9%86%87%E8%83%BA
+2026-09-24 16:09:02 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E6%B5%B7%E6%9B%B2%E6%B3%8A%E5%B8%95%E4%B9%99%E9%86%87%E8%83%BA
+2026-09-24 16:09:24 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%9F%B3%E6%9D%89%E7%A2%B1%E7%94%B2
+2026-09-24 16:09:40 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%9F%B3%E6%9D%89%E7%A2%B1%E7%94%B2
+2026-09-24 16:09:56 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/bevacizumab/cids/JSON
+2026-09-24 16:10:10 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pegaspargase/cids/JSON
+2026-09-24 16:11:36 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E6%B3%B0%E5%90%89%E5%88%A9%E5%AE%9A
+2026-09-24 16:11:44 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E6%B3%B0%E5%90%89%E5%88%A9%E5%AE%9A
+2026-09-24 16:12:58 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E7%89%9B%E7%97%98%E7%96%AB%E8%8B%97%E6%8E%A5%E7%A7%8D%E5%AE%B6%E5%85%94%E7%82%8E%E7%97%87%E7%9A%AE%E8%82%A4%E6%8F%90%E5%8F%96%E7%89%A9
+2026-09-24 16:12:59 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Neurotropin/cids/JSON
+2026-09-24 16:13:13 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Neurotropin/cids/JSON
+2026-09-24 16:13:31 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: Not Found for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Dextrose%2050%25/cids/JSON
+2026-09-24 16:15:17 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%B7%A6%E6%B2%99%E4%B8%81%E8%83%BA%E9%86%87
+2026-09-24 16:15:51 [ERROR] tools.atc_search - ATC 搜索失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-24 16:16:45 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Gelatin/cids/JSON
+2026-09-24 16:18:10 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/insulin%20degludec%20and%20liraglutide/cids/JSON
+2026-09-24 16:19:44 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/heparin/cids/JSON
+2026-09-24 16:20:24 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E8%82%A0%E5%86%85%E8%90%A5%E5%85%BB%E6%B7%B7%E6%82%AC%E6%B6%B2%28tp-mct%29
+2026-09-24 16:20:25 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Enteral%20Nutrition%20Suspension%20(TP-MCT)/cids/JSON
+2026-09-24 16:20:33 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%BA%B7%E5%85%A8%E7%94%98
+2026-09-24 16:20:41 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%BA%B7%E5%85%A8%E7%94%98
+2026-09-24 16:20:45 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Enteral%20Nutrition%20Suspension%20(TP-MCT)/cids/JSON
+2026-09-24 16:20:57 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/polyene%20phosphatidylcholine/cids/JSON
+2026-09-24 16:22:14 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%A4%9A%E5%B7%B4%E4%B8%9D%E8%82%BC
+2026-09-24 16:22:15 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Levodopa%20and%20Benserazide/cids/JSON
+2026-09-24 16:24:51 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%9B%9B%E7%83%AF%E7%94%B2%E8%90%98%E9%86%8C
+2026-09-24 16:26:06 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/eptacog%20alfa%20(activated)/cids/JSON
+2026-09-24 16:28:07 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethiodized%20oil/cids/JSON
+2026-09-24 16:28:42 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%BA%B7%E8%8E%B1%E7%89%B9
+2026-09-24 16:28:42 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Kanglaite%20injection/cids/JSON
+2026-09-24 16:29:00 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Kanglaite%20injection/cids/JSON
+2026-09-24 16:29:36 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Irbesartan%20and%20Hydrochlorothiazide/cids/JSON
+2026-09-24 16:30:31 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/opium/cids/JSON
+2026-09-24 16:31:13 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/%E5%8E%BB%E6%B0%A7/cids/JSON
+2026-09-24 16:31:15 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%8E%BB%E6%B0%A7%E5%AD%95%E7%83%AF
+2026-09-24 16:31:15 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%8E%BB%E6%B0%A7%E8%82%BE%E4%B8%8A%E8%85%BA%E7%B4%A0
+2026-09-24 16:31:15 [ERROR] tools.atc_search - ATC 搜索失败: 500 Server Error: Internal Server Error for url: https://atcddd.fhi.no/atc_ddd_index/?name=%E5%8E%BB%E6%B0%A7%E8%83%86%E9%85%B8
+2026-09-24 16:31:30 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/%E5%8E%BB%E6%B0%A7/cids/JSON
+2026-09-24 16:31:37 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/toripalimab/cids/JSON
+2026-09-24 16:31:53 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/rituximab/cids/JSON
+2026-09-24 16:32:07 [ERROR] tools.pubchem - PubChem 获取信息失败: 404 Client Error: PUGREST.NotFound for url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Ethiodized%20oil/cids/JSON
